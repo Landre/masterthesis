@@ -7,6 +7,8 @@
 \typeout{Document Style `algorithm' - floating environment}
 
 \RequirePackage{float}
+\RequirePackage{ifthen}
+\newcommand{\ALG@within}{nothing}
 \newboolean{ALG@within}
 \setboolean{ALG@within}{false}
 \newcommand{\ALG@floatstyle}{ruled}
