@@ -1,0 +1,738 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Arztrepo90:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+  \field{howpublished}{\url{https://www.barmer.de/presse/infothek/studien-und-reports/arztreporte/barmer-arztreport-2018-144304}}
+    \field{note}{(Accessed on 11/07/2018)}
+    \field{title}{Arztreport 2018 | BARMER}
+  \endentry
+
+  \entry{BBCodeor24:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://www.bbcode.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{BBCode.org, bbcode users guide and tricks on implementing it}
+  \endentry
+
+  \entry{Batalas2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BN}{%
+         family={Batalas},
+         familyi={B\bibinitperiod},
+         given={Nikolaos},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KVJ}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Vassilis-Javed},
+         giveni={V\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Franzen},
+         familyi={F\bibinitperiod},
+         given={Minita},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Markopoulos},
+         familyi={M\bibinitperiod},
+         given={Panos},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ahRM}{%
+         prefix={aan\bibnamedelima het},
+         prefixi={a\bibinitperiod\bibinitdelim h\bibinitperiod},
+         family={Rot},
+         familyi={R\bibinitperiod},
+         given={Marije},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Behavior Research Methods}%
+    }
+    \keyw{Ambulatory assessment,Experience sampling,HTML,Pro,ambulatory
+  assessment,data collection software,experience sampling,html,protocol
+  representations}
+    \strng{namehash}{BN+1}
+    \strng{fullhash}{BNKVJFMMPRMah1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Ambulatory assessment (AA) is a research method that aims to collect
+  longitudinal biopsychosocial data in groups of individuals. AA studies are
+  commonly conducted via mobile devices such as smartphones. Researchers tend
+  to communicate their AA protocols to the community in natural language by
+  describing step-by-step procedures operating on a set of materials. However,
+  natural language requires effort to transcribe onto and from the software
+  systems used for data collection, and may be ambiguous, thereby making it
+  harder to reproduce a study. Though AA protocols may also be written as code
+  in a programming language, most programming languages are not easily read by
+  most researchers. Thus, the quality of scientific discourse on AA stands to
+  gain from protocol descriptions that are easy to read, yet remain formal and
+  readily executable by computers. This paper makes the case for using the
+  HyperText Markup Language (HTML) to achieve this. While HTML can suitably
+  describe AA materials, it cannot describe AA procedures. To resolve this, and
+  taking away lessons from previous efforts with protocol implementations in a
+  system called TEMPEST, we offer a set of custom HTML5 elements that help
+  treat HTML documents as executable programs that can both render AA
+  materials, and effect AA procedures on computational platforms.%
+    }
+    \verb{doi}
+    \verb 10.3758/s13428-018-1148-y
+    \endverb
+    \field{issn}{15543528}
+    \field{title}{{Formal representation of ambulatory assessment protocols in
+  HTML5 for human readability and computer execution}}
+    \verb{url}
+    \verb https://link.springer.com/article/10.3758/s13428-018-1148-y?utm{\_}so
+    \verb urce=researcher{\_}app{\&}utm{\_}medium=referral{\&}utm{\_}campaign=M
+    \verb KEF{\_}USG{\_}Researcher{\_}inbound
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Batalas et al. - 2018 - Formal representation of ambul
+    \verb atory assessment protocols in HTML5 for human readability and compute
+    \verb r execution.pdf:pdf
+    \endverb
+    \field{journaltitle}{Behavior Research Methods}
+    \field{year}{2018}
+  \endentry
+
+  \entry{BlocklyG57:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://developers.google.com/blockly/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Blockly | Google Developers}
+  \endentry
+
+  \entry{BlocklyG18:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://developers.google.com/blockly/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Blockly | Google Developers}
+  \endentry
+
+  \entry{BotsifyC64:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://botsify.com/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Botsify - Create artificial intelligent chatbots without
+  coding.}
+  \endentry
+
+  \entry{Chatfuel3:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{https://dashboard.chatfuel.com/\#/bot/5bea8fd30ecd9f4c8c0dd458/structure/5bea8fd30ecd9f4c8c0dd466}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Chatfuel dashboard}
+  \endentry
+
+  \entry{Choregra47:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{http://doc.aldebaran.com/2-4/software/choregraphe/index.html}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Choregraphe Suite — Aldebaran 2.4.3.28-r2 documentation}
+  \endentry
+
+  \entry{Converse15:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{howpublished}{\url{http://www.converse.ai/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Converse.AI}
+  \endentry
+
+  \entry{DRAKONEd12:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{\url{http://drakon-editor.sourceforge.net/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{DRAKON Editor}
+  \endentry
+
+  \entry{bundesregierungdeutschland2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={Deutschland},
+         familyi={D\bibinitperiod},
+         given={Bundesregierung},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{Antwort der Bundesregierung auf die Kleine Anfrage der
+  Abgeordneten Jutta Krellmann, Sabine Zimmermann, Dr. Martina Bunge, weiterer
+  Abgeordneter und der Fraktion DIE LINKE.}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{Entwurf eines Dreizehnten Gesetzes zur {\\"{A}}nderung des
+  Atomgesetzes Bundesregierung Deutschland}
+    \field{journaltitle}{Antwort der Bundesregierung - Drucksache 17/9478}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Dialogfl40:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://console.dialogflow.com/api-client/\#/login}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Dialogflow}
+  \endentry
+
+  \entry{GettingS56:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{\url{https://www.markdownguide.org/getting-started/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Getting Started | Markdown Guide}
+  \endentry
+
+  \entry{Hany1997}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HTF}{%
+         family={Hany},
+         familyi={H\bibinitperiod},
+         given={T\bibnamedelima F},
+         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DJF}{%
+         family={Debatin},
+         familyi={D\bibinitperiod},
+         given={J\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LDA}{%
+         family={Leung},
+         familyi={L\bibinitperiod},
+         given={D\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pfammatter},
+         familyi={P\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \strng{namehash}{HTF+1}
+    \strng{fullhash}{HTFDJFLDAPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    PURPOSE: To determine the diagnostic accuracy of breath-hold, contrast
+  material-enhanced, three-dimensional (3D) magnetic resonance (MR) angiography
+  in the assessment of the aortoiliac inflow tract and renal arteries with
+  conventional catheter angiography as the standard of reference. MATERIALS AND
+  METHODS: In 39 patients with symptomatic peripheral vascular disease, both
+  catheter and contrast-enhanced, 3D MR angiography were performed. In a
+  prospective blinded analysis, each vascular segment (23 segments per arterial
+  tree) was evaluated for the presence of obstructive stenosis, graded as mild
+  ({\textless}50{\%}), severe (50{\%}-99{\%}), or occlusion (100{\%}), as well
+  as for aneurysmal disease. RESULTS: Obstructive (n = 2) and aneurysmatic
+  aortic (n = 6) lesions and 10 of 11 accessory renal arteries were identified
+  and graded correctly with MR angiography. For detection of hemodynamically
+  significant stenotic lesions ({\textgreater}50{\%}) or occlusions with MR
+  angiography, sensitivity and specificity, respectively, were 93{\%} and
+  98{\%} for the renal arteries, 96{\%} and 100{\%} for the common iliac
+  arteries, 93{\%} and 93{\%} for the external iliac arteries, and 96{\%} and
+  94{\%} for the internal iliac arteries. CONCLUSION: The diagnostic
+  performance of contrast-enhanced 3D MR angiography is comparable with that of
+  catheter angiography and thus may contribute to assessment of the aorta, the
+  renal arteries, and the pelvic arterial system in patients with peripheral
+  vascular disease before they undergo therapy.%
+    }
+    \verb{doi}
+    \verb 10.1148/radiology.204.2.9240520
+    \endverb
+    \field{isbn}{0033-8419 (Print)$\backslash$r0033-8419 (Linking)}
+    \field{issn}{0033-8419}
+    \field{number}{2}
+    \field{pages}{357\bibrangedash 362}
+    \field{title}{{Evaluation of the aortoiliac and renal arteries: comparison
+  of breath-hold, contrast-enhanced, three-dimensional MR angiography with
+  conventional catheter angiography.}}
+    \verb{url}
+    \verb http://pubs.rsna.org/doi/10.1148/radiology.204.2.9240520
+    \endverb
+    \field{volume}{204}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/Problemstellung/150331{\_}TK-Gesamtbericht{\_}Gesundh
+    \verb eits-und{\_}Versorgungs-Apps.pdf:pdf
+    \endverb
+    \field{journaltitle}{Radiology}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Hilfebei71:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+  \field{howpublished}{\url{https://www.aok.de/pk/bw/inhalt/moodgym-online-selbsthilfe-bei-depressionen-7/}}
+    \field{note}{(Accessed on 11/08/2018)}
+    \field{title}{Hilfe bei Depression: moodgym | AOK – Die Gesundheitskasse}
+  \endentry
+
+  \entry{Jacobi2014}{article}{}
+    \name{author}{14}{}{%
+      {{hash=JF}{%
+         family={Jacobi},
+         familyi={J\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={H{\"{o}}fler},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Strehle},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mack},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gerschler},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Scholl},
+         familyi={S\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Busch},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MU}{%
+         family={Maske},
+         familyi={M\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HU}{%
+         family={Hapke},
+         familyi={H\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gaebel},
+         familyi={G\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zielasek},
+         familyi={Z\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WHU}{%
+         family={Wittchen},
+         familyi={W\bibinitperiod},
+         given={H.\bibnamedelima U.},
+         giveni={H\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+    }
+    \keyw{Comorbidity,Health care utilization,Mental
+  disorders,Prevalence,Treatment rates}
+    \strng{namehash}{JF+1}
+    \strng{fullhash}{JFHMSJMSGASLBMAMUHUGWMWWMZJWHU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    BACKGROUND AND OBJECTIVES: The German health interview and examination
+  survey for adults (DEGS1) with the mental health module (DEGS1-MH) is the
+  successor to the last survey of mental disorders in the general German
+  population 15 years ago (GHS-MHS). This paper reports the basic findings on
+  the 12-month prevalence of mental disorders, associated disabilities and
+  self-reported healthcare utilization. METHODS: A representative national
+  cohort (age range 18-79 years, n = 5,317) was selected and individuals were
+  personally examined (87.5 {\%} face to face and 12.5 {\%} via telephone) by a
+  comprehensive clinical interview using the composite international diagnostic
+  interview (CIDI) questionnaire. RESULTS: The overall 12-month prevalence of
+  mental disorders was 27.7 {\%} with substantial differences between subgroups
+  (e.g. sex, age, socioeconomic status). Mental disorders were found to be
+  particularly impairing (elevated number of disability days). Less than 50
+  {\%} of those affected reported to be in contact with health services due to
+  mental health problems within the last 12 months (range 10-40 {\%} depending
+  on the number of diagnoses). CONCLUSIONS: Mental disorders were found to be
+  commonplace with a prevalence level comparable to that found in the 1998
+  predecessor study but several further adjustments will have to be made for a
+  sound methodological comparison between the studies. Apart from individual
+  distress, elevated self-reported disability indicated a high societal disease
+  burden of mental disorders (also in comparison with many somatic diseases).
+  Despite a relatively comprehensive and well developed mental healthcare
+  system in Germany there are still optimisation needs for treatment rates.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00115-013-3961-y
+    \endverb
+    \field{isbn}{1433-0407}
+    \field{issn}{14330407}
+    \field{number}{1}
+    \field{pages}{77\bibrangedash 87}
+    \field{title}{{Psychische st{\"{o}}rungen in der
+  allgemeinbev{\"{o}}lkerung. Studie zur gesundheit erwachsener in Deutschland
+  und ihr zusatzmodul psychische gesundheit (DEGS1-MH)}}
+    \field{volume}{85}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/Problemstellung/Wartezeiten/Jacobi2014{\_}Article{\_}
+    \verb PsychischeSt{\"{o}}rungenInDerAllgem.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nervenarzt}
+    \field{year}{2014}
+  \endentry
+
+  \entry{KatalogI56:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+  \field{howpublished}{\url{https://console.bluemix.net/catalog/?category=ai\&search=label:lite}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Katalog - IBM Cloud}
+  \endentry
+
+  \entry{Microsof77:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+  \field{howpublished}{\url{https://www.bptk.de/uploads/media/20180411_BPtK-Studie_Wartezeiten_2018.pdf}}
+    \field{note}{(Accessed on 11/07/2018)}
+    \field{title}{Microsoft Word - 2018-04-11\_BPtK-Studie Wartezeiten 2018}
+  \endentry
+
+  \entry{NXTSoftw71:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+  \field{howpublished}{\url{https://www.lego.com/de-de/mindstorms/downloads/nxt-software-download}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{NXT Software Download - Downloads - Mindstorms LEGO.com}
+  \endentry
+
+  \entry{Nubling2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=NR}{%
+         family={N{\"{u}}bling},
+         familyi={N\bibinitperiod},
+         given={R{\"{u}}diger},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={B{\"{a}}r},
+         familyi={B\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jeschke},
+         familyi={J\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Ochs},
+         familyi={O\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Sarubin},
+         familyi={S\bibinitperiod},
+         given={Nina},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={J{\"{u}}rgen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NR+1}
+    \strng{fullhash}{NRBTJKOMSNSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Dieser Beitrag befasst sich mit der Versorgung psychisch kranker
+  Erwachsener in Deutschland, vor allem dem Bedarf und der Inanspruchnahme
+  sowie der Effektivit{\"{a}}t und Effizienz von Psychotherapie.1, 2 Ausgehend
+  von der Epidemiologie psychischer Erkrankungen werden die durch psychische
+  Erkrankungen entstehenden versorgungsbezogenen sowie volkswirtschaftlichen
+  Kosten skizziert. Seit In­Kraft­T reten des Psychotherapeutengesetzes 1999
+  hat sich die Versorgung mit ambulanter Psycho ­ therapie deutlich
+  verbessert. Aber obwohl die bundesdeutsche psychotherapeutische Versorgung im
+  Vergleich mit anderen L{\"{a}}ndern als gut bezeichnet werden kann, wird nur
+  ein kleinerer Teil der Menschen, die auf der Grundlage epidemiologischer
+  Studien als psychisch krank gelten, auch psychotherapeutisch behandelt.%
+    }
+    \field{number}{December}
+    \field{pages}{389\bibrangedash 397}
+    \field{title}{{Versorgung psychisch kranker Erwachsener in Deutschland
+  Bedarf und Inanspruchnahme sowie Effektivit{\"{a}}t und Effizienz von
+  Psychotherapie}}
+    \field{volume}{4}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/Problemstellung/Wartezeiten/Nueblingetal{\_}PTVersorg
+    \verb ung{\_}PTJ2014.pdf:pdf
+    \endverb
+    \field{journaltitle}{Psychotherapeutenjournal}
+    \field{year}{2014}
+  \endentry
+
+  \entry{OSFSabri6:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{\url{https://osf.io/3am7g/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{OSF | Sabrina Thai - ExperienceSampler SPSP San Antonio 2017
+  Draft 1 FINAL To Post.pdf}
+  \endentry
+
+  \entry{PROMIND78:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+  \field{howpublished}{\url{https://www.barmer.de/gesundheitscampus/kurse/online-kurse/psychische-gesundheit-pro-mind}}
+    \field{note}{(Accessed on 11/08/2018)}
+    \field{title}{PRO MIND – Psychische Gesundheit | BARMER}
+  \endentry
+
+  \entry{PureData15:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{\url{https://puredata.info/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Pure Data — Pd Community Site}
+  \endentry
+
+  \entry{Rough2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RD}{%
+         family={Rough},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=QA}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDQA1}
+    \strng{fullhash}{RDQA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Ubiquitous mobile technology affords clinicians new opportunities to
+  enhance personalised, patient-centric care remotely, easing the burden on
+  both patient and clinician. The Experience Sampling Method (ESM) involves the
+  repeated assessment of patients on their symptoms or behaviours, and their
+  external contexts, as they go about their everyday lives, enhancing
+  ecological validity and minimising recall bias. While previously conducted
+  with paper diaries, ESM smartphone applications are now being employed, that
+  have a range of benefits over paper-based methods including the ability to
+  scale to many more patients. However, development of such applications is
+  time-consuming and requires considerable programming knowledge. This has
+  prompted the development of ESM creation tools that alleviate a researcher
+  from the burden of programming an ESM application from scratch. This paper
+  presents our work on Jeeves, a visual environment for creating secure ESM
+  Android applications, and a usability evaluation we conducted with health
+  psychology students.%
+    }
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{Jeeves - An Experience Sampling Study Creation Tool}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf:pdf
+    \endverb
+    \field{journaltitle}{BCS Health Informatics Scotland (HIS)}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Simulink28:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{https://de.mathworks.com/products/simulink.html}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Simulink - Simulation und Model-Based Design - MATLAB \&
+  Simulink}
+  \endentry
+
+  \entry{SnapBuil34:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{https://snap.berkeley.edu/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Snap! (Build Your Own Blocks) 4.2}
+  \endentry
+
+  \entry{SwissEdu45:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+  \field{howpublished}{\url{https://www.swisseduc.ch/informatik/karatojava/javakara/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{SwissEduc - Informatik - JavaKara: Einführung in Java}
+  \endentry
+
+  \entry{TKDepres18:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+  \field{howpublished}{\url{https://www.tk.de/techniker/service/gesundheit-und-medizin/behandlungen-und-medizin/psychische-erkrankungen/tk-depressionscoach-2016410}}
+    \field{note}{(Accessed on 11/08/2018)}
+    \field{title}{TK-DepressionsCoach | Die Techniker}
+  \endentry
+
+  \entry{TheOffic64:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{http://yaml.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{The Official YAML Web Site}
+  \endentry
+
+  \entry{WasistLa94:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{http://www.ni.com/de-de/shop/labview.html}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Was ist LabVIEW? - National Instruments}
+  \endentry
+
+  \entry{WelcomeM66:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+  \field{howpublished}{\url{https://manychat.com/fb500208663808259/automation/welcome/edit}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Welcome Message}
+  \endentry
+
+  \entry{movisens59:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://xs.movisens.com/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{movisensXS - eXperience Sampling for Android!}
+  \endentry
+
+  \entry{psychisc90:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+  \field{howpublished}{\url{https://play.google.com/store/search?q=psychische\%20gesundheit&c=apps&hl=de}}
+    \field{note}{(Accessed on 11/09/2018)}
+    \field{title}{psychische gesundheit – Android-Apps auf Google Play}
+  \endentry
+
+  \entry{squeakla50:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{http://www.squeakland.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{squeakland : home of squeak etoys}
+  \endentry
+
+  \entry{theMyExp48:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{http://myexperience.sourceforge.net/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{the MyExperience tool}
+  \endentry
+\enddatalist
+\endinput
