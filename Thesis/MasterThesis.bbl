@@ -16,5 +16,351 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{BBCodeor24:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://www.bbcode.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{BBCode.org, bbcode users guide and tricks on implementing it}
+  \endentry
+
+  \entry{Batalas2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BN}{%
+         family={Batalas},
+         familyi={B\bibinitperiod},
+         given={Nikolaos},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KVJ}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Vassilis-Javed},
+         giveni={V\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Franzen},
+         familyi={F\bibinitperiod},
+         given={Minita},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Markopoulos},
+         familyi={M\bibinitperiod},
+         given={Panos},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ahRM}{%
+         prefix={aan\bibnamedelima het},
+         prefixi={a\bibinitperiod\bibinitdelim h\bibinitperiod},
+         family={Rot},
+         familyi={R\bibinitperiod},
+         given={Marije},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Behavior Research Methods}%
+    }
+    \keyw{Ambulatory assessment,Experience sampling,HTML,Pro,ambulatory
+  assessment,data collection software,experience sampling,html,protocol
+  representations}
+    \strng{namehash}{BN+1}
+    \strng{fullhash}{BNKVJFMMPRMah1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Ambulatory assessment (AA) is a research method that aims to collect
+  longitudinal biopsychosocial data in groups of individuals. AA studies are
+  commonly conducted via mobile devices such as smartphones. Researchers tend
+  to communicate their AA protocols to the community in natural language by
+  describing step-by-step procedures operating on a set of materials. However,
+  natural language requires effort to transcribe onto and from the software
+  systems used for data collection, and may be ambiguous, thereby making it
+  harder to reproduce a study. Though AA protocols may also be written as code
+  in a programming language, most programming languages are not easily read by
+  most researchers. Thus, the quality of scientific discourse on AA stands to
+  gain from protocol descriptions that are easy to read, yet remain formal and
+  readily executable by computers. This paper makes the case for using the
+  HyperText Markup Language (HTML) to achieve this. While HTML can suitably
+  describe AA materials, it cannot describe AA procedures. To resolve this, and
+  taking away lessons from previous efforts with protocol implementations in a
+  system called TEMPEST, we offer a set of custom HTML5 elements that help
+  treat HTML documents as executable programs that can both render AA
+  materials, and effect AA procedures on computational platforms.%
+    }
+    \verb{doi}
+    \verb 10.3758/s13428-018-1148-y
+    \endverb
+    \field{issn}{15543528}
+    \field{title}{{Formal representation of ambulatory assessment protocols in
+  HTML5 for human readability and computer execution}}
+    \verb{url}
+    \verb https://link.springer.com/article/10.3758/s13428-018-1148-y?utm{\_}so
+    \verb urce=researcher{\_}app{\&}utm{\_}medium=referral{\&}utm{\_}campaign=M
+    \verb KEF{\_}USG{\_}Researcher{\_}inbound
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Batalas et al. - 2018 - Formal representation of ambul
+    \verb atory assessment protocols in HTML5 for human readability and compute
+    \verb r execution.pdf:pdf
+    \endverb
+    \field{journaltitle}{Behavior Research Methods}
+    \field{year}{2018}
+  \endentry
+
+  \entry{BlocklyG57:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://developers.google.com/blockly/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Blockly | Google Developers}
+  \endentry
+
+  \entry{BlocklyG18:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://developers.google.com/blockly/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Blockly | Google Developers}
+  \endentry
+
+  \entry{BotsifyC64:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{https://botsify.com/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Botsify - Create artificial intelligent chatbots without
+  coding.}
+  \endentry
+
+  \entry{Chatfuel3:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{https://dashboard.chatfuel.com/\#/bot/5bea8fd30ecd9f4c8c0dd458/structure/5bea8fd30ecd9f4c8c0dd466}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Chatfuel dashboard}
+  \endentry
+
+  \entry{Choregra47:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{http://doc.aldebaran.com/2-4/software/choregraphe/index.html}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Choregraphe Suite — Aldebaran 2.4.3.28-r2 documentation}
+  \endentry
+
+  \entry{Converse15:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{howpublished}{\url{http://www.converse.ai/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Converse.AI}
+  \endentry
+
+  \entry{DRAKONEd12:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{\url{http://drakon-editor.sourceforge.net/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{DRAKON Editor}
+  \endentry
+
+  \entry{Dialogfl40:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://console.dialogflow.com/api-client/\#/login}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Dialogflow}
+  \endentry
+
+  \entry{GettingS56:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{\url{https://www.markdownguide.org/getting-started/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Getting Started | Markdown Guide}
+  \endentry
+
+  \entry{KatalogI56:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+  \field{howpublished}{\url{https://console.bluemix.net/catalog/?category=ai\&search=label:lite}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Katalog - IBM Cloud}
+  \endentry
+
+  \entry{NXTSoftw71:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+  \field{howpublished}{\url{https://www.lego.com/de-de/mindstorms/downloads/nxt-software-download}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{NXT Software Download - Downloads - Mindstorms LEGO.com}
+  \endentry
+
+  \entry{OSFSabri6:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{\url{https://osf.io/3am7g/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{OSF | Sabrina Thai - ExperienceSampler SPSP San Antonio 2017
+  Draft 1 FINAL To Post.pdf}
+  \endentry
+
+  \entry{PureData15:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{\url{https://puredata.info/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Pure Data — Pd Community Site}
+  \endentry
+
+  \entry{Rough2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RD}{%
+         family={Rough},
+         familyi={R\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=QA}{%
+         family={Quigley},
+         familyi={Q\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDQA1}
+    \strng{fullhash}{RDQA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Ubiquitous mobile technology affords clinicians new opportunities to
+  enhance personalised, patient-centric care remotely, easing the burden on
+  both patient and clinician. The Experience Sampling Method (ESM) involves the
+  repeated assessment of patients on their symptoms or behaviours, and their
+  external contexts, as they go about their everyday lives, enhancing
+  ecological validity and minimising recall bias. While previously conducted
+  with paper diaries, ESM smartphone applications are now being employed, that
+  have a range of benefits over paper-based methods including the ability to
+  scale to many more patients. However, development of such applications is
+  time-consuming and requires considerable programming knowledge. This has
+  prompted the development of ESM creation tools that alleviate a researcher
+  from the burden of programming an ESM application from scratch. This paper
+  presents our work on Jeeves, a visual environment for creating secure ESM
+  Android applications, and a usability evaluation we conducted with health
+  psychology students.%
+    }
+    \field{pages}{1\bibrangedash 10}
+    \field{title}{{Jeeves - An Experience Sampling Study Creation Tool}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf:pdf
+    \endverb
+    \field{journaltitle}{BCS Health Informatics Scotland (HIS)}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Simulink28:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{https://de.mathworks.com/products/simulink.html}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Simulink - Simulation und Model-Based Design - MATLAB \&
+  Simulink}
+  \endentry
+
+  \entry{SnapBuil34:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{https://snap.berkeley.edu/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{Snap! (Build Your Own Blocks) 4.2}
+  \endentry
+
+  \entry{SwissEdu45:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+  \field{howpublished}{\url{https://www.swisseduc.ch/informatik/karatojava/javakara/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{SwissEduc - Informatik - JavaKara: Einführung in Java}
+  \endentry
+
+  \entry{TheOffic64:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{http://yaml.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{The Official YAML Web Site}
+  \endentry
+
+  \entry{WasistLa94:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{http://www.ni.com/de-de/shop/labview.html}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Was ist LabVIEW? - National Instruments}
+  \endentry
+
+  \entry{WelcomeM66:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+  \field{howpublished}{\url{https://manychat.com/fb500208663808259/automation/welcome/edit}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Welcome Message}
+  \endentry
+
+  \entry{movisens59:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://xs.movisens.com/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{movisensXS - eXperience Sampling for Android!}
+  \endentry
+
+  \entry{squeakla50:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{http://www.squeakland.org/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{squeakland : home of squeak etoys}
+  \endentry
+
+  \entry{theMyExp48:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{http://myexperience.sourceforge.net/}}
+    \field{note}{(Accessed on 11/28/2018)}
+    \field{title}{the MyExperience tool}
+  \endentry
+\enddatalist
 \endinput
