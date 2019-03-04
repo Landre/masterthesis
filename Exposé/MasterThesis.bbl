@@ -187,6 +187,96 @@
     \field{title}{Dialogflow}
   \endentry
 
+  \entry{Fitzpatrick2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FKK}{%
+         family={Fitzpatrick},
+         familyi={F\bibinitperiod},
+         given={Kathleen\bibnamedelima Kara},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Darcy},
+         familyi={D\bibinitperiod},
+         given={Alison},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vierhile},
+         familyi={V\bibinitperiod},
+         given={Molly},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FKKDAVM1}
+    \strng{fullhash}{FKKDAVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    BACKGROUND Web-based cognitive-behavioral therapeutic (CBT) apps have
+  demonstrated efficacy but are characterized by poor adherence. Conversational
+  agents may offer a convenient, engaging way of getting support at any time.
+  OBJECTIVE The objective of the study was to determine the feasibility,
+  acceptability, and preliminary efficacy of a fully automated conversational
+  agent to deliver a self-help program for college students who self-identify
+  as having symptoms of anxiety and depression. METHODS In an unblinded trial,
+  70 individuals age 18-28 years were recruited online from a university
+  community social media site and were randomized to receive either 2 weeks (up
+  to 20 sessions) of self-help content derived from CBT principles in a
+  conversational format with a text-based conversational agent (Woebot) (n=34)
+  or were directed to the National Institute of Mental Health ebook,
+  "Depression in College Students," as an information-only control group
+  (n=36). All participants completed Web-based versions of the 9-item Patient
+  Health Questionnaire (PHQ-9), the 7-item Generalized Anxiety Disorder scale
+  (GAD-7), and the Positive and Negative Affect Scale at baseline and 2-3 weeks
+  later (T2). RESULTS Participants were on average 22.2 years old (SD 2.33),
+  67{\%} female (47/70), mostly non-Hispanic (93{\%}, 54/58), and Caucasian
+  (79{\%}, 46/58). Participants in the Woebot group engaged with the
+  conversational agent an average of 12.14 (SD 2.23) times over the study
+  period. No significant differences existed between the groups at baseline,
+  and 83{\%} (58/70) of participants provided data at T2 (17{\%} attrition).
+  Intent-to-treat univariate analysis of covariance revealed a significant
+  group difference on depression such that those in the Woebot group
+  significantly reduced their symptoms of depression over the study period as
+  measured by the PHQ-9 (F=6.47; P=.01) while those in the information control
+  group did not. In an analysis of completers, participants in both groups
+  significantly reduced anxiety as measured by the GAD-7 (F1,54= 9.24; P=.004).
+  Participants' comments suggest that process factors were more influential on
+  their acceptability of the program than content factors mirroring traditional
+  therapy. CONCLUSIONS Conversational agents appear to be a feasible, engaging,
+  and effective way to deliver CBT.%
+    }
+    \verb{doi}
+    \verb 10.2196/mental.7785
+    \endverb
+    \verb{eprint}
+    \verb 9809069v1
+    \endverb
+    \field{isbn}{1438-8871}
+    \field{issn}{2368-7959}
+    \field{number}{2}
+    \field{pages}{e19}
+    \field{title}{{Delivering Cognitive Behavior Therapy to Young Adults With
+  Symptoms of Depression and Anxiety Using a Fully Automated Conversational
+  Agent (Woebot): A Randomized Controlled Trial}}
+    \verb{url}
+    \verb http://mental.jmir.org/2017/2/e19/
+    \endverb
+    \field{volume}{4}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Fitzpatrick, Darcy, Vierhile - 2017 - Delivering Cogni
+    \verb tive Behavior Therapy to Young Adults With Symptoms of Depression and
+    \verb  Anxiety Usin.pdf:pdf
+    \endverb
+    \field{journaltitle}{JMIR Mental Health}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{arXiv:gr-qc}
+    \field{year}{2017}
+  \endentry
+
   \entry{GettingS56:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{G}
@@ -194,6 +284,25 @@
     \field{howpublished}{\url{https://www.markdownguide.org/getting-started/}}
     \field{note}{(Accessed on 11/28/2018)}
     \field{title}{Getting Started | Markdown Guide}
+  \endentry
+
+  \entry{GoogleAl38:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{\url{https://allo.google.com/}}
+    \field{note}{(Accessed on 02/27/2019)}
+    \field{title}{Google Allo - A smart messaging app}
+  \endentry
+
+  \entry{KassenSc50:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+  \field{howpublished}{\url{https://www.gastrofix.com/de/kassen-schnittstelle-table-duck/}}
+    \field{note}{(Accessed on 02/27/2019)}
+    \field{title}{Kassen-Schnittstelle Table Duck: Bestellen via Messenger |
+  GASTROFIX}
   \endentry
 
   \entry{KatalogI56:online}{misc}{}
@@ -309,6 +418,15 @@
     \field{title}{SwissEduc - Informatik - JavaKara: Einführung in Java}
   \endentry
 
+  \entry{TessArti99:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{howpublished}{\url{https://www.x2ai.com/}}
+    \field{note}{(Accessed on 02/27/2019)}
+    \field{title}{Tess: Artificial Intelligence Mental Health Support}
+  \endentry
+
   \entry{TheOffic64:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{T}
@@ -327,6 +445,32 @@
     \field{title}{Was ist LabVIEW? - National Instruments}
   \endentry
 
+  \entry{Weizenbaum1966}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Weizenbaum},
+         familyi={W\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{{ELIZA--A Computer Program For the Study of Natural Language
+  Communication Between Man and Machine}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/State of the Art/Domain Specific Languages/ELIZA{\_}a
+    \verb {\_}computer{\_}program{\_}for{\_}the{\_}study{\_}o.pdf:pdf
+    \endverb
+    \field{year}{1966}
+  \endentry
+
   \entry{WelcomeM66:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{W}
@@ -334,6 +478,25 @@
   \field{howpublished}{\url{https://manychat.com/fb500208663808259/automation/welcome/edit}}
     \field{note}{(Accessed on 11/27/2018)}
     \field{title}{Welcome Message}
+  \endentry
+
+  \entry{WoebotYo93:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{https://woebot.io/}}
+    \field{note}{(Accessed on 02/27/2019)}
+    \field{title}{Woebot - Your charming robot friend who is ready to listen,
+  24/7}
+  \endentry
+
+  \entry{Wysayour57:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{https://www.wysa.io/}}
+    \field{note}{(Accessed on 02/27/2019)}
+    \field{title}{Wysa - your 4 am friend and AI life coach}
   \endentry
 
   \entry{movisens59:online}{misc}{}
