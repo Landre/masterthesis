@@ -17,6 +17,24 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{AndroidA10:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{howpublished}{\url{}}
+    \field{note}{(Accessed on 03/05/2019)}
+    \field{title}{Android-Apps auf Google Play}
+  \endentry
+
+  \entry{AppStore21:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{howpublished}{\url{https://www.apple.com/de/ios/app-store/}}
+    \field{note}{(Accessed on 03/05/2019)}
+    \field{title}{App Store - Apple (DE)}
+  \endentry
+
   \entry{BBCodeor24:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{B}
@@ -140,6 +158,90 @@
     \field{note}{(Accessed on 11/27/2018)}
     \field{title}{Botsify - Create artificial intelligent chatbots without
   coding.}
+  \endentry
+
+  \entry{SWB-11524946X}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CKM}{%
+         family={Campbell-Kelly},
+         familyi={C\bibinithyphendelim K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AW}{%
+         family={Aspray},
+         familyi={A\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Westview}%
+    }
+    \keyw{; Computer / Geschichte}
+    \strng{namehash}{CKMAW1}
+    \strng{fullhash}{CKMAW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{2. ed.}
+    \field{isbn}{0-8133-4264-3}
+    \field{note}{Previous ed.: New York: Basic Books, 1996}
+    \field{title}{Computer : a history of the information machine}
+    \list{location}{1}{%
+      {Boulder}%
+    }
+    \field{year}{2004}
+  \endentry
+
+  \entry{SWB-481290869}{misc}{}
+    \name{editor}{2}{}{%
+      {{hash=CKM}{%
+         family={Campbell-Kelly},
+         familyi={C\bibinithyphendelim K\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GSDDa}{%
+         family={Garcia-Swartz},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={Daniel D.\bibnamedelima [author]},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harvard University Press}%
+    }
+    \keyw{; Computer industry / Computer industry / Electronic books}
+    \strng{namehash}{CKMGSDDa1}
+    \strng{fullhash}{CKMGSDDa1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{978-0-674-28653-5; 0-674-28653-79780674729063; 0674729064}
+    \field{note}{Includes bibliographical references and index. - Print version
+  record; The aim of this book is to provide a compact and up-to-date business
+  and economic history of the computer industry. The reader we have in mind is
+  someone who wants to make a quick study of the computer industry... In our
+  quest for brevity, we have assumed that our readers are themselves
+  information-technology users and are familiar with the everyday vocabulary of
+  computing (such as operating systems, disk drives, and broadband), and that
+  they are aware of recent gadgetry such as tablet computers and
+  smartphones--Page 1}
+    \field{series}{Critical issues in business history}
+    \field{title}{From mainframes to smartphones : a history of the
+  international computer industry}
+    \verb{url}
+    \verb http://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nleb
+    \verb k&db=nlabk&AN=1004302
+    \endverb
+    \list{location}{1}{%
+      {Cambridge, Massachusetts}%
+    }
+    \field{year}{2015}
   \endentry
 
   \entry{Chatfuel3:online}{misc}{}
@@ -497,6 +599,15 @@
     \field{howpublished}{\url{https://www.wysa.io/}}
     \field{note}{(Accessed on 02/27/2019)}
     \field{title}{Wysa - your 4 am friend and AI life coach}
+  \endentry
+
+  \entry{Zukunftd37:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+  \field{howpublished}{\url{https://www.bitkom.org/sites/default/files/file/import/180822-CT-Studie-2018-online.pdf}}
+    \field{note}{(Accessed on 03/06/2019)}
+    \field{title}{Zukunft der Consumer Technology – 2018}
   \endentry
 
   \entry{movisens59:online}{misc}{}
