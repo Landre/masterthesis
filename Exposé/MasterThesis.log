@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  8 MAR 2019 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  28 MAY 2019 15:27
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -1880,12 +1880,12 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 8.
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box83
-<logos/KIT_Deckblatt.pdf, id=50, 597.23125pt x 845.1575pt>
+<logos/KIT_Deckblatt.pdf, id=54, 597.23125pt x 845.1575pt>
 File: logos/KIT_Deckblatt.pdf Graphic file (type pdf)
 <use logos/KIT_Deckblatt.pdf>
 Package pdftex.def Info: logos/KIT_Deckblatt.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50787pt x 845.6068pt.
-<logos/TECO_KIT.pdf, id=51, 537.00626pt x 139.52126pt>
+<logos/TECO_KIT.pdf, id=55, 537.00626pt x 139.52126pt>
 File: logos/TECO_KIT.pdf Graphic file (type pdf)
 <use logos/TECO_KIT.pdf>
 Package pdftex.def Info: logos/TECO_KIT.pdf  used on input line 19.
@@ -1900,48 +1900,29 @@ Overfull \hbox (34.53831pt too wide) in paragraph at lines 19--20
 
 
 {C:/Users/leise/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logos/KIT
-_Deckblatt.pdf> <./logos/TECO_KIT.pdf>]) (problemstellung.tex
-Overfull \hbox (0.76598pt too wide) in paragraph at lines 23--24
+_Deckblatt.pdf> <./logos/TECO_KIT.pdf>]) (problemstellung.texpdfTeX warning (ex
+t4): destination with the same identifier (name{page.1}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 E
+      ine weitere Studie testete den Einfluss eines virtuellen Akteurs auf d...
+[1
+
+]
+Overfull \hbox (0.76598pt too wide) in paragraph at lines 29--30
 \T1/aer/m/n/12 Chat-bots für Psy-cholo-gen noch im-mer eine Hürde. Zwar gibt es
  zahlre-iche Baukästen
  []
 
-
-Overfull \hbox (5.64972pt too wide) in paragraph at lines 23--24
-\T1/aer/m/n/12 zur En-twick-lung von Chat-bots die keine tief-greifenden Pro-gr
-am-mierken-nt-nisse benöti-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 
-      [1
-
-]) (zielsetzung.tex
-Overfull \hbox (6.39409pt too wide) in paragraph at lines 12--13
+) (zielsetzung.tex
+Overfull \hbox (6.39409pt too wide) in paragraph at lines 14--15
 []\T1/aer/m/n/12 In der Ar-beit gilt es vor allem die kom-plexen Kon-fig-u-ra-t
 ions-möglichkeiten der Domäne
  []
 
-) (forschungsstand.tex [2] [3]
-Overfull \hbox (4.08905pt too wide) in paragraph at lines 29--30
-[]\T1/aer/m/it/12 HTML \T1/aer/m/n/12 ist die bisher geläu-fig-ste Ausze-ich-nu
-ngssprache. Diese wird zur Struk-turierung
- []
-
-[4]) (konzept.tex) (gliederung.tex
-Overfull \hbox (2.88986pt too wide) in paragraph at lines 3--3
-\T1/aer/m/n/12 in-tu-itive Mod-el-lierungssprache für dig-i-tale Ther-a-pien mi
-t-tels Chat-bots in Gesprächen
- []
-
-
-Underfull \vbox (badness 1158) has occurred while \output is active []
-
- [5]
-[6]) [7] [8
+[2]) (forschungsstand.tex [3] [4] [5]) (konzept.tex) (gliederung.tex [6])
+[7] [8
 
 ]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 195.
@@ -1953,6 +1934,12 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 [9
 
 ]
+Overfull \hbox (26.01839pt too wide) in paragraph at lines 199--199
+\T1/aer/m/n/12 default / les / le / import / Bitkom -[] Pressekonferenz -[] S
+martphone -[] Markt -[] Konjunktur -[]
+ []
+
+
 Overfull \hbox (53.22603pt too wide) in paragraph at lines 199--199
 []\T1/aer/m/it/12 Chatfuel dash-board\T1/aer/m/n/12 . [][]$https : / / dashboar
 d . chatfuel . com / # / bot / 5bea8fd30ecd9f4c8c0dd458 /
@@ -1978,20 +1965,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 86417726EB3EFBE2CE731B9B6C0BDB35;732.
+(rerunfilecheck)             Checksum: C01C64DFA70E2E508E4995369D60CE27;855.
 Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 \openout1 = `MasterThesis.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 50943 strings out of 492946
- 1140316 string characters out of 3126267
+ 50965 strings out of 492946
+ 1140923 string characters out of 3126267
  1480036 words of memory out of 3000000
- 54024 multiletter control sequences out of 15000+200000
- 570747 words of font info for 92 fonts, out of 3000000 for 9000
+ 54038 multiletter control sequences out of 15000+200000
+ 573535 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,136p,1575b,2835s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,1762b,2835s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmcsc10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/
@@ -2003,9 +1990,9 @@ fb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (13 pages, 243988 bytes).
+Output written on MasterThesis.pdf (13 pages, 250185 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

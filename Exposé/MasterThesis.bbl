@@ -253,18 +253,71 @@
     \field{title}{App Store - Apple (DE)}
   \endentry
 
-  \entry{AndroidA10:online}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{}}
-    \field{note}{(Accessed on 03/05/2019)}
-    \field{title}{Android-Apps auf Google Play}
-  \endentry
-
   \entry{Zukunftd37:online}{misc}{}
     \field{labeltitlesource}{title}
   \field{howpublished}{\url{https://www.bitkom.org/sites/default/files/file/import/180822-CT-Studie-2018-online.pdf}}
     \field{note}{(Accessed on 03/06/2019)}
     \field{title}{Zukunft der Consumer Technology – 2018}
+  \endentry
+
+  \entry{Smartpho6:online}{misc}{}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.bitkom.org/sites/default/files/file/import/Bitkom-Pressekonferenz-Smartphone-Markt-Konjunktur-und-Trends-22-02-2017-Praesentation.pdf}}
+    \field{note}{(Accessed on 05/28/2019)}
+    \field{title}{Smartphone-Markt: Konjunktur und Trends}
+  \endentry
+
+  \entry{Gratch2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GJ}{%
+         family={Gratch},
+         familyi={G\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lucas},
+         familyi={L\bibinitperiod},
+         given={Gale},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{clinical interviews,computer-assisted assessment,impression
+  management,medical interviews,self-disclosure,virtual humans}
+    \strng{namehash}{GJLG1}
+    \strng{fullhash}{GJLG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{Aamas}
+    \field{title}{{It ' s Only a Computer : The Impact of Human-agent
+  Interaction in Clinical Interviews}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/Noch zu lesen/ff24d08bf1dadf872738d7922fe47d8d1204.pd
+    \verb f:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{MPGnicht8:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{http://www.gesetze-im-internet.de/mpg/}}
+    \field{note}{(Accessed on 05/28/2019)}
+    \field{title}{MPG - nichtamtliches Inhaltsverzeichnis}
+  \endentry
+
+  \entry{WasistLa94:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{http://www.ni.com/de-de/shop/labview.html}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Was ist LabVIEW? - National Instruments}
+  \endentry
+
+  \entry{BlocklyG57:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://developers.google.com/blockly/}}
+    \field{note}{(Accessed on 11/27/2018)}
+    \field{title}{Blockly | Google Developers}
   \endentry
 
   \entry{Dialogfl40:online}{misc}{}
@@ -308,20 +361,6 @@
     \field{note}{(Accessed on 11/27/2018)}
     \field{title}{Botsify - Create artificial intelligent chatbots without
   coding.}
-  \endentry
-
-  \entry{WasistLa94:online}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{http://www.ni.com/de-de/shop/labview.html}}
-    \field{note}{(Accessed on 11/27/2018)}
-    \field{title}{Was ist LabVIEW? - National Instruments}
-  \endentry
-
-  \entry{BlocklyG57:online}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{\url{https://developers.google.com/blockly/}}
-    \field{note}{(Accessed on 11/27/2018)}
-    \field{title}{Blockly | Google Developers}
   \endentry
 
   \entry{Choregra47:online}{misc}{}
@@ -568,6 +607,47 @@
     \field{howpublished}{\url{https://www.facebook.com/ManyChat/}}
     \field{note}{(Accessed on 03/06/2019)}
     \field{title}{ManyChat - Startseite}
+  \endentry
+
+  \entry{Hornbaek2003}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HK}{%
+         family={Hornb{\ae}k},
+         familyi={H\bibinitperiod},
+         given={Kasper},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BBB}{%
+         family={Bederson},
+         familyi={B\bibinitperiod},
+         given={Benjamin\bibnamedelima B},
+         giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Plaisant},
+         familyi={P\bibinitperiod},
+         given={Catherine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JJ}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKBBBPCJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{3361597110}
+    \field{title}{{NAVIGATION PATTERNS AND USABILITY OF ZOOMABLE USER
+  INTERFACES WITH AND WITHOUT}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/Noch zu lesen/a412685.pdf:pdf
+    \endverb
+    \field{year}{2003}
   \endentry
 \enddatalist
 \endinput
