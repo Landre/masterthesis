@@ -327,6 +327,32 @@
     \field{title}{Was ist LabVIEW? - National Instruments}
   \endentry
 
+  \entry{Weizenbaum1966}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Weizenbaum},
+         familyi={W\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{{ELIZA--A Computer Program For the Study of Natural Language
+  Communication Between Man and Machine}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/leise/OneDrive/Dokumente/Studium/Masterthesis -
+    \verb  movisens/Paper/State of the Art/Domain Specific Languages/ELIZA{\_}a
+    \verb {\_}computer{\_}program{\_}for{\_}the{\_}study{\_}o.pdf:pdf
+    \endverb
+    \field{year}{1966}
+  \endentry
+
   \entry{WelcomeM66:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{W}

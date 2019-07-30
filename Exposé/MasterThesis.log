@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  10 JAN 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  28 MAY 2019 15:27
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -1858,26 +1858,21 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MasterThesis.bbl' found.
-(MasterThesis.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'bundesregierungdeutschland2012':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+(MasterThesis.bbl)
 Package biblatex Info: Reference section=0 on input line 150.
 Package biblatex Info: Reference segment=0 on input line 150.
 LaTeX Font Info:    Try loading font information for U+msa on input line 150.
- ("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+
+("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 150.
- ("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \openout2 = `titlepage.aux'.
 
- (titlepage.tex
+(titlepage.tex
 \Erstgutachter=\box82
 LaTeX Font Info:    Try loading font information for T1+aess on input line 8.
 
@@ -1885,12 +1880,12 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 8.
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box83
-<logos/KIT_Deckblatt.pdf, id=50, 597.23125pt x 845.1575pt>
+<logos/KIT_Deckblatt.pdf, id=54, 597.23125pt x 845.1575pt>
 File: logos/KIT_Deckblatt.pdf Graphic file (type pdf)
 <use logos/KIT_Deckblatt.pdf>
 Package pdftex.def Info: logos/KIT_Deckblatt.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50787pt x 845.6068pt.
-<logos/TECO_KIT.pdf, id=51, 537.00626pt x 139.52126pt>
+<logos/TECO_KIT.pdf, id=55, 537.00626pt x 139.52126pt>
 File: logos/TECO_KIT.pdf Graphic file (type pdf)
 <use logos/TECO_KIT.pdf>
 Package pdftex.def Info: logos/TECO_KIT.pdf  used on input line 19.
@@ -1910,37 +1905,41 @@ t4): destination with the same identifier (name{page.1}) has been already used,
  duplicate ignored
 <to be read again> 
                    \relax 
-l.24 
-      [1
+l.25 E
+      ine weitere Studie testete den Einfluss eines virtuellen Akteurs auf d...
+[1
 
-]) (zielsetzung.tex) (forschungsstand.tex [2] [3]
-Overfull \hbox (4.08905pt too wide) in paragraph at lines 29--30
-[]\T1/aer/m/it/12 HTML \T1/aer/m/n/12 ist die bisher geläu-fig-ste Ausze-ich-nu
-ngssprache. Diese wird zur Struk-turierung
+]
+Overfull \hbox (0.76598pt too wide) in paragraph at lines 29--30
+\T1/aer/m/n/12 Chat-bots für Psy-cholo-gen noch im-mer eine Hürde. Zwar gibt es
+ zahlre-iche Baukästen
  []
 
-) (konzept.tex) (gliederung.tex [4] [5]) (zeitplan.tex
-<images/ganttG1.png, id=193, 1000.33725pt x 290.2845pt>
-File: images/ganttG1.png Graphic file (type png)
-<use images/ganttG1.png>
-Package pdftex.def Info: images/ganttG1.png  used on input line 24.
-(pdftex.def)             Requested size: 430.13663pt x 124.8199pt.
-<images/ganttG2.png, id=195, 980.463pt x 290.2845pt>
-File: images/ganttG2.png Graphic file (type png)
-<use images/ganttG2.png>
-Package pdftex.def Info: images/ganttG2.png  used on input line 26.
-(pdftex.def)             Requested size: 421.59087pt x 124.8199pt.
-<images/ganttG3.png, id=196, 979.86075pt x 290.2845pt>
-File: images/ganttG3.png Graphic file (type png)
-<use images/ganttG3.png>
-Package pdftex.def Info: images/ganttG3.png  used on input line 28.
-(pdftex.def)             Requested size: 421.33191pt x 124.8199pt.
-
-Overfull \hbox (3.34528pt too wide) in paragraph at lines 24--29
-[][] 
+) (zielsetzung.tex
+Overfull \hbox (6.39409pt too wide) in paragraph at lines 14--15
+[]\T1/aer/m/n/12 In der Ar-beit gilt es vor allem die kom-plexen Kon-fig-u-ra-t
+ions-möglichkeiten der Domäne
  []
 
-) [6 <./images/ganttG1.png> <./images/ganttG2.png> <./images/ganttG3.png>]
+[2]) (forschungsstand.tex [3] [4] [5]) (konzept.tex) (gliederung.tex [6])
+[7] [8
+
+]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 195.
+
+
+("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+[9
+
+]
+Overfull \hbox (26.01839pt too wide) in paragraph at lines 199--199
+\T1/aer/m/n/12 default / les / le / import / Bitkom -[] Pressekonferenz -[] S
+martphone -[] Markt -[] Konjunktur -[]
+ []
+
+
 Overfull \hbox (53.22603pt too wide) in paragraph at lines 199--199
 []\T1/aer/m/it/12 Chatfuel dash-board\T1/aer/m/n/12 . [][]$https : / / dashboar
 d . chatfuel . com / # / bot / 5bea8fd30ecd9f4c8c0dd458 /
@@ -1952,29 +1951,7 @@ Overfull \hbox (17.19135pt too wide) in paragraph at lines 199--199
 T1/aer/m/n/12 . [][]$http : / / doc . aldebaran .
  []
 
-
-Overfull \hbox (9.87956pt too wide) in paragraph at lines 199--199
-\T1/aer/m/n/12 mann, Dr. Mar-tina Bunge, weit-erer Ab-ge-ord-neter und der Frak
--tion DIE LINKE.,
- []
-
-[7
-
-
-]
-Overfull \hbox (12.5857pt too wide) in paragraph at lines 199--199
-\T1/aer/m/n/12 gesund-heit (DEGS1-MH). In: \T1/aer/m/it/12 Ner-ve-narzt \T1/ae
-r/m/n/12 85.1 (2014), pp. 7787. \T1/aer/m/sc/12 issn\T1/aer/m/n/12 : 14330407.
- 
- []
-
-
-Overfull \hbox (10.65977pt too wide) in paragraph at lines 199--199
-\T1/aer/m/n/12 gesundheit -[] und -[] medizin / behandlungen -[] und -[] medizi
-n / psychische -[] erkrankungen /
- []
-
-[8] [9] [10
+[10] [11] [12
 
 ]
 No file MasterThesis.ind.
@@ -1988,20 +1965,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: A2A8FE56BB1ABA3BDA04A488A914D39D;717.
+(rerunfilecheck)             Checksum: C01C64DFA70E2E508E4995369D60CE27;855.
 Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 \openout1 = `MasterThesis.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 50928 strings out of 492946
- 1139885 string characters out of 3126267
- 1480005 words of memory out of 3000000
- 54015 multiletter control sequences out of 15000+200000
- 570068 words of font info for 90 fonts, out of 3000000 for 9000
+ 50965 strings out of 492946
+ 1140923 string characters out of 3126267
+ 1480036 words of memory out of 3000000
+ 54038 multiletter control sequences out of 15000+200000
+ 573535 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,136p,1665b,2839s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,1762b,2835s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmcsc10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/
@@ -2011,10 +1988,11 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/le
 ise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.p
 fb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on MasterThesis.pdf (11 pages, 342341 bytes).
+ublic/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MasterThesis.pdf (13 pages, 250185 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
