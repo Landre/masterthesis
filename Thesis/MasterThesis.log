@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  6 AUG 2019 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  8 AUG 2019 17:46
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -1757,24 +1757,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 sh.lbx"
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 ) (MasterThesis.aux (titlepage.aux) (statement.aux) (introduction.aux)
-(background.aux) (analysis.aux
-
-LaTeX Warning: Label `methVorgehen' multiply defined.
-
-
-LaTeX Warning: Label `methVorgehen' multiply defined.
-
-
-LaTeX Warning: Label `methVorgehen' multiply defined.
-
-
-LaTeX Warning: Label `methVorgehen' multiply defined.
-
-
-LaTeX Warning: Label `methVorgehen' multiply defined.
-
-) (design.aux) (implementation.aux) (evaluation.aux) (futurework.aux)
-(summary.aux))
+(background.aux) (analysis.aux) (design.aux) (implementation.aux)
+(evaluation.aux) (futurework.aux) (summary.aux))
 \openout1 = `MasterThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
@@ -1934,12 +1918,12 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 8.
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box83
-<logos/KIT_Deckblatt.pdf, id=154, 597.23125pt x 845.1575pt>
+<logos/KIT_Deckblatt.pdf, id=170, 597.23125pt x 845.1575pt>
 File: logos/KIT_Deckblatt.pdf Graphic file (type pdf)
 <use logos/KIT_Deckblatt.pdf>
 Package pdftex.def Info: logos/KIT_Deckblatt.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50787pt x 845.6068pt.
-<logos/TECO_KIT.pdf, id=155, 537.00626pt x 139.52126pt>
+<logos/TECO_KIT.pdf, id=171, 537.00626pt x 139.52126pt>
 File: logos/TECO_KIT.pdf Graphic file (type pdf)
 <use logos/TECO_KIT.pdf>
 Package pdftex.def Info: logos/TECO_KIT.pdf  used on input line 19.
@@ -2023,69 +2007,6 @@ l.191 \cleardoublepage
 
  (introduction.tex
 Chapter 1.
-
-LaTeX Warning: Citation 'GoogleAl38:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'KassenSc50:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'Wysayour57:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'Wysayour57:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'WoebotYo93:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'TessArti99:online' on page 1 undefined on input line 4
-4.
-
-
-LaTeX Warning: Citation 'Fitzpatrick2017' on page 1 undefined on input line 44.
-
-
-
-Overfull \hbox (68.96022pt too wide) in paragraph at lines 44--45
-\T1/aer/m/n/12 lun-gen ent-ge-gen (vgl. [[]]) oder wirken als Coach (vgl. [][][
-][[]])
- []
-
-
-LaTeX Warning: Citation 'SWB-11524946X' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'SWB-481290869' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'SWB-481290869' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Citation 'AppStore21:online' on page 1 undefined on input line 4
-6.
-
-
-LaTeX Warning: Citation 'Zukunftd37:online' on page 1 undefined on input line 4
-6.
-
-
-LaTeX Warning: Citation 'Smartpho6:online' on page 1 undefined on input line 46
-.
-
-
-LaTeX Warning: Citation 'Fitzpatrick2017' on page 1 undefined on input line 48.
-
-
-
-LaTeX Warning: Citation 'WoebotYo93:online' on page 1 undefined on input line 4
-8.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -2095,18 +2016,6 @@ l.49
 
 
 ]
-
-LaTeX Warning: Citation 'Fitzpatrick2017' on page 2 undefined on input line 52.
-
-
-
-LaTeX Warning: Citation 'Gratch2014' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'MPGnicht8:online' on page 2 undefined on input line 58
-.
-
-
 Overfull \hbox (0.76598pt too wide) in paragraph at lines 58--59
 \T1/aer/m/n/12 Chat-bots für Psy-cholo-gen noch im-mer eine Hürde. Zwar gibt es
  zahlre-iche Baukästen
@@ -2118,79 +2027,89 @@ Overfull \hbox (6.39409pt too wide) in paragraph at lines 69--70
 ions-möglichkeiten der Domäne
  []
 
-[3] [4]) [5]
+[3]) [4]
 \openout2 = `background.aux'.
 
- (background.tex [6
+ (background.tex
+Chapter 2.
+
+Overfull \hbox (23.48897pt too wide) in paragraph at lines 16--17
+\T1/aer/m/n/12 Projekts ist die En-twick-lung eines Soft-ware-tools, mit dessen
+ Hilfe An-wen-der (medizinisch-
+ []
+
+[5
 
 
 
 ]
-Chapter 2.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 11.
-LaTeX Font Info:    No file TS1aer.fd. on input line 11.
+<pictures/TherapyBuilder.png, id=328, 1083.29718pt x 462.97969pt>
+File: pictures/TherapyBuilder.png Graphic file (type png)
+<use pictures/TherapyBuilder.png>
+Package pdftex.def Info: pictures/TherapyBuilder.png  used on input line 22.
+(pdftex.def)             Requested size: 426.79135pt x 182.39812pt.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 42.
+LaTeX Font Info:    No file TS1aer.fd. on input line 42.
+
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 11.
+(Font)              for symbol `textbullet' on input line 42.
 
-[7]) [8]
+[6 <./pictures/TherapyBuilder.png>]) [7]
 \openout2 = `analysis.aux'.
 
- (analysis.tex [9
+ (analysis.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
 
 
-] [10] [11]
+] [9]
 
-LaTeX Warning: Citation 'ManyChat78:online' on page 12 undefined on input line 
-78.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (59.95633pt too wide) in paragraph at lines 78--79
-\T1/aer/m/n/12 diese sich vornehm-lich auf Mar-ket-ing, Ver-trieb und Sup-port.
-(vgl. [[][]6[][]] [[][]8[][]] [[]])
- []
-
-[12]) [13]
+[10] [11]) [12]
 \openout2 = `design.aux'.
 
- (design.tex [14
+ (design.tex
+Chapter 3.
+) [13
 
 
 
 ]
-Chapter 3.
-) [15]
 \openout2 = `implementation.aux'.
 
- (implementation.tex [16
+ (implementation.tex [14
 
 
 
 ]
 Chapter 4.
-) [17]
+) [15]
 \openout2 = `evaluation.aux'.
 
- (evaluation.tex [18
+ (evaluation.tex [16
 
 
 
 ]
 Chapter 5.
-) [19]
+) [17]
 \openout2 = `futurework.aux'.
 
- (futurework.tex [20
+ (futurework.tex [18
 
 
 
 ]
 Chapter 6.
-) [21]
+) [19]
 \openout2 = `summary.aux'.
 
- (summary.tex) [22
+ (summary.tex) [20
 
 
 
@@ -2207,9 +2126,22 @@ Overfull \hbox (17.19135pt too wide) in paragraph at lines 239--239
 T1/aer/m/n/12 . [][]$http : / / doc . aldebaran .
  []
 
-[23
+[21
 
-] [24]
+]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 235.
+
+ ("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Overfull \hbox (26.01839pt too wide) in paragraph at lines 239--239
+\T1/aer/m/n/12 default / les / le / import / Bitkom -[] Pressekonferenz -[] S
+martphone -[] Markt -[] Konjunktur -[]
+ []
+
+[22] [23] [24
+
+]
 No file MasterThesis.ind.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 39.
@@ -2223,21 +2155,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2F2EE0FFC897EE1377C6E687992ECFD3;2108.
+(rerunfilecheck)             Checksum: 67E057D9B294F0A43E7D52779F8EBBCE;2403.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                MasterThesis
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 \openout1 = `MasterThesis.run.xml'.
@@ -2245,13 +2166,13 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 51750 strings out of 492946
- 1158377 string characters out of 3126267
- 1656328 words of memory out of 3000000
- 54712 multiletter control sequences out of 15000+200000
- 573551 words of font info for 97 fonts, out of 3000000 for 9000
+ 51815 strings out of 492946
+ 1161004 string characters out of 3126267
+ 1658329 words of memory out of 3000000
+ 54780 multiletter control sequences out of 15000+200000
+ 573872 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,136p,1524b,2062s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,1756b,2853s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\leise\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/font
@@ -2262,10 +2183,11 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/leise
 :/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on MasterThesis.pdf (35 pages, 280358 bytes).
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MasterThesis.pdf (35 pages, 367198 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 367 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 
