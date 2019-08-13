@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  8 AUG 2019 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  13 AUG 2019 17:55
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2048,68 +2048,75 @@ File: pictures/TherapyBuilder.png Graphic file (type png)
 <use pictures/TherapyBuilder.png>
 Package pdftex.def Info: pictures/TherapyBuilder.png  used on input line 22.
 (pdftex.def)             Requested size: 426.79135pt x 182.39812pt.
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 42.
-LaTeX Font Info:    No file TS1aer.fd. on input line 42.
+
+Overfull \hbox (10.30621pt too wide) in paragraph at lines 32--33
+\T1/aer/m/n/12 kann später über die Therapeuten-Plattform der entsprechen-den Z
+iel-gruppe zugänglich
+ []
+
+[6 <./pictures/TherapyBuilder.png>]
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 46.
+LaTeX Font Info:    No file TS1aer.fd. on input line 46.
 
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 42.
+(Font)              for symbol `textbullet' on input line 46.
 
-[6 <./pictures/TherapyBuilder.png>]) [7]
+[7]) [8]
 \openout2 = `analysis.aux'.
 
  (analysis.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8
+[9
 
 
-] [9]
+] [10]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11]) [12]
+[11] [12]) [13]
 \openout2 = `design.aux'.
 
- (design.tex
-Chapter 3.
-) [13
+ (design.tex [14
 
 
 
 ]
+Chapter 3.
+) [15]
 \openout2 = `implementation.aux'.
 
- (implementation.tex [14
+ (implementation.tex [16
 
 
 
 ]
 Chapter 4.
-) [15]
+) [17]
 \openout2 = `evaluation.aux'.
 
- (evaluation.tex [16
+ (evaluation.tex [18
 
 
 
 ]
 Chapter 5.
-) [17]
+) [19]
 \openout2 = `futurework.aux'.
 
- (futurework.tex [18
+ (futurework.tex [20
 
 
 
 ]
 Chapter 6.
-) [19]
+) [21]
 \openout2 = `summary.aux'.
 
- (summary.tex) [20
+ (summary.tex) [22
 
 
 
@@ -2126,7 +2133,7 @@ Overfull \hbox (17.19135pt too wide) in paragraph at lines 239--239
 T1/aer/m/n/12 . [][]$http : / / doc . aldebaran .
  []
 
-[21
+[23
 
 ]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 235.
@@ -2139,7 +2146,7 @@ Overfull \hbox (26.01839pt too wide) in paragraph at lines 239--239
 martphone -[] Markt -[] Konjunktur -[]
  []
 
-[22] [23] [24
+[24] [25] [26
 
 ]
 No file MasterThesis.ind.
@@ -2166,8 +2173,8 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 51815 strings out of 492946
- 1161004 string characters out of 3126267
+ 51817 strings out of 492946
+ 1161018 string characters out of 3126267
  1658329 words of memory out of 3000000
  54780 multiletter control sequences out of 15000+200000
  573872 words of font info for 98 fonts, out of 3000000 for 9000
@@ -2185,9 +2192,9 @@ cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (35 pages, 367198 bytes).
+Output written on MasterThesis.pdf (37 pages, 371053 bytes).
 PDF statistics:
- 604 PDF objects out of 1000 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
+ 615 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  404 words of extra memory for PDF output out of 10000 (max. 10000000)
 
