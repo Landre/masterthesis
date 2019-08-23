@@ -34,15 +34,26 @@ Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in vers
 
 \subsection{Konstruktionsprinzip versus Konfigurationsprinzip}
 
-\subsubsection{Konstruktionsprinzip}
+Die Programme \emph{TherapyBuilder} und \emph{MovisensXS}, der Studie, unterscheiden sich maßgeblich in der Herangehensweise der Einstellung der Trigger. Während \emph{TherapyBuilder} das Konfigurationsprinzip verfolgt, nutzt \emph{MovisensXS} das Konstruktuionsprinzip. Die Studienergebnisse beider Ansätze werden zunächst getrennt betrachtet. Für diese Betrachtung werden vorerst die Ergebnisse der Fragebögen herangezogen. Abschließend erfolgt die Gegenüberstellung beider Ansätze. 
+
+\subsubsection{Ergebnisbeschreibung des Konstruktionsprinzips}
+
+Das Konstruktionsprinzip bietet das Einstellen der Trigger durch das Zusammensetzen und Verschalten einzelner Blöcke mit unterschiedlichen Funktionen. Wie in Abbildung \ref{konstruktion} dargestellt, bildet sich aus der Anordnung ein Baum aus verschiedenen Blöcken. Die Blöcke unterscheiden sich farblich und folgen dem Ampelprinzip.  
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/konstruktion}
-\caption{Architektur des \emph{konstruktion}}
+\caption{Das Konstruktionsprinzip des MovisensXS. Blöcke werden miteinander verschaltet.}
 \label{konstruktion}
 \end{figure}
 
-\subsubsection{Konfigurationsprinzip}
+Die Probanden gaben nach der Aufgabenbearbeitung an, dass sie die Darstellung der Trigger als zumeist schon verständlich empfanden mit einer leichten Tendenz zu zum Teil verständlich. Dies wird auch durch die Freitext-Aussagen der Probanden gestützt. Fünfundsiebzig Prozent der Probanden gingen auf die positive Auswirkung der farblichen Kodierung. Zum einen wurde beschrieben, dass diese die Orientierung innerhalb des Baumes erleichtern und die Funktion sowie Abfolge der Bausteine gut beschreiben.
+
+Die Verständlichkeit der Einstellungsmöglichkeiten wurde von den Probanden sehr unterschiedlich bewertet. Im Schnitt wird diese als zum Teil verständlich und zumeist schon verständlich empfunden. 
+
+
+
+\subsubsection{Ergebnisbeschreibung des Konfigurationsprinzip}
 
 \begin{figure}[h]
 \centering
@@ -53,6 +64,56 @@ Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in vers
 
 
 \subsubsection{Gegenüberstellung}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/therapieuebersicht}
+\caption{Architektur des \emph{konfiguration}}
+\label{therapieuebersicht}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/triggerdarstellung}
+\caption{Architektur des \emph{konfiguration}}
+\label{triggerdarstellung}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/triggereinstellung}
+\caption{Architektur des \emph{konfiguration}}
+\label{triggereinstellung}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/konversationzeitldarstellung}
+\caption{Architektur des \emph{konfiguration}}
+\label{konversationzeitldarstellung}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/konversationenabhaeng}
+\caption{Architektur des \emph{konfiguration}}
+\label{konversationenabhaeng}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/konversationenuebersicht}
+\caption{Architektur des \emph{konfiguration}}
+\label{konversationenuebersicht}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/konversationverzweigung}
+\caption{Architektur des \emph{konfiguration}}
+\label{konversationverzweigung}
+\end{figure}
+
 
 
 \subsection{Sprünge versus Sichtbarkeitsregeln}
@@ -100,19 +161,7 @@ Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in vers
 \label{konversationeinstellung}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/konversationenabhaeng}
-\caption{Architektur des \emph{konfiguration}}
-\label{konversationenabhaeng}
-\end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/konversationenuebersicht}
-\caption{Architektur des \emph{konfiguration}}
-\label{konversationenuebersicht}
-\end{figure}
 
 \begin{figure}[h]
 \centering
@@ -123,52 +172,11 @@ Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in vers
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/konversationverzweigung}
-\caption{Architektur des \emph{konfiguration}}
-\label{konversationverzweigung}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/konversationzeitldarstellung}
-\caption{Architektur des \emph{konfiguration}}
-\label{konversationzeitldarstellung}
-\end{figure}
-
-\begin{figure}[h]
-\centering
 \includegraphics[width=1\textwidth]{pictures/diagramme/konvverzweig}
 \caption{Architektur des \emph{konfiguration}}
 \label{konvverzweig}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/therapieuebersicht}
-\caption{Architektur des \emph{konfiguration}}
-\label{therapieuebersicht}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/triggerdarstellung}
-\caption{Architektur des \emph{konfiguration}}
-\label{triggerdarstellung}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/triggereinstellung}
-\caption{Architektur des \emph{konfiguration}}
-\label{triggereinstellung}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/diagramme/triggereinstellung}
-\caption{Architektur des \emph{konfiguration}}
-\label{triggereinstellung}
-\end{figure}
 
 \begin{figure}[h]
 \centering

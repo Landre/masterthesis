@@ -34,12 +34,12 @@
 \contentsline {section}{\numberline {6.1}Deskriptive Statistik}{21}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Beschreibung der Ergebnisse}{22}{section.6.2}% 
 \contentsline {subsection}{\numberline {6.2.1}Konstruktionsprinzip versus Konfigurationsprinzip}{23}{subsection.6.2.1}% 
-\contentsline {subsubsection}{\numberline {6.2.1.1}Konstruktionsprinzip}{23}{subsubsection.6.2.1.1}% 
-\contentsline {subsubsection}{\numberline {6.2.1.2}Konfigurationsprinzip}{23}{subsubsection.6.2.1.2}% 
+\contentsline {subsubsection}{\numberline {6.2.1.1}Ergebnisbeschreibung des Konstruktionsprinzips}{23}{subsubsection.6.2.1.1}% 
+\contentsline {subsubsection}{\numberline {6.2.1.2}Ergebnisbeschreibung des Konfigurationsprinzip}{24}{subsubsection.6.2.1.2}% 
 \contentsline {subsubsection}{\numberline {6.2.1.3}Gegen\IeC {\"u}berstellung}{24}{subsubsection.6.2.1.3}% 
 \contentsline {subsection}{\numberline {6.2.2}Spr\IeC {\"u}nge versus Sichtbarkeitsregeln}{24}{subsection.6.2.2}% 
 \contentsline {subsubsection}{\numberline {6.2.2.1}Spr\IeC {\"u}nge}{24}{subsubsection.6.2.2.1}% 
 \contentsline {subsubsection}{\numberline {6.2.2.2}Sichtbarkeitsregeln}{24}{subsubsection.6.2.2.2}% 
 \contentsline {subsubsection}{\numberline {6.2.2.3}Gegen\IeC {\"u}berstellung}{24}{subsubsection.6.2.2.3}% 
 \contentsline {chapter}{\numberline {7}Ausblick}{33}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{35}{section*.32}% 
+\contentsline {chapter}{Bibliography}{35}{section*.31}% 
