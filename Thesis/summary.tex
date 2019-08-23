@@ -34,7 +34,7 @@ Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in vers
 
 \subsection{Konstruktionsprinzip versus Konfigurationsprinzip}
 
-Die Programme \emph{TherapyBuilder} und \emph{MovisensXS}, der Studie, unterscheiden sich maßgeblich in der Herangehensweise der Einstellung der Trigger. Während \emph{TherapyBuilder} das Konfigurationsprinzip verfolgt, nutzt \emph{MovisensXS} das Konstruktuionsprinzip. Die Studienergebnisse beider Ansätze werden zunächst getrennt betrachtet. Für diese Betrachtung werden vorerst die Ergebnisse der Fragebögen herangezogen. Abschließend erfolgt die Gegenüberstellung beider Ansätze. 
+Die Prototypen \emph{TherapyBuilder} und \emph{MovisensXS}, der Studie, unterscheiden sich maßgeblich in der Herangehensweise der Einstellung der Trigger. Während \emph{TherapyBuilder} das Konfigurationsprinzip verfolgt, nutzt \emph{MovisensXS} das Konstruktuionsprinzip. Die Studienergebnisse beider Ansätze werden zunächst getrennt betrachtet. Für diese Betrachtung werden vorerst die Ergebnisse der Fragebögen herangezogen. Abschließend erfolgt die Gegenüberstellung beider Ansätze. 
 
 \subsubsection{Ergebnisbeschreibung des Konstruktionsprinzips}
 
@@ -47,13 +47,26 @@ Das Konstruktionsprinzip bietet das Einstellen der Trigger durch das Zusammenset
 \label{konstruktion}
 \end{figure}
 
-Die Probanden gaben nach der Aufgabenbearbeitung an, dass sie die Darstellung der Trigger als zumeist schon verständlich empfanden mit einer leichten Tendenz zu zum Teil verständlich. Dies wird auch durch die Freitext-Aussagen der Probanden gestützt. Fünfundsiebzig Prozent der Probanden gingen auf die positive Auswirkung der farblichen Kodierung. Zum einen wurde beschrieben, dass diese die Orientierung innerhalb des Baumes erleichtern und die Funktion sowie Abfolge der Bausteine gut beschreiben.
+Die Probanden gaben nach der Aufgabenbearbeitung an, dass sie die Darstellung der Trigger als zumeist schon verständlich empfanden mit einer leichten Tendenz zu zum Teil verständlich. Dies wird auch durch die Freitext-Aussagen der Probanden gestützt. Fünfundsiebzig Prozent der Probanden gingen auf die positive Auswirkung der farblichen Kodierung ein. Zum einen wurde beschrieben, dass diese die Orientierung innerhalb des Baumes erleichtern und die Funktion sowie Abfolge der Bausteine gut beschreiben.
 
-Die Verständlichkeit der Einstellungsmöglichkeiten wurde von den Probanden sehr unterschiedlich bewertet. Im Schnitt wird diese als zum Teil verständlich und zumeist schon verständlich empfunden. 
+Die Verständlichkeit der Einstellungsmöglichkeiten der Trigger wurde von den Probanden sehr unterschiedlich bewertet. Im Schnitt wird diese als zum Teil verständlich und zumeist schon verständlich empfunden. Positiv wurde von einem Probanden die vielen möglichen Trigger-Optionen hervorgehoben.
 
+Während des Durcharbeitens der Aufgaben wurden die Probanden in der Trigger-Ansicht mit Verzweigungen zwischen einzelner Konversationen konfrontiert. Diese wurden im MovisensXS als zum Teil verständlich empfunden. Diese Auswertung findet sich auch in den Aussagen wieder. Die Hälfte der Probanden gibt an, dass die Baumdarstellung bei vielen Bausteinen schnell unübersichtlich wirkt. 
+
+Innerhalb des Baumes kann abgeleitet werden, welche Konversationen im Laufe des Therapiemoduls gestartet werden. Das Auffinden dieser Konversationen bewerteten die Probanden als eher gut. Dies findet sich auch in der bereits erwähnten Aussage der Probanden über die Unübersichtlichkeit der Darstellung wieder. 
+
+Auch empfanden es die Probanden als eher schwierig die zeitliche Abfolge der Konversationen nachzuvollziehen. Im Schnitt bewerteten sie auch diese eher gut mit leichter Tendenz zu mäßig. Ein Proband beschrieb, dass der Baum nicht auf den ersten Blick erkennen lässt, was dieser Bedeutet. Ein weiterer merkte an, dass die Darstellung für den entsprechenden Zweck nicht sehr intuitiv ist. 
+
+Das Anordnen der Bausteine zur Konfiguration der Trigger empfanden die Probanden im Schnitt gut verständlich. Dies wurde auch von den Probanden positiv hervorgehoben. Zwei Probanden beschreiben, dass das Baukasten-Prinzip die Konfiguration erleichtert. Ein Proband weißt ebenfalls auf die bereits erwähnte Vielfalt der Trigger-Optionen hin. Darüberhinaus wurde von knapp vierzig Prozent die Anordnung der Bausteine via Drag and Drop positiv hervorgehoben.
+
+Die Abhängigkeiten ließen sich hingegen nicht so gut erkennen. Im Schnitt tendiert die Einschätzung der Probanden eher zu einer eher guten Darstellung der Abhängigkeiten zwischen verschiedenen Konversationen. Dies kann erneut mit der, von den Probanden mehrfach genannte, Unübersichtlichkeit in Verbindung gebracht werden. 
+
+Insgesamt empfanden die Probanden die Übersichtlichkeit der Therapie und deren Verlauf als eher mäßig. Ein Proband gab an, dass die Therapie für ihn schlecht zu überschauen ist. Die restlichen Probanden hingegen bewerteten diese zwischen sehr gut bis eher gut. Dies spiegelt sich wiederum in der Aussage über die fehlende Übersichtlichkeit innerhalb der Baum-Darstellung wieder. Dies wurde - wie bereits erwähnt - von fünfzig Prozent der Probanden angemerkt. 
 
 
 \subsubsection{Ergebnisbeschreibung des Konfigurationsprinzip}
+
+Im Vergleich zum oben beschriebenen Konstruktionsprinzip, verwendet das Konfigurationsprinzip hauptsächlich eine Oberfläche in der Einstellungen via Steuerelemente vorgenommen werden können. Diese werden durch Formulare bereitgestellt wie in Abbildung \ref{konfiguration} verdeutlicht. Verschachteln von Triggern geschieht durch das Hinzufügen eines neuen Triggers zur jeweiligen Konversation. Basierend auf diesen Einstellungen wird ein Element im Zeitstrahl erzeugt, welches darstellt, wann eine Konversation gestartet wird, die Anzahl der Wiederholungen, Dauer sowie die Abhängigkeiten zu anderen Konversationen aufzeigt. 
 
 \begin{figure}[h]
 \centering
@@ -61,6 +74,7 @@ Die Verständlichkeit der Einstellungsmöglichkeiten wurde von den Probanden seh
 \caption{Architektur des \emph{konfiguration}}
 \label{konfiguration}
 \end{figure}
+
 
 
 \subsubsection{Gegenüberstellung}
@@ -114,6 +128,12 @@ Die Verständlichkeit der Einstellungsmöglichkeiten wurde von den Probanden seh
 \label{konversationverzweigung}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/diagramme/konversationverzweigung}
+\caption{Architektur des \emph{konfiguration}}
+\label{konversationverzweigung}
+\end{figure}
 
 
 \subsection{Sprünge versus Sichtbarkeitsregeln}

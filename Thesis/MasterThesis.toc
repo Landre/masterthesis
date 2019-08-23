@@ -26,7 +26,6 @@
 \contentsline {chapter}{\numberline {4}Entwicklung der Modellierungssprache}{17}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Konzept}{17}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Umsetzung}{17}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Evaluation}{17}{section.4.3}% 
 \contentsline {chapter}{\numberline {5}Ergebnisse}{19}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Zusammenfassung}{19}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Kritische Reflexion}{19}{section.5.2}% 
@@ -41,5 +40,5 @@
 \contentsline {subsubsection}{\numberline {6.2.2.1}Spr\IeC {\"u}nge}{24}{subsubsection.6.2.2.1}% 
 \contentsline {subsubsection}{\numberline {6.2.2.2}Sichtbarkeitsregeln}{24}{subsubsection.6.2.2.2}% 
 \contentsline {subsubsection}{\numberline {6.2.2.3}Gegen\IeC {\"u}berstellung}{24}{subsubsection.6.2.2.3}% 
-\contentsline {chapter}{\numberline {7}Ausblick}{33}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{35}{section*.31}% 
+\contentsline {chapter}{\numberline {7}Ausblick}{35}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{37}{section*.32}% 
