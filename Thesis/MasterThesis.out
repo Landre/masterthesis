@@ -25,20 +25,22 @@
 \BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 25
 \BOOKMARK [1][-]{section.4.1}{4.1 Konzept}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.2}{4.2 Umsetzung}{chapter.4}% 27
-\BOOKMARK [0][]{chapter.5}{5 Ergebnisse}{}% 28
-\BOOKMARK [1][-]{section.5.1}{5.1 Zusammenfassung}{chapter.5}% 29
-\BOOKMARK [1][-]{section.5.2}{5.2 Kritische Reflexion}{chapter.5}% 30
-\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 31
-\BOOKMARK [1][-]{section.6.1}{6.1 Deskriptive Statistik}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.2}{6.2 Beschreibung der Ergebnisse}{chapter.6}% 33
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Konstruktionsprinzip versus Konfigurationsprinzip}{section.6.2}% 34
-\BOOKMARK [3][-]{subsubsection.6.2.1.1}{6.2.1.1 Ergebnisbeschreibung des Konstruktionsprinzips}{subsection.6.2.1}% 35
-\BOOKMARK [3][-]{subsubsection.6.2.1.2}{6.2.1.2 Ergebnisbeschreibung des Konfigurationsprinzip}{subsection.6.2.1}% 36
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Spr\374nge versus Sichtbarkeitsregeln}{section.6.2}% 37
-\BOOKMARK [3][-]{subsubsection.6.2.2.1}{6.2.2.1 Spr\374nge}{subsection.6.2.2}% 38
-\BOOKMARK [3][-]{subsubsection.6.2.2.2}{6.2.2.2 Sichtbarkeitsregeln}{subsection.6.2.2}% 39
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Ergebnisbeschreibung der Abschlussfragerunde}{section.6.2}% 40
-\BOOKMARK [2][-]{subsection.6.2.4}{6.2.4 Gegen\374berstellung Konfiguration vs Konstruktion}{section.6.2}% 41
-\BOOKMARK [3][-]{subsubsection.6.2.4.1}{6.2.4.1 Gegen\374berstellung Spr\374nge vs Sichtbarkeit}{subsection.6.2.4}% 42
-\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 43
-\BOOKMARK [0][]{section*.31}{Bibliography}{}% 44
+\BOOKMARK [0][]{chapter.5}{5 Ergebnisbeschreibung}{}% 28
+\BOOKMARK [1][-]{section.5.1}{5.1 Deskriptive Statistik}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung der Ergebnisse der Zwischenfrageb\366gen}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Konstruktionsprinzip und Konfigurationsprinzip}{section.5.2}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.1.1}{5.2.1.1 Ergebnisbeschreibung des Konstruktionsprinzips}{subsection.5.2.1}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.1.2}{5.2.1.2 Ergebnisbeschreibung des Konfigurationsprinzip}{subsection.5.2.1}% 33
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Spr\374nge und Sichtbarkeitsregeln}{section.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Ergebnisbeschreibung der Spr\374nge}{subsection.5.2.2}% 35
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Ergebnisbeschreibung der Sichtbarkeitsregeln}{subsection.5.2.2}% 36
+\BOOKMARK [1][-]{section.5.3}{5.3 Ergebnisbeschreibung der Abschlussfragerunde}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Ergebnissbeschreibung Konfigurationsprinzip}{section.5.3}% 38
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Ergebnissbeschreibung Konstruktionsprinzip}{section.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Ergebnissbeschreibung Spr\374nge}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Ergebnissbeschreibung Sichtbarkeitsregeln}{section.5.3}% 41
+\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 42
+\BOOKMARK [1][-]{section.6.1}{6.1 Zusammenfassung}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 44
+\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 45
+\BOOKMARK [0][]{section*.47}{Bibliography}{}% 46
