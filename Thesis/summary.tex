@@ -27,10 +27,14 @@ Hinsichtlich der Vorerfahrungen bezüglich MovisensXS lassen sich für die Proba
 
 Basierend auf dieser Probandengruppe ist es für die Überprüfung der aufgestellten Hypothesen bedeutend, die jeweiligen Probanden zu framen. Hierfür werden zunächst Sinn der Studie und diverse Begriffe erläutert. Anschließend machen sich die Probanden zunächst mit dem jeweiligen Programm vertraut, welches betrachtet werden soll. Hierfür wird eine Aufgabe gestellt, die durch das Programm führt und den Probanden beim explorieren des jeweiligen Programms und dessen Funktionen anleitet. Während der Nutzung und der Bearbeitung der gestellten Aufgaben, werden Emotionen und Motivationen durch Kommentare des Probanden erfasst. Abschließend wird nach der aufgabengesteuerten Nutzung eines Programms eine erste Einschätzung in Form eines Fragebogens erfasst. Nach Bearbeitung aller Aufgaben und Verwendung beider Programme, werden die Programme in einer abschließenden Fragerunde miteinander verglichen. Dabei wird auf wesentliche Unterschiede beider Programme eingegangen. Erfasst werden hierbei die Einschätzung der Probanden, welche Eigenschaften sie im Vergleich als besonders Hilfreich, nicht Hilfreich empfanden. Auch welche Eigenschaften ihnen gefallen oder welche sie vermisst haben. Diese Einschätzungen werden in Relation zu den Ergebnissen der Fragebögen gesetzt um diese zu verargumentieren.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Beschreibung der Ergebnisse}
 
 Zunächst werden die Ergebnisse der Fragebögen betrachtet. Diese werden in verschiedene Kategorien eingeordnet, in denen sich die Ansätze maßgeblich unterscheiden. Die Einschätzungen der abschließenden Fragerunde der Studie werden ebenfalls betrachtet. Abschließend werden die Ergebnisse verknüpft und im Kontext der aufgestellten Hypothesen diskutiert. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Konstruktionsprinzip versus Konfigurationsprinzip}
 
@@ -91,7 +95,51 @@ Die Abhängigkeiten zwischen Konversationen ließen sich, laut den Probandenauss
 
 Im Gesamten wurde die Übersichtlichkeit der Therapie innerhalb des Konfigurationsprinzips als gut bewertet. Wobei sich hier eine leichte Tendenz zu sehr gut andeutet. Dies lässt sich auch aus den Freitext-Aussagen der Probanden ableiten. Hundert Prozent der Probanden gaben an, dass die Darstellung der Therapie in Form einer Timeline übersichtlich ist und ihnen gut gefallen hat. Außerdem lässt sich der gesamte Therapieverlauf gut ableiten.
 
-\subsubsection{Gegenüberstellung}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Sprünge versus Sichtbarkeitsregeln}
+
+Die Steuerung eines Konversationsverlaufs anhand verschiedener Bedingungen wird in beiden Prototypen auf unterschiedliche Art und Weise umgesetzt. \emph{movisensXS} verwendet Sichtbarkeitsregeln die angeben, wann ein Element, innerhalb einer Konversation, für eine bestimmte Gruppe sichtbar wird. Im \emph{TherapyBuilder} hingegen wurden Sprünge verwendet. Diese geben an wann eine Konversation aufgrund verschiedener Bedingungen verschiedene Verläufe annehmen kann. Auch die Darstellung einer Konversation unterscheidet sich in beiden Prototypen. Nachfolgend werden auch hier die Daten der Fragebögen hinsichtlich dieser beider Ansätze betrachtet und beschrieben. 
+
+\subsubsection{Sprünge}
+
+Zunächst werden die zugehörigen Daten der Methode des \emph{TherapyBuilders} untersucht. Wie in Abbildung \ref{spruenge} zu erkennen ist, wird der Konversationsverlauf, ähnlich eines herkömmlichen Chatverlaufs bekannter Technologien, versetzt dargestellt. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/spruenge}
+\caption{Architektur des \emph{spruenge}}
+\label{spruenge}
+\end{figure}
+
+Die Ausgaben des Chatbots werden in einer grauen Sprechblase abgebildet. Die Sprechblase ist nach links orientiert ausgerichtet. Die Eingabeformate des Anwenders werden in einer blauen Sprechblase dargestellt. Diese sind nach rechts orientiert. Der Gesprächsverlauf wird in sogenannten \emph{Lanes} dargestellt. Zunächst wird dieser innerhalb einer \emph{Lane} angelegt. Wird ein alternativer Gesprächsverlauf dargeboten, so wird dies durch eine Condition, in Form eines runden Elements, angedeutet. Dieses runde Element kann entsprechend der Bedingung eingestellt werden und bestimmt, in welcher \emph{Lane} der alternative Gesprächsverlauf weitergeführt wird. 
+
+
+Hinsichtlich der Darstellung der Konversationen beurteilten die Probanden diese als voll und ganz verständlich. Dies lässt sich auch in den Freitexten der Probanden wiederfinden. Knapp achtundachtzig Prozent der Aussagen äußern sich positiv über die Darstellung der Konversationen. So gefällt im allgemeinen die zeitliche Abfolge, die Gestaltung wie auch die Übersichtlichkeit. 
+
+Die Einstellungsmöglichkeiten der Konversationen empfanden die Probanden im Schnitt als voll und ganz verständlich. Sie tendierten leicht zu zumeist verständlich. Ein Proband äußerte sich auch positiv über die Möglichkeit, die Konversation in dem dargestellten Ablauf zu bearbeiten. Ein weiterer merkte die vielen Einstellungsmöglichkeiten an, die dennoch nicht visuell erschlagen.
+
+Bezüglich des Konversationsverlaufs und dessen Übersichtlichkeit äußerten die Probanden, dass diese im Schnitt als sehr gut empfunden wird. Dabei gibt es eine sehr leichte Tendenz zu \emph{als gut empfunden}. Die Freitext-Aussagen bekräftigen dies. Hier wird vermehrt auf die Übersichtlichkeit eingegangen. Die Hälfte der Probanden-Aussagen gaben dies unter den Punkten an, die ihnen am System am besten gefallen haben. Die Hälfte der Probanden gaben unter diese Punkt allgemein an, dass ihnen die Darstellung der Konversationen gefallen hat.
+
+Antwortoptionen eines Konversationsverlaufs wurden im Allgemeinen als Übersichtlich wahrgenommen. Im Schnitt wurde diese als sehr gut bewertet. Keiner der Probanden ging innerhalb der Freitext-Angaben weiter darauf ein.
+
+Verzweigungen innerhalb eines Konversationsverlaufs wurden ebenfalls im Schnitt als sehr gut verständlich empfunden. Es ließ sich hier eine leichte Tendenz zur Einschätzung \emph{gut verständlich} erkennen. Ein Proband schrieb, dass die Konditionen Sinn ergeben. Eine weitere Anmerkung weißte allerdings auf die Befürchtung hin, dass die Lane-Anordnung, die bei einer Verzweigung entsteht, bei mehr als drei Verzweigungen kompliziert werden könnte. Außerdem konnte ein Proband aus der Grafik nicht genau ableiten, welche Bedingungen und Entscheidungen zusammenhängen. 
+
+Die Werkzeugpalette zur Erstellung des Konversationsverlaufs wurde im Schnitt als sehr Übersichtlich, mit einer Tendenz zu gut Übersichtlich, wahrgenommen. Hier wurde von einem Probanden angemerkt, dass viele Einstellungsmöglichkeiten angeboten werden, ohne mit diesen visuell zu erschlagen. Auch die Aussage, dass die Konditionen Sinn ergeben, bekräftigen das Ergebnis der Fragebogen-Auswertung. 
+
+\subsubsection{Sichtbarkeitsregeln}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/sichtbarkeit}
+\caption{Architektur des \emph{sichtbarkeit}}
+\label{sichtbarkeit}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Gegenüberstellung Konfiguration vs Konstruktion}
 
 \begin{figure}[h]
 \centering
@@ -129,9 +177,6 @@ Im Gesamten wurde die Übersichtlichkeit der Therapie innerhalb des Konfiguratio
 \end{figure}
 
 
-
-
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/diagramme/konversationenabhaeng}
@@ -148,30 +193,7 @@ Im Gesamten wurde die Übersichtlichkeit der Therapie innerhalb des Konfiguratio
 
 
 
-
-\subsection{Sprünge versus Sichtbarkeitsregeln}
-
-\subsubsection{Sprünge}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/spruenge}
-\caption{Architektur des \emph{spruenge}}
-\label{spruenge}
-\end{figure}
-
-
-\subsubsection{Sichtbarkeitsregeln}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{pictures/sichtbarkeit}
-\caption{Architektur des \emph{sichtbarkeit}}
-\label{sichtbarkeit}
-\end{figure}
-
-
-\subsubsection{Gegenüberstellung}
+\subsubsection{Gegenüberstellung Sprünge vs Sichtbarkeit}
 
 \begin{figure}[h]
 \centering
