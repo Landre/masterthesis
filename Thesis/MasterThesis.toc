@@ -38,7 +38,8 @@
 \contentsline {subsection}{\numberline {6.2.2}Spr\IeC {\"u}nge versus Sichtbarkeitsregeln}{26}{subsection.6.2.2}% 
 \contentsline {subsubsection}{\numberline {6.2.2.1}Spr\IeC {\"u}nge}{26}{subsubsection.6.2.2.1}% 
 \contentsline {subsubsection}{\numberline {6.2.2.2}Sichtbarkeitsregeln}{28}{subsubsection.6.2.2.2}% 
-\contentsline {subsection}{\numberline {6.2.3}Gegen\IeC {\"u}berstellung Konfiguration vs Konstruktion}{28}{subsection.6.2.3}% 
-\contentsline {subsubsection}{\numberline {6.2.3.1}Gegen\IeC {\"u}berstellung Spr\IeC {\"u}nge vs Sichtbarkeit}{28}{subsubsection.6.2.3.1}% 
+\contentsline {subsection}{\numberline {6.2.3}Ergebnisbeschreibung der Abschlussfragerunde}{29}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.4}Gegen\IeC {\"u}berstellung Konfiguration vs Konstruktion}{29}{subsection.6.2.4}% 
+\contentsline {subsubsection}{\numberline {6.2.4.1}Gegen\IeC {\"u}berstellung Spr\IeC {\"u}nge vs Sichtbarkeit}{29}{subsubsection.6.2.4.1}% 
 \contentsline {chapter}{\numberline {7}Ausblick}{37}{chapter.7}% 
 \contentsline {chapter}{Bibliography}{39}{section*.31}% 

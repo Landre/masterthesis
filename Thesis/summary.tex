@@ -104,7 +104,7 @@ Die Steuerung eines Konversationsverlaufs anhand verschiedener Bedingungen wird 
 
 \subsubsection{Sprünge}
 
-Zunächst werden die zugehörigen Daten der Methode des \emph{TherapyBuilders} untersucht. Wie in Abbildung \ref{spruenge} zu erkennen ist, wird der Konversationsverlauf, ähnlich eines herkömmlichen Chatverlaufs bekannter Technologien, versetzt dargestellt. 
+Zunächst werden die zugehörigen Daten der Methode, die im \emph{TherapyBuilder} zum Einsatz kam, untersucht. Wie in Abbildung \ref{spruenge} zu erkennen ist, wird der Konversationsverlauf, ähnlich eines herkömmlichen Chatverlaufs bekannter Technologien, versetzt dargestellt. 
 
 \begin{figure}[h]
 \centering
@@ -130,12 +130,34 @@ Die Werkzeugpalette zur Erstellung des Konversationsverlaufs wurde im Schnitt al
 
 \subsubsection{Sichtbarkeitsregeln}
 
+Die Sichtbarkeitsregeln unterscheiden sich maßgeblich von dem Konzept der Sprünge, die zuvor betrachtet wurden. Die Sichtbarkeit eines Elements, welches einen Teil einer Konversation darstellt, wird anhand eines Icons, in Form eines Auges, angedeutet. Die Einstellungsmöglichkeit der Sichtbarkeit erscheint, sobald der Nutzer den Mauszeiger über eines der Elemente bewegt. Anschließend kann, durch ein Klick auf das Auge, die Einstellung der Sichtbarkeitsregel vorgenommen werden. Hier wird entschieden, für welche Gruppe das entsprechende Element im Gesprächsverlauf erscheint. Diese Einstellung wird anhand einer Regel festgelegt. Diese Regel prüft ein oder mehrere Variablen ab. Wurde eine solche Regel einem Element hinterlegt, so erscheint an diesem das Augensymbol dauerhaft, wie in Abbildung \ref{sichtbarkeit} zu sehen ist. Darüber hinaus werden die Dialoge des Konversationsverlaufs anhand von Forms zusammengesetzt. Diese beinhalten entweder nur einen Chatbot-Output oder Chatbot-Output und Input des Nutzers. 
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/sichtbarkeit}
 \caption{Architektur des \emph{sichtbarkeit}}
 \label{sichtbarkeit}
 \end{figure}
+
+Dieses Konzept wurde ebenfalls von den Probanden bewertet. Aus der Bewertung lassen sich folgende Aussagen treffen. 
+
+Auf Basis der Sichtbarkeitsregel und dem Design des Konversationsverlaufs wurde die Darstellung der Konversationen generell als zumeist verständlich bewertet. Es lässt sich eine leichte Tendenz erkennen, die angibt, dass die Darstellung zum Teil verständlich ist. Die Probandenaussagen der Freitexte untermauern die Bewertung. Es wurden bezüglich der Darstellung keine Punkte genannt, die den Probanden besonders positiv hervorstach. Hingegen wurden mehrere Aussagen getroffen, welche die Darstellung der Konversationen bemängeln. Etwas mehr als sechzig Prozent der Nutzer haben sich diesbezüglich negativ geäußert.
+
+Die Einstellungmsöglichkeiten der Konversationen wurde von den Probanden ebenfalls als zumeist verständlich, mit leichter Tendenz zu zum Teil verständlich, wahrgenommen. Hier wurde in knapp achtunddreißig Prozent der Aussagen die Vielfalt der Einstellungsmöglichkeiten positiv hervorgehoben. Auch die Kategorisierung der Einstellungsmöglichkeiten wurde einmal positiv erwähnt. Hingegen wurde ebenfalls in achtunddreißig Prozent der Aussagen die Unterscheidbarkeit zwischen Chatbot-Output und Patient-Input Elementen, innerhalb des Werkzeugkastens, bemängelt. Diese unterscheiden sich kaum. 
+
+Als gut, mit starker Tendenz zu eher gut, wurde im Schnitt die Übersichtlichkeit des Konversationsverlaufs bewertet. Vier der Freitextaussagen bemängeln die Übersicht der Konversationen. Zum einen sei der zeitliche sowie der generelle Verlauf schwer nachvollziehbar.
+
+Die Übersichtlichkeit der Antwortoptionen innerhalb eines Konversationsverlauf wurden von den Probanden im Schnitt als gut empfunden. Die durchschnittliche Bewertung weist dabei eine starke Tendenz zu \emph{eher gut} auf. Dies lässt sich auch in den schriftlichen Aussagen der Probanden wiederfinden. Vier Aussagen äußern sich negativ zur Darstellung des Verlaufs. Keine Aussage geht speziell auf die Antwortoptionen ein. 
+
+Als eher gut bewerteten die Probanden im Schnitt die Verständlichkeit der Verzweigungen innerhalb einer Konversation. Hierzu passen die Freitext-Aussagen der Probanden, die angaben, dass die Übersicht des zeitlichen Verlaufs fehle und somit für diese Probanden eher schwer nachvollziehbar ist. Diese Aussage trafen fünfzig Prozent. Ein Proband wies außerdem darauf hin, dass ihm unklar ist, woher die Variable stammt, die für die Verzweigung überprüft wird. 
+
+Im Schnitt bewerteten die Probanden die Übersichtlichkeit der Werkzeugpalette zur Erstellung des Konversationsverlaufs als gut. Auch hier zeigte sich eine starke Tendenz zur schlechteren Bewertung. Hier merkte ein Probanden an, dass der Zustand der Werkzeugpalette beim Öffnen des Konversationsreiters, hinderlich ist. Die Einstellungsmöglichkeiten des Chatbot-Outputs sind durch diesen leicht zu übersehen. 
+
+\subsection{Ergebnisbeschreibung der Abschlussfragerunde}
+
+Zur Gesamtbewertung der Systeme wurden die Probanden abschließend zur Studie über die Eigenschaften der Systeme befragt. Die Probanden sollten erläutern was sie innerhalb der verschiedenen Konzepte als hilfreich und nicht hilfreich empfunden haben. Außerdem sollten sie erläutern welche Punkte sie in den Ansätzen vermisst haben und was ihnen besonders gut gefallen hat. Befragt wurden sie direkt zum Konfigurations- und Konstruktionsprinzip sowie den Ansätzen der Steuerung des Konversationsflusses durch Sichtbarkeitsregeln und Sprüngen. Nachfolgend werden die Ergebnisse dargestellt.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
