@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  25 AUG 2019 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  25 AUG 2019 21:48
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2222,171 +2222,165 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 179--180
 te genannt wer-den. Diese
  []
 
-[29]
-<pictures/diagramme/triggerdarstellung.png, id=590, 181.1568pt x 108.8868pt>
+[29] [30] [31]) [32]
+\openout2 = `summary.aux'.
+
+ (summary.tex
+Chapter 6.
+<pictures/diagramme/triggerdarstellung.png, id=613, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/triggerdarstellung.png Graphic file (type png)
 <use pictures/diagramme/triggerdarstellung.png>
 Package pdftex.def Info: pictures/diagramme/triggerdarstellung.png  used on inp
-ut line 215.
+ut line 10.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-<pictures/diagramme/triggereinstellung.png, id=597, 181.1568pt x 108.8868pt>
+<pictures/diagramme/triggereinstellung.png, id=614, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/triggereinstellung.png Graphic file (type png)
 <use pictures/diagramme/triggereinstellung.png>
 Package pdftex.def Info: pictures/diagramme/triggereinstellung.png  used on inp
-ut line 222.
+ut line 17.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationverzweigung.png, id=598, 181.1568pt x 108.8868p
+<pictures/diagramme/konversationverzweigung.png, id=615, 181.1568pt x 108.8868p
 t>
 File: pictures/diagramme/konversationverzweigung.png Graphic file (type png)
 <use pictures/diagramme/konversationverzweigung.png>
 Package pdftex.def Info: pictures/diagramme/konversationverzweigung.png  used o
-n input line 229.
+n input line 24.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationzeitldarstellung.png, id=599, 181.1568pt x 108.
+<pictures/diagramme/konversationzeitldarstellung.png, id=616, 181.1568pt x 108.
 8868pt>
 File: pictures/diagramme/konversationzeitldarstellung.png Graphic file (type pn
 g)
 <use pictures/diagramme/konversationzeitldarstellung.png>
 Package pdftex.def Info: pictures/diagramme/konversationzeitldarstellung.png  u
-sed on input line 236.
+sed on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/therapieuebersicht.png, id=600, 181.1568pt x 108.8868pt>
+<pictures/diagramme/therapieuebersicht.png, id=617, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/therapieuebersicht.png Graphic file (type png)
 <use pictures/diagramme/therapieuebersicht.png>
 Package pdftex.def Info: pictures/diagramme/therapieuebersicht.png  used on inp
-ut line 243.
+ut line 38.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationenabhaeng.png, id=601, 181.1568pt x 108.8868pt>
+<pictures/diagramme/konversationenabhaeng.png, id=618, 181.1568pt x 108.8868pt>
 
 File: pictures/diagramme/konversationenabhaeng.png Graphic file (type png)
 <use pictures/diagramme/konversationenabhaeng.png>
 Package pdftex.def Info: pictures/diagramme/konversationenabhaeng.png  used on 
-input line 251.
+input line 46.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationenuebersicht.png, id=602, 181.1568pt x 108.8868
+<pictures/diagramme/konversationenuebersicht.png, id=619, 181.1568pt x 108.8868
 pt>
 File: pictures/diagramme/konversationenuebersicht.png Graphic file (type png)
 <use pictures/diagramme/konversationenuebersicht.png>
 Package pdftex.def Info: pictures/diagramme/konversationenuebersicht.png  used 
-on input line 258.
+on input line 53.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/antwortoptkonv.png, id=603, 181.1568pt x 108.8868pt>
+<pictures/diagramme/antwortoptkonv.png, id=620, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/antwortoptkonv.png Graphic file (type png)
 <use pictures/diagramme/antwortoptkonv.png>
 Package pdftex.def Info: pictures/diagramme/antwortoptkonv.png  used on input l
-ine 265.
+ine 60.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationdarstellung.png, id=604, 181.1568pt x 108.8868p
+<pictures/diagramme/konversationdarstellung.png, id=621, 181.1568pt x 108.8868p
 t>
 File: pictures/diagramme/konversationdarstellung.png Graphic file (type png)
 <use pictures/diagramme/konversationdarstellung.png>
 Package pdftex.def Info: pictures/diagramme/konversationdarstellung.png  used o
-n input line 272.
+n input line 67.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationeinstellung.png, id=605, 181.1568pt x 108.8868p
+<pictures/diagramme/konversationeinstellung.png, id=622, 181.1568pt x 108.8868p
 t>
 File: pictures/diagramme/konversationeinstellung.png Graphic file (type png)
 <use pictures/diagramme/konversationeinstellung.png>
 Package pdftex.def Info: pictures/diagramme/konversationeinstellung.png  used o
-n input line 279.
+n input line 74.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konversationverlfueber.png, id=606, 181.1568pt x 108.8868pt
+<pictures/diagramme/konversationverlfueber.png, id=623, 181.1568pt x 108.8868pt
 >
 File: pictures/diagramme/konversationverlfueber.png Graphic file (type png)
 <use pictures/diagramme/konversationverlfueber.png>
 Package pdftex.def Info: pictures/diagramme/konversationverlfueber.png  used on
- input line 288.
+ input line 81.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/konvverzweig.png, id=607, 181.1568pt x 108.8868pt>
+<pictures/diagramme/konvverzweig.png, id=624, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/konvverzweig.png Graphic file (type png)
 <use pictures/diagramme/konvverzweig.png>
 Package pdftex.def Info: pictures/diagramme/konvverzweig.png  used on input lin
-e 295.
+e 88.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/antwortendurchsch1.png, id=608, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch1.png, id=625, 1138.2525pt x 627.34375pt>
 File: pictures/diagramme/antwortendurchsch1.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch1.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch1.png  used on inp
-ut line 303.
+ut line 96.
 (pdftex.def)             Requested size: 426.79135pt x 235.22461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/antwortendurchsch2.png, id=609, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch2.png, id=626, 1138.2525pt x 627.34375pt>
 File: pictures/diagramme/antwortendurchsch2.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch2.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch2.png  used on inp
-ut line 310.
+ut line 103.
 (pdftex.def)             Requested size: 426.79135pt x 235.22461pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [31 <./pictures/diagramme/triggerdarstellung.png>] [32 <./pictures/diagramme/
-triggereinstellung.png> <./pictures/diagramme/konversationverzweigung.png>]
-[33 <./pictures/diagramme/konversationzeitldarstellung.png> <./pictures/diagram
-me/therapieuebersicht.png>] [34 <./pictures/diagramme/konversationenabhaeng.png
-> <./pictures/diagramme/konversationenuebersicht.png>] [35 <./pictures/diagramm
+) [33
+
+
+
+ <./pictures/diagramme/triggerdarstellung.png>] [34 <./pictures/diagramme/trigg
+ereinstellung.png> <./pictures/diagramme/konversationverzweigung.png>]
+[35 <./pictures/diagramme/konversationzeitldarstellung.png> <./pictures/diagram
+me/therapieuebersicht.png>] [36 <./pictures/diagramme/konversationenabhaeng.png
+> <./pictures/diagramme/konversationenuebersicht.png>] [37 <./pictures/diagramm
 e/antwortoptkonv.png> <./pictures/diagramme/konversationdarstellung.png>]
-[36 <./pictures/diagramme/konversationeinstellung.png> <./pictures/diagramme/ko
-nversationverlfueber.png>] [37 <./pictures/diagramme/konvverzweig.png> <./pictu
-res/diagramme/antwortendurchsch1.png>] [38 <./pictures/diagramme/antwortendurch
+[38 <./pictures/diagramme/konversationeinstellung.png> <./pictures/diagramme/ko
+nversationverlfueber.png>] [39 <./pictures/diagramme/konvverzweig.png> <./pictu
+res/diagramme/antwortendurchsch1.png>] [40 <./pictures/diagramme/antwortendurch
 sch2.png>]
-\openout2 = `summary.aux'.
-
- (summary.tex
-Chapter 6.
-) [39
-
-
-
-]
 \openout2 = `futurework.aux'.
 
- (futurework.tex [40
-
-
-
-]
+ (futurework.tex
 Chapter 7.
-) [41] [42
+) [41
+
+
+
+] [42
 
 
 ]
@@ -2462,7 +2456,7 @@ cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (58 pages, 1002797 bytes).
+Output written on MasterThesis.pdf (58 pages, 1010085 bytes).
 PDF statistics:
  843 PDF objects out of 1000 (max. 8388607)
  191 named destinations out of 1000 (max. 500000)
