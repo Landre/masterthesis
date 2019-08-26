@@ -161,6 +161,27 @@
   coding.}
   \endentry
 
+  \entry{lindabrandl}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Brandl},
+         familyi={B\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Durchführung einer User Experience Studie für die
+  Benutzeroberfläche der interaktiven ambulanten Assessment Software
+  movisensXS}
+    \field{year}{2016}
+  \endentry
+
   \entry{SWB-11524946X}{book}{}
     \name{author}{2}{}{%
       {{hash=CKM}{%
