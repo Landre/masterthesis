@@ -68,5 +68,5 @@
 \contentsline {chapter}{\numberline {6}Ergebnisdiskussion}{41}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Zusammenfassung}{41}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Kritische Reflexion}{41}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Ausblick}{49}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{51}{section*.55}% 
+\contentsline {chapter}{\numberline {7}Ausblick}{43}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{45}{section*.45}% 
