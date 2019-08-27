@@ -1,0 +1,55 @@
+\BOOKMARK [0][]{Contents.0}{Contents}{}% 1
+\BOOKMARK [0][]{chapter.1}{1 Einleitung}{}% 2
+\BOOKMARK [1][-]{section.1.1}{1.1 Problemstellung und Zielsetzung}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{1.2 Umfeld}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{1.3 Methodisches Vorgehen}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{1.4 Gliederung}{chapter.1}% 6
+\BOOKMARK [0][]{chapter.2}{2 Grundlagen}{}% 7
+\BOOKMARK [1][-]{section.2.1}{2.1 TherapyBuilder}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Forscher-Plattform}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Therapeuten-Plattform}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Backend}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 App}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{2.2 Rahmenbedingungen von Psychotherapien}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{2.3 Chatbots}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{2.4 Stand der Technik}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Grafische Programmiersprachen}{section.2.4}% 16
+\BOOKMARK [3][-]{subsubsection.2.4.1.1}{2.4.1.1 Chatbot-Plattformen}{subsection.2.4.1}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.1.2}{2.4.1.2 Allgemeine grafische Programmiersprachen}{subsection.2.4.1}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Auszeichnungssprachen}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Experience Sampling}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Fazit}{section.2.4}% 21
+\BOOKMARK [0][]{chapter.3}{3 Konzeption}{}% 22
+\BOOKMARK [1][-]{section.3.1}{3.1 Anforderungsanalyse}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 Ausarbeitung verschiedener Konzepte}{chapter.3}% 24
+\BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 25
+\BOOKMARK [1][-]{section.4.1}{4.1 Konzept}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{4.2 Umsetzung}{chapter.4}% 27
+\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{5.1 Studie}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Zweck der Studie}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Probandenakquise}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Studiendesign}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Studienablauf}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Hypothesen}{section.5.1}% 34
+\BOOKMARK [3][-]{subsubsection.5.1.5.1}{5.1.5.1 Konstruktionsprinzip und Konfigurationsprinzip}{subsection.5.1.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.1.5.2}{5.1.5.2 Spr\374nge und Sichtbarkeitsregeln}{subsection.5.1.5}% 36
+\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung des erhobenen Datensatzes}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Charakteristika der Probandenstichproben}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Evaluationsergebnis des Konstruktionsprinzips}{section.5.2}% 39
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Zwischenfragebogen}{subsection.5.2.2}% 40
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Abschlussfragerunde}{subsection.5.2.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Evaluationsergebnis des Konfigurationsprinzips}{section.5.2}% 42
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{5.2.3.1 Zwischenfragebogen}{subsection.5.2.3}% 43
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{5.2.3.2 Abschlussfragerunde}{subsection.5.2.3}% 44
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Evaluationsergebnis der Spr\374nge}{section.5.2}% 45
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{5.2.4.1 Zwischenfragebogen}{subsection.5.2.4}% 46
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{5.2.4.2 Abschlussfragerunde}{subsection.5.2.4}% 47
+\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Evaluationsergebnis der Sichtbarkeitsregeln}{section.5.2}% 48
+\BOOKMARK [3][-]{subsubsection.5.2.5.1}{5.2.5.1 Zwischenfragebogen}{subsection.5.2.5}% 49
+\BOOKMARK [3][-]{subsubsection.5.2.5.2}{5.2.5.2 Abschlussfragerunde}{subsection.5.2.5}% 50
+\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 51
+\BOOKMARK [1][-]{section.6.1}{6.1 Zusammenfassung}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 53
+\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 54
+\BOOKMARK [0][]{section*.58}{Bibliography}{}% 55
