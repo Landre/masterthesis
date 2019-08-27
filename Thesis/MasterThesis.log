@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  27 AUG 2019 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  27 AUG 2019 17:14
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2201,158 +2201,162 @@ on tra-gen zur Ver-ständlichkeit
  []
 
 [25] [26]
-<pictures/diagramme/movi.png, id=628, 263.0628pt x 126.9543pt>
+Overfull \hbox (0.47845pt too wide) in paragraph at lines 143--144
+[]\T1/aer/m/n/12 Diesem De-sign steht die Vi-su-al-isierung von Verzwei-gun-gen
+ in-ner-halb eines Di-alogver-
+ []
+
+[27]
+<pictures/diagramme/movi.png, id=632, 263.0628pt x 126.9543pt>
 File: pictures/diagramme/movi.png Graphic file (type png)
 <use pictures/diagramme/movi.png>
-Package pdftex.def Info: pictures/diagramme/movi.png  used on input line 142.
+Package pdftex.def Info: pictures/diagramme/movi.png  used on input line 173.
 (pdftex.def)             Requested size: 426.79135pt x 205.9922pt.
-<pictures/konstruktion.png, id=630, 457.4691pt x 215.8464pt>
+<pictures/konstruktion.png, id=634, 457.4691pt x 215.8464pt>
 File: pictures/konstruktion.png Graphic file (type png)
 <use pictures/konstruktion.png>
-Package pdftex.def Info: pictures/konstruktion.png  used on input line 155.
+Package pdftex.def Info: pictures/konstruktion.png  used on input line 186.
 (pdftex.def)             Requested size: 426.79135pt x 201.3839pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./pictures/diagramme/movi.png>]
-Overfull \hbox (7.45027pt too wide) in paragraph at lines 165--166
+[28 <./pictures/diagramme/movi.png>]
+Overfull \hbox (7.45027pt too wide) in paragraph at lines 196--197
 []\T1/aer/m/n/12 Die Ver-ständlichkeit der Ein-stel-lungsmöglichkeiten der Trig
 -ger wurde von den Proban-
  []
 
-[28 <./pictures/konstruktion.png>]
-Overfull \hbox (4.00165pt too wide) in paragraph at lines 180--181
+[29 <./pictures/konstruktion.png>]
+Overfull \hbox (4.00165pt too wide) in paragraph at lines 211--212
 \T1/aer/m/n/12 hin-der-lich emp-fun-den wur-den, kon-nten fün-fund-dreiÿig Punk
 te genannt wer-den. Diese
  []
 
-<pictures/diagramme/aussagenkonstr.png, id=642, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenkonstr.png, id=646, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonstr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
-ine 184.
+ine 215.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
-[29 <./pictures/diagramme/aussagenkonstr.png>] [30]
-<pictures/konfiguration.png, id=657, 376.2858pt x 211.5102pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] [31 <./pictures/diagramme/aussagenkonstr.png>]
+<pictures/konfiguration.png, id=662, 376.2858pt x 211.5102pt>
 File: pictures/konfiguration.png Graphic file (type png)
 <use pictures/konfiguration.png>
-Package pdftex.def Info: pictures/konfiguration.png  used on input line 206.
+Package pdftex.def Info: pictures/konfiguration.png  used on input line 237.
 (pdftex.def)             Requested size: 426.79135pt x 239.90094pt.
- [31 <./pictures/konfiguration.png>]
-Overfull \hbox (0.5145pt too wide) in paragraph at lines 222--223
+ [32 <./pictures/konfiguration.png>]
+Overfull \hbox (0.5145pt too wide) in paragraph at lines 253--254
 []\T1/aer/m/n/12 Die zeitliche Darstel-lung der Kon-ver-sa-tio-nen wurde von de
 n Proban-den mehrheitlich,
  []
 
-
-Overfull \hbox (13.17427pt too wide) in paragraph at lines 231--232
+[33]
+Overfull \hbox (13.17427pt too wide) in paragraph at lines 262--263
 []\T1/aer/m/n/12 Insgesamt nan-nten die Proban-den siebe-nund-fün-fzig Punkte z
 um Kon-fig-u-ra-tionsprinzip.
  []
 
-[32]
-<pictures/diagramme/aussagenkonfig.png, id=669, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenkonfig.png, id=673, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonfig.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
-ine 235.
+ine 266.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
- [33 <./pictures/diagramme/aussagenkonfig.png>]
-<pictures/spruenge.png, id=678, 376.2858pt x 211.5102pt>
+[34 <./pictures/diagramme/aussagenkonfig.png>]
+<pictures/spruenge.png, id=682, 376.2858pt x 211.5102pt>
 File: pictures/spruenge.png Graphic file (type png)
 <use pictures/spruenge.png>
-Package pdftex.def Info: pictures/spruenge.png  used on input line 255.
+Package pdftex.def Info: pictures/spruenge.png  used on input line 286.
 (pdftex.def)             Requested size: 426.79135pt x 239.90094pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (10.709pt too wide) in paragraph at lines 260--261
+Overfull \hbox (10.709pt too wide) in paragraph at lines 291--292
 \T1/aer/m/n/12 Zwis-chen-frage-bo-gens, an-schlieÿend die Ergeb-nisse der Ab-sc
 hlussfragerunde dargestellt. 
  []
 
-[34]
-Overfull \hbox (9.83824pt too wide) in paragraph at lines 269--270
+[35]
+Overfull \hbox (9.83824pt too wide) in paragraph at lines 300--301
 []\T1/aer/m/n/12 Bezüglich des Kon-ver-sa-tionsver-laufs und dessen Über-sichtl
 ichkeit äuÿerten die Proban-
  []
 
-[35 <./pictures/spruenge.png>]
-Overfull \hbox (9.1059pt too wide) in paragraph at lines 271--272
+[36 <./pictures/spruenge.png>]
+Overfull \hbox (9.1059pt too wide) in paragraph at lines 302--303
 []\T1/aer/m/n/12 Antwortoptionen eines Kon-ver-sa-tionsver-laufs wur-den im All
 -ge-meinen als Über-sichtlich
  []
 
-<pictures/diagramme/aussagenspr.png, id=691, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenspr.png, id=695, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenspr.png Graphic file (type png)
 <use pictures/diagramme/aussagenspr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
- 282.
+ 313.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37 <./pictures/diagramme/aussagenspr.png>]
-Overfull \hbox (0.92271pt too wide) in paragraph at lines 297--298
+[37] [38 <./pictures/diagramme/aussagenspr.png>]
+Overfull \hbox (0.92271pt too wide) in paragraph at lines 328--329
 []\T1/aer/m/n/12 Die Sicht-barkeit-sregeln un-ter-schei-den sich maÿge-blich vo
 n dem Konzept der Sprünge,
  []
 
 
-Overfull \hbox (11.02388pt too wide) in paragraph at lines 297--298
+Overfull \hbox (11.02388pt too wide) in paragraph at lines 328--329
 \T1/aer/m/n/12 einer Kon-ver-sa-tion darstellt, wird an-hand eines Icons, in Fo
 rm eines Auges, angedeutet.
  []
 
 
-Overfull \hbox (20.04541pt too wide) in paragraph at lines 297--298
+Overfull \hbox (20.04541pt too wide) in paragraph at lines 328--329
 \T1/aer/m/n/12 Die Ein-stel-lungsmöglichkeit der Sicht-barkeit er-scheint, soba
 ld der Nutzer den Mauszeiger
  []
 
-<pictures/sichtbarkeit.png, id=708, 462.528pt x 226.6869pt>
+<pictures/sichtbarkeit.png, id=712, 462.528pt x 226.6869pt>
 File: pictures/sichtbarkeit.png Graphic file (type png)
 <use pictures/sichtbarkeit.png>
-Package pdftex.def Info: pictures/sichtbarkeit.png  used on input line 301.
+Package pdftex.def Info: pictures/sichtbarkeit.png  used on input line 332.
 (pdftex.def)             Requested size: 426.79135pt x 209.184pt.
 
-Overfull \hbox (10.709pt too wide) in paragraph at lines 306--307
+Overfull \hbox (10.709pt too wide) in paragraph at lines 337--338
 \T1/aer/m/n/12 Zwis-chen-frage-bo-gens, an-schlieÿend die Ergeb-nisse der Ab-sc
 hlussfragerunde dargestellt. 
  []
 
-[38 <./pictures/sichtbarkeit.png>]
-Overfull \hbox (18.06058pt too wide) in paragraph at lines 313--314
+[39 <./pictures/sichtbarkeit.png>]
+Overfull \hbox (18.06058pt too wide) in paragraph at lines 344--345
 \T1/aer/m/n/12 falls als zumeist ver-ständlich, mit le-ichter Ten-denz zu zum T
 eil ver-ständlich, wahrgenom-
  []
 
 
-Overfull \hbox (1.29404pt too wide) in paragraph at lines 317--318
+Overfull \hbox (1.29404pt too wide) in paragraph at lines 348--349
 []\T1/aer/m/n/12 Die Über-sichtlichkeit der Antwor-top-tio-nen in-ner-halb eine
 s Kon-ver-sa-tionsver-lauf wur-
  []
 
-<pictures/diagramme/aussagensichtb.png, id=714, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagensichtb.png, id=718, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
 <use pictures/diagramme/aussagensichtb.png>
 Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
-ine 329.
+ine 360.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39]) [40 <./pictures/diagramme/aussagensichtb.png>] [41]
+[40]) [41 <./pictures/diagramme/aussagensichtb.png>] [42]
 \openout2 = `summary.aux'.
 
- (summary.tex [42
-
-
-
-]
+ (summary.tex
 Chapter 6.
 File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonstr.png>
@@ -2392,8 +2396,12 @@ ut line 42.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [43] [44 <./pictures/diagramme/antwortendurchsch1.png> <./pictures/diagramme/
-antwortendurchsch2.png>]
+) [43
+
+
+
+] [44 <./pictures/diagramme/antwortendurchsch1.png> <./pictures/diagramme/antwo
+rtendurchsch2.png>]
 \openout2 = `futurework.aux'.
 
  (futurework.tex
@@ -2481,7 +2489,7 @@ cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (62 pages, 1026743 bytes).
+Output written on MasterThesis.pdf (62 pages, 1029638 bytes).
 PDF statistics:
  913 PDF objects out of 1000 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
