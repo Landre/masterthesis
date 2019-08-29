@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  28 AUG 2019 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  29 AUG 2019 05:11
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2247,6 +2247,12 @@ Package pdftex.def Info: pictures/konstruktion.png  used on input line 185.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Overfull \hbox (8.50644pt too wide) in paragraph at lines 193--194
+\T1/aer/m/n/12 sechs von acht Proban-den gin-gen auf die pos-i-tive Auswirkung 
+der far-blichen Kodierung
+ []
+
 [30 <./pictures/diagramme/movi.png>]
 Overfull \hbox (7.45027pt too wide) in paragraph at lines 195--196
 []\T1/aer/m/n/12 Die Ver-ständlichkeit der Ein-stel-lungsmöglichkeiten der Trig
@@ -2265,10 +2271,7 @@ File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
 Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
 ine 214.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32] [33 <./pictures/diagramme/aussagenkonstr.png>]
+[32 <./pictures/diagramme/aussagenkonstr.png>] [33]
 <pictures/konfiguration.png, id=698, 376.2858pt x 211.5102pt>
 File: pictures/konfiguration.png Graphic file (type png)
 <use pictures/konfiguration.png>
@@ -2280,19 +2283,20 @@ Overfull \hbox (0.5145pt too wide) in paragraph at lines 252--253
 n Proban-den mehrheitlich,
  []
 
-[35]
+
 Overfull \hbox (13.17427pt too wide) in paragraph at lines 261--262
 []\T1/aer/m/n/12 Insgesamt nan-nten die Proban-den siebe-nund-fün-fzig Punkte z
 um Kon-fig-u-ra-tionsprinzip.
  []
 
+[35]
 <pictures/diagramme/aussagenkonfig.png, id=709, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonfig.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
 ine 265.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
-[36 <./pictures/diagramme/aussagenkonfig.png>]
+ [36 <./pictures/diagramme/aussagenkonfig.png>]
 <pictures/spruenge.png, id=718, 376.2858pt x 211.5102pt>
 File: pictures/spruenge.png Graphic file (type png)
 <use pictures/spruenge.png>
@@ -2384,61 +2388,117 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (summary.tex
 Chapter 6.
-File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
-<use pictures/diagramme/aussagenkonstr.png>
-Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
-ine 18.
-(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
-File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
-<use pictures/diagramme/aussagenkonfig.png>
-Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
-ine 23.
-(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
-File: pictures/diagramme/aussagenspr.png Graphic file (type png)
-<use pictures/diagramme/aussagenspr.png>
-Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
- 51.
-(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
-File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
-<use pictures/diagramme/aussagensichtb.png>
-Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
-ine 56.
-(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
 [45
 
 
 
 ]
-<pictures/diagramme/antwortendurchsch1.png, id=782, 1138.2525pt x 627.34375pt>
+File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
+<use pictures/diagramme/aussagenkonstr.png>
+Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
+ine 20.
+(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
+
+Underfull \hbox (badness 3449) in paragraph at lines 21--21
+[]\T1/aer/m/n/12 Figure 6.1: |Zu se-hen ist die An-
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 21--21
+\T1/aer/m/n/12 zahl der genan-nten Punkte der Ab-
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 21--21
+\T1/aer/m/n/12 nten achtundzwanzig Punkte auf die
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 21--21
+\T1/aer/m/n/12 Frage was ih-nen am Kon-struk-tion-
+ []
+
+File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
+<use pictures/diagramme/aussagenkonfig.png>
+Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
+ine 26.
+(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
+
+Underfull \hbox (badness 2126) in paragraph at lines 27--27
+\T1/aer/m/n/12 am umge-set-zten Kon-fig-u-ra-tionsprinzip
+ []
+
+[46]
+
+LaTeX Warning: Reference `antwortendurchsch1' on page 47 undefined on input lin
+e 43.
+
+
+Overfull \hbox (6.22108pt too wide) in paragraph at lines 47--48
+\T1/aer/m/n/12 dargestell-ten El-e-menten, kön-nen sich pos-i-tiv auf das Kon-f
+ig-u-ra-tionsprinzip auswirken.
+ []
+
+[47]
+Overfull \hbox (0.1181pt too wide) in paragraph at lines 52--53
+\T1/aer/m/n/12 tionsprinzip ten-den-ziell le-ichter. Eine Such-funk-tion kön-nt
+e das Kon-struk-tion-sprinzip
+ []
+
+
+Overfull \hbox (6.09459pt too wide) in paragraph at lines 56--57
+[]\T1/aer/m/n/12 Abbildung [][]6.6[][] verdeut-licht die un-ter-schiedliche Be-
+w-er-tung bei-der Sys-teme hin-sichtlich
+ []
+
+
+Overfull \hbox (5.06203pt too wide) in paragraph at lines 62--63
+\T1/aer/m/n/12 ständlicher ist. Die Be-tra-ch-tung der Freitext-Aussagen sowie 
+der Ab-schlussfragerunde
+ []
+
+[48]
+File: pictures/diagramme/aussagenspr.png Graphic file (type png)
+<use pictures/diagramme/aussagenspr.png>
+Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
+ 87.
+(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
+File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
+<use pictures/diagramme/aussagensichtb.png>
+Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
+ine 92.
+(pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
+<pictures/diagramme/antwortendurchsch1.png, id=808, 319.9152pt x 139.4811pt>
 File: pictures/diagramme/antwortendurchsch1.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch1.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch1.png  used on inp
-ut line 77.
-(pdftex.def)             Requested size: 426.79135pt x 235.22461pt.
+ut line 118.
+(pdftex.def)             Requested size: 426.79135pt x 186.08215pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<pictures/diagramme/antwortendurchsch2.png, id=783, 1138.2525pt x 627.34375pt>
+ [49]
+<pictures/diagramme/antwortendurchsch2.png, id=816, 319.9152pt x 188.1429pt>
 File: pictures/diagramme/antwortendurchsch2.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch2.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch2.png  used on inp
-ut line 84.
-(pdftex.def)             Requested size: 426.79135pt x 235.22461pt.
+ut line 125.
+(pdftex.def)             Requested size: 426.79135pt x 251.00201pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [46] [47 <./pictures/diagramme/antwortendurchsch1.png> <./pictures/diagramme/
+) [50 <./pictures/diagramme/antwortendurchsch1.png>] [51 <./pictures/diagramme/
 antwortendurchsch2.png>]
 \openout2 = `futurework.aux'.
 
- (futurework.tex [48
+ (futurework.tex [52
 
 
 
 ]
 Chapter 7.
-) [49] [50
+) [53] [54
 
 
 ]
@@ -2447,7 +2507,7 @@ Overfull \hbox (53.22603pt too wide) in paragraph at lines 239--239
 d . chatfuel . com / # / bot / 5bea8fd30ecd9f4c8c0dd458 /
  []
 
-[51
+[55
 
 ]
 Overfull \hbox (17.19135pt too wide) in paragraph at lines 239--239
@@ -2465,7 +2525,7 @@ Overfull \hbox (26.01839pt too wide) in paragraph at lines 239--239
 martphone -[] Markt -[] Konjunktur -[]
  []
 
-[52] [53] [54
+[56] [57] [58
 
 ] (MasterThesis.ind)
 
@@ -2497,10 +2557,10 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 52029 strings out of 492946
- 1165653 string characters out of 3126267
+ 52036 strings out of 492946
+ 1165729 string characters out of 3126267
  1659328 words of memory out of 3000000
- 54878 multiletter control sequences out of 15000+200000
+ 54881 multiletter control sequences out of 15000+200000
  573872 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,12n,136p,1766b,2853s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2516,9 +2576,9 @@ cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (66 pages, 1385792 bytes).
+Output written on MasterThesis.pdf (70 pages, 1415227 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
- 236 named destinations out of 1000 (max. 500000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
  683 words of extra memory for PDF output out of 10000 (max. 10000000)
 
