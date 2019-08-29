@@ -87,8 +87,8 @@
 \contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der zeitlichen Darstellung der Konversationen}{48}{section*.57}% 
 \contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerkonfiguration}{48}{section*.58}% 
 \contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit von Abh\IeC {\"a}ngigkeiten zwischen Konversationen und Konversationsverzweigungen}{49}{section*.59}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{50}{section*.60}% 
-\contentsline {subsection}{\numberline {6.1.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{50}{subsection.6.1.2}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{49}{section*.60}% 
+\contentsline {subsection}{\numberline {6.1.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{49}{subsection.6.1.2}% 
 \contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationsdarstellung}{50}{section*.62}% 
 \contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationseinstellungen}{50}{section*.63}% 
 \contentsline {paragraph}{\IeC {\"U}bersichtlichkeit des Konversationsverlaufs}{50}{section*.64}% 

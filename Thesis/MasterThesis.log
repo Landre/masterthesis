@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  29 AUG 2019 05:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.8)  29 AUG 2019 06:10
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2461,28 +2461,25 @@ der Ab-schlussfragerunde
 File: pictures/diagramme/aussagenspr.png Graphic file (type png)
 <use pictures/diagramme/aussagenspr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
- 87.
+ 84.
 (pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
 File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
 <use pictures/diagramme/aussagensichtb.png>
 Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
-ine 92.
+ine 89.
 (pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
-<pictures/diagramme/antwortendurchsch1.png, id=808, 319.9152pt x 139.4811pt>
+<pictures/diagramme/antwortendurchsch1.png, id=809, 319.9152pt x 139.4811pt>
 File: pictures/diagramme/antwortendurchsch1.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch1.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch1.png  used on inp
-ut line 118.
+ut line 115.
 (pdftex.def)             Requested size: 426.79135pt x 186.08215pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [49]
-<pictures/diagramme/antwortendurchsch2.png, id=816, 319.9152pt x 188.1429pt>
+<pictures/diagramme/antwortendurchsch2.png, id=817, 319.9152pt x 188.1429pt>
 File: pictures/diagramme/antwortendurchsch2.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch2.png>
 Package pdftex.def Info: pictures/diagramme/antwortendurchsch2.png  used on inp
-ut line 125.
+ut line 122.
 (pdftex.def)             Requested size: 426.79135pt x 251.00201pt.
 
 
@@ -2576,9 +2573,9 @@ cmssbx10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (70 pages, 1415227 bytes).
+Output written on MasterThesis.pdf (70 pages, 1416599 bytes).
 PDF statistics:
- 1005 PDF objects out of 1200 (max. 8388607)
+ 1006 PDF objects out of 1200 (max. 8388607)
  240 named destinations out of 1000 (max. 500000)
  683 words of extra memory for PDF output out of 10000 (max. 10000000)
 
