@@ -17,6 +17,15 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{8e8f4fb047:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{8}
+    \field{sortinithash}{8}
+  \field{howpublished}{\url{https://pdfs.semanticscholar.org/103f/8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf}}
+    \field{note}{(Accessed on 08/27/2019)}
+    \field{title}{8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf}
+  \endentry
+
   \entry{AppStore21:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -159,6 +168,27 @@
     \field{note}{(Accessed on 11/27/2018)}
     \field{title}{Botsify - Create artificial intelligent chatbots without
   coding.}
+  \endentry
+
+  \entry{lindabrandl}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Brandl},
+         familyi={B\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Durchführung einer User Experience Studie für die
+  Benutzeroberfläche der interaktiven ambulanten Assessment Software
+  movisensXS}
+    \field{year}{2016}
   \endentry
 
   \entry{SWB-11524946X}{book}{}

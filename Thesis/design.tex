@@ -14,9 +14,93 @@ Nur Fokus auf Funktionale Anforderungen
 \item Eingabeformate der Nutzer (Text, Likert-Skala,...)
 \end{itemize}
 
+
+Startseite-Inhalt		Die Startseite beinhaltet
+	Logout	Es gibt ein Link zum Ausloggen
+	Accounteinstellungen	Es gibt ein Link zum Aufrufen der Accounteinstellungen
+	Übersicht bereits angelegter Therapie-Module	Es gibt eine Übersicht über alle bereits angelegte Therapie-Module
+	Therapie-Modul hinzufügen	Es gibt eine Schaltfläche zum Hinzufügen eines Therapie-Moduls
+	Therapie-Modul umbenennen	Es gibt eine Schaltfläche zum Umbenennen eines Therapie-Moduls
+	Therapie-Modul entfernen	Es gibt eine Schaltfläche zum Entfernen eines Therapie-Moduls
+	Therapie-Modul kopieren	Es gibt eine Schaltfläche zum Kopieren eines Therapie-Moduls
+	Schaltfläche zum Exportieren eines Therapie-Moduls	Es gibt eine Schaltfläche zum Exportieren eines Therapie-Moduls
+	Therapie-Modul Status	Jedes bereits angelegte Therapie-Modul erhält einen Status. Dieser Status wird auf der Übersichtsseite für jedes Therapie-Modul angezeigt.
+Bearbeiten	Therapiemodul bearbeiten	Durch Klick auf ein Therapie-Modul, gelangt man auf dessen Bearbeitungsseite
+Hinzufügen		Durch Klick auf die "Hinzufügen" Schaltfläche wird ein neues Therapie-Modul angelegt.
+Umbenennen		Durch Klick auf die "Umbenennen" Schaltfläche kann der Nutzer das Modul umbennenen.
+Kopieren		Durch Klick auf die "Kopieren" Schaltfläche kann der Nutzer das Modul kopieren.
+Entfernen		Durch Klick auf die "Entfernen" Schaltfläche öffnet sich ein Dialog zur Eingabe des Wortes "DELETE" um das Entfernen des Therapie-Moduls zu bestätigen
+Konversationen	Folgende Konversationsarten können mit den bereitgestellten Mitteln erstellt werden	
+	Fragebogen/Datenerhebung	Es können Daten erhoben werden, z.B. via Fragebögen
+	Just-In-Time Intervention	Es können Interventionen angelegt werden, die Im Anschluss zu einem Fragebogen ausgeführt wird
+	Getriggerte Intervention	Diese Intervenionen werden anhand eines Triggers (Verw. Trigger) ausgelöst
+	On-demand Intervention	Es können Interventionen angelegt werden, die vom Nutzer on-demand ausgeführt werden können
+	Self-Monitoring	Es können Konversationen angelegt werden, die dem Nutzer zum Self-monitoring dienen
+	Notfallkoffer	Es gibt eine Art Notfallkoffer. Dieser erlaubt dem Nutzer hilfreiche Übungen/Konversationen darin abzulegen um diese jederzeit aufzurufen.
+Fragebogen	Fragebogen	Mit Hilfe der Eingabeformate ist es möglich, einen Fragebogen zu erstellen
+	Offene Fragen	Es ist möglich offene Fragen zu stellen
+	Geschlossene Fragen	Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen
+		Dichtonome Fragen (Ja/Nein(/Weiß nicht))
+		Eingruppierungsfragen (unter 18|18-29|30-45|…)
+		Ratingskalen (Likert-Skala, Visual Analog Skala)
+		Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten)
+		Einfachauswahl
+		Mehrfachauswahl
+		Ergänzungsoption
+Eingabeformate	Eingabeformate der Nutzer	Text
+		Likert-Skala
+		Visual Analogue Skala
+		Select One
+		Select Many
+Ausgabeformate	Ausgabeformate des Bots	Text
+		Bilder
+		Video
+		Audio
+		Link
+		GIF
+Plattform	Patienten	Der Patient nutzt sein Smartphone zur Teilnahme an einer Studie/einer Therapie
+		Die Kommunikationsschnitstelle der Patienten wird von folgenden Plattformen unterstützt
+		Android
+		iOS
+	Forscherplattform (Administrationsinterface)	Der Forscher nutzt einen PC zur Erstellung einer Studie/Therapie
+Trigger	Folgende Methoden können zum Triggern einer Konversation eingesetzt werden	
+	Therapeut	Der Therapeut schaltet eine Konversation frei, diese erscheint sofort
+		Der Therapeut schaltet eine Konversation frei, diese erscheint ab einem gewissen Zeitfenster
+	Zeit	Eine Konversation erscheint zu einem randomisierten Zeitpunkt innerhalb eines, vom Nutzer festgelegten, Zeitfensters [ta, te] 
+		Eine Konversation erscheint zu einem, vom Forscher festgelegten, Zeitpunkt
+		Eine Konversation erscheint zu einem randomisierten Zeitpunkt, innerhalb eines, vom Forscher festgelegten, Zeitfensters [ta, te]
+	Liste	Konversation wird randomisiert aus einer Liste von Konversationen ausgewählt
+	Ausführungsanzahl	Eine Konversation kann anhand einer Anzahl Ausführungen an einem Tag getriggert werden
+	Nutzer	Ein Nutzer kann selbst eine Konversation starten 
+	Konversation	Eine Konversation kann durch das Abschließen einer anderen Konversation getriggert werden
+	Snooze	Eine Konversation wird erneut getriggert nach Zeitpunkt des Snoozes eines Nutzers +t (zB. 30 Minuten)
+	Variable	Eine Konversation wird durch einen Wert einer Variable getriggert
+		die Variable hat den aktuellen Wert x
+		die Variable hatte den Wert x zum Zeitpunkt t
+		die Variable wird ermittelt aus verschiedenen Variablen/Werten durch eine vorgegebene Funktion und erfüllt eine Bedingung
+Nutzer	Gruppen	Ein Nuzer kann in verschiedene Gruppen eingeteilt werden (Interventionsgruppe, Kontrollgruppe)
+	Pseudonymer Nutzeraccount	Der Nutzer verwendet ein Pseudonym
+	Avatar	Der Nutzer kann einen Avatar wählen
+App	Kontakt	Die App bietet den Nutzern die Möglichkeit den Studienleiter/Therapeuten zu kontaktieren um Probleme zu melden
+	Zeitleiste	Die App bietet eine Übersicht der aktiven und kommenden Übungen in Form einer Zeitleiste
+	Statistik	Die App bietet dem Nutzer die Möglichkeit Daten des Self-Monitoring in Statistiken nachzuvollziehen
+	Push Notifications	Die App benachrichtigt den Nutzer sobald dieser eine Konversation zu bearbeiten hat
+	Einstellungen	Die App bietet dem Nutzer die Möglichkeit Einstellungen an seinem Account vorzunehmen
+Variablen	Speichern	Es können Werte unter Variablennamen abgespeichert werden
+	Historie	Die Werte, die eine Variable im Verlauf eines Therapiemoduls angenommen hat, werden in einer Historie hinterlegt
+	Typen	Eine Variable kann einen der folgenden Typen annehmen
+		String
+		Gleitkommazahl
+		Ganze Zahl 
+		Boolean (Wahr/Falsch)
+		Image (DB-Blob)
+		Video (DB-Blob)
+		Audio (DB-Blob)
+		Link
+
+
 \section{Ausarbeitung verschiedener Konzepte}
 
-	
 
 
 
