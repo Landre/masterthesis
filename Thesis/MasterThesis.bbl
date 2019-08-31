@@ -17,6 +17,13 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{44:online}{misc}{}
+    \field{sortinit}{0}
+    \field{sortinithash}{0}
+    \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Therapie}}
+    \field{note}{(Accessed on 08/31/2019)}
+  \endentry
+
   \entry{8e8f4fb047:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{8}
@@ -320,6 +327,46 @@
     \field{title}{Dialogflow}
   \endentry
 
+  \entry{DudenKon2:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Konversation}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Konversation | Rechtschreibung, Bedeutung,
+  Definition, Herkunft}
+  \endentry
+
+  \entry{DudenMod70:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Modul_Element_Lehreinheit}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Modul | Rechtschreibung, Bedeutung, Definition,
+  Herkunft}
+  \endentry
+
+  \entry{DudenNac9:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Nachricht}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Nachricht | Rechtschreibung, Bedeutung, Definition,
+  Herkunft}
+  \endentry
+
+  \entry{DudenWer23:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Werkzeugkasten}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Werkzeugkasten | Rechtschreibung, Bedeutung,
+  Definition, Herkunft}
+  \endentry
+
   \entry{Fitzpatrick2017}{article}{}
     \name{author}{3}{}{%
       {{hash=FKK}{%
@@ -568,6 +615,16 @@
     \field{note}{(Accessed on 11/28/2018)}
     \field{title}{OSF | Sabrina Thai - ExperienceSampler SPSP San Antonio 2017
   Draft 1 FINAL To Post.pdf}
+  \endentry
+
+  \entry{PsychThG4:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+  \field{howpublished}{\url{https://www.gesetze-im-internet.de/psychthg/BJNR131110998.html}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{PsychThG - Gesetz über die Berufe des Psychologischen
+  Psychotherapeuten und des Kinder- und Jugendlichenpsychotherapeuten}
   \endentry
 
   \entry{PureData15:online}{misc}{}

@@ -20,7 +20,7 @@ Der Forscher entwickelt neue Therapien. Diese werden in Studien auf ihre Wirksam
 \centering
 \includegraphics[width=1\textwidth]{pictures/forscher}
 \caption{Eckdaten des fiktiven Forschers \emph{Prof. Dr. Richard Weimer}}
-\label{therapyBuilder}
+\label{forscher}
 \end{figure}
 
 \paragraph{Profil} 
@@ -48,7 +48,7 @@ Der Therapeut wendet Therapien auf Patienten an. Basierend auf den Patientenprof
 \centering
 \includegraphics[width=1\textwidth]{pictures/therapeut}
 \caption{Eckdaten der fiktiven Therapeutin \emph{Dipl.-Psych. Barbara Probst}}
-\label{therapyBuilder}
+\label{therapeut}
 \end{figure}
 
 \paragraph{Profil}
@@ -76,7 +76,7 @@ Der Patient nutzt auf seinem Smartphone die \emph{TherapyBuilder}-App. Diese fü
 \centering
 \includegraphics[width=1\textwidth]{pictures/patient}
 \caption{Eckdaten des fiktiven Patienten \emph{Jonas Vogt}}
-\label{therapyBuilder}
+\label{patient}
 \end{figure}
 
 \paragraph{Profil}
@@ -107,7 +107,7 @@ Für die Anforderungsanalyse werden mehrere Studien betrachtet. Diese liegen der
 \end{figure}
 
 Um eine Therapie umzusetzen, werden als Output-Formate Textausgaben, Video, Audio, und Bilder benötigt. Als Input-Formate für den Patienten werden Texteingabe, ganze Zahlen, rationale Zahlen, Likert-Skalen, visuelle Analogskalen, Einfach- wie Mehrfachauswahl, Zeiteingabe und eine Datumseingabe benötigt. 
-
+ 
 Da auch Daten erhoben werden, benötigt es Variablen. In diesen werden Antworten und berechnete Werte gespeichert. Die Werte der Variablen können dem Patienten im Text präsentiert werden aber auch den Verlauf der Therapie beeinflussen. So können dem Patienten beispielsweise verschiedene Texte, Übungen oder Interventionen präsentiert werden. Die entsprechenden Inhalte werden zu unterschiedlichen Zeiten und Bedingungen ausgelöst. Auslöser können ein erreichtes Datum, vorgegebene Zeit, Therapeut, Patient oder verschiedene Bedingungen sein. Um diese Übersicht zu erhalten, wurde der zeitliche Ablauf der betrachteten Studien in einem Zeitstrahl abgebildet. Diese zeitliche Skizzierung wird in Abbildung \ref{studien} dargestellt.
 
 \begin{figure}[h]
@@ -117,18 +117,149 @@ Da auch Daten erhoben werden, benötigt es Variablen. In diesen werden Antworten
 \label{studien}
 \end{figure}
 
+\subsection{Defizite der betrachteten Technologien}
+In Kapitel \ref{ch:Forschungsstand} werden verschiedene Technologien vorgestellt, die für eine Umsetzung eines \emph{TMA} in Frage kommen. Die dort erläuterten Defizite werden hier in Kurzform zusammengefasst.
+
+\subsubsection{Grafische Programmiersprachen}
+Betrachtet wurden Chatbot-Plattformen und allgemeine grafische Programmiersprachen. Chatbot-Plattformen fokussieren sich zumeist auf Marketing, Vertrieb und Support. Die Umsetzung von Studien, die für die Anforderungsanalyse betrachtet wurden, gestaltet sich in diesen Plattformen schwierig. Diese lassen entsprechende Elemente, wie Likert-Skalen, visuelle Analogskalen und eine Patientenverwaltung vermissen. Konversationen als Baum oder Diagramm darzustellen, ist zwar leicht verständlich, allerdings werden diese schnell unübersichtlich wenn mehrere bedingte Pfade eingesetzt werden und die Komplexität der Konversation steigt. Die Gesamtansicht der Konversationen wird demnach auch schwer lesbar. Entweder müssen Verläufe durch scrollen und durchhangeln nachvollzogen werden oder diese werden durch die eingebaute Zoom-Funktion schlechter erkennbar und auffindbar. Manche Plattformen bieten zusätzlich die Möglichkeit, fehlende Funktionen zu implementieren. Die benötigt allerdings Programmiererfahrung. Generell sind bei der Verwendung dieser Plattformen, für eine Umsetzung entsprechender Therapien, mit Einschränkungen oder größeren Einarbeitungszeiten zu rechnen.
+
+Die allgemeinen Programmiersprachen hingegen spezialisieren sich stark auf bestimmte Domänen. Das Baukastenprinzip gewährleistet zwar viel Flexibilität und ist leicht verständlich in der Bedienung, allerdings wird bei steigender Komplexität das entwickelte System leicht unübersichtlich und schwer nachvollziehbar.
+
+\subsubsection{Auszeichnungssprachen}
+Die Verwendung von Auszeichnungssprachen bieten visuell zwar eine Trennung aber keine klare Übersicht über den Verlauf einer Konversation. Es benötigt Konzepte um zeitliche Abfolgen einer Therapie, Verzweigungen und Bedingungen zu realisieren und klar darzustellen. Hinzu kommt, dass die Syntax erlernt werden muss. Außerdem benötigt es einen aufwändigen Syntaxcheck um die Fehlersuche in angelegten Chatbot-Konversationen zu erleichtern.   
+
+\subsubsection{Experience Sampling}
+Insbesondere das \emph{movisensXS}-System liefert bereits viele Funktionen, die zur Umsetzung der betrachteten Therapien benötigt werden. Allerdings wurde das System für die Fragebogenentwicklung erstellt und müsste entsprechend angepasst werden um dem Chatbot-Format zu entsprechen.  
+
 
 \subsection{Anforderungen}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/anforderungen}
-\caption{Die zeitliche Abbildung verschiedener Studien in Form eines Zeitstrahls}
-\label{studien}
+\caption{Ausschnitt der erstellten Anforderungsliste}
+\label{anforderungen}
 \end{figure}
 
 \section{Ausarbeitung verschiedener Konzepte}
 
 \subsection{Begriffsdefinitionen}
+Im Rahmen der Konzeption werden verschiedene Begriffe eingeführt, die Klarheit über Struktur und Aufbau einer Therapie geben werden. Unterschieden wird zwischen den Begriffen \emph{Therapie}, \emph{Therapiemodul}, \emph{Chatbot-Konversation}, \emph{Chatbot-Nachricht}, \emph{Tagebuch}, \emph{Werkzeugkasten}. Für ein besseres Verständnis der Zusammenhänge werden Mengendefinitionen abgebildet. Für diese werden die Kürzel aus Abbildung \ref{mengen} verwendet.
+
+
+\begin{figure}
+   \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=0.5\textwidth]{pictures/mengen}
+	   \caption{Die in den Mengendefinitionen verwendeten Kürzel und ihre Bedeutung.}
+	  \label{mengen}
+   \end{minipage}
+   \hspace{.01\linewidth}% Abstand zwischen Bilder
+   \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=1\textwidth]{pictures/begriffe}
+	  \caption{Die verwendeten Begriffe und ihre Synonyme.}
+	  \label{begriffe}
+   \end{minipage}
+\end{figure}
+
+\subsubsection{Therapie}
+Im Rahmen dieser Arbeit wird unter \emph{Therapie} das Anwenden  einer oder mehrerer Methoden zur Behandlung einer oder mehrerer Störungen mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Bei diesen Methoden handelt es sich um wissenschaftlich anerkannte psychotherapeutische Verfahren. Den zu behandelnden Störungen mit Krankheitswert wird vorausgesetzt, dass diese als Psychotherapie indiziert sind.
+
+Eine Therapie wird auf genau  einen Patienten zugeordnet. Diese setzt sich aus mehreren Therapiemodulen zusammen. Für die Zusammensetzung der Therapie eines Patienten ist der Psychologische oder Ärztliche Psychotherapeut zuständig.
+
+\paragraph{Definition}
+\begin{quote}
+Verfahren, Methode zur Heilung einer Krankheit; Heilbehandlung. \cite{PsychThG4:online}
+\end{quote}
+
+\begin{quote}
+	Eine gezielte, erfolgreiche, medikamentöse Therapie. \cite{44:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+\emph{Jonas Vogt} ist 26 Jahre und leidet unter den Spätfolgen eines Burnouts. Im Erstgespräch mit seiner Psychologischen Psychotherapeutin Dipl.-Psych. Barbara Probst legt diese, basierend auf seinen Erzählungen, eine Therapie fest. Die Therapie besteht aus  mehreren Therapiemodulen. Diese richten sich auf verschiedene Symptome aus. So sieht die Therapie vor Jonas zunächst den Umgang mit Panikattacken, Stressbewältigung beizubringen und sein Selbstwertgefühl zu stärken. Dies geschieht durch eine Kombination aus Verhaltens- und tiefenpsychologisch fundierten Therapie.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\caption{Aufbau und Beziehungen einer \emph{Therapie}}
+\label{therapiedef}
+\end{figure}
+
+
+\subsubsection{Therapiemodul}
+Im Rahmen dieses Projekts wird unter \emph{Therapiemodul} das Anwenden  einer Methode zur Behandlung einer Störung mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Bei diesen Methoden handelt es sich um wissenschaftlich anerkannte psychotherapeutische Verfahren. Den zu behandelnden Störungen mit Krankheitswert wird vorausgesetzt, dass diese als Psychotherapie indiziert sind.
+
+Ein Therapiemodul ist Teil einer Therapie. Das Therapiemodul behandelt ein Aspekt der Therapie.
+
+\paragraph{Definition}
+\begin{quote}
+Austauschbares, komplexes Element innerhalb eines Gesamtsystems, eines Gerätes o. Ä., das eine geschlossene [Funktions]einheit bildet. \cite{DudenMod70:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+Jonas Vogt ist 26 Jahre und leidet unter den Spätfolgen eines Burnouts. Seine Psychologische Psychotherapeutin Dipl.-Psych. Barbara Probst wendet im Erstgespräch ein Therapiemodul an, welches Jonas dabei helfen soll, negative Gedanken zu erkennen und diese für den weiteren Therapieverlauf zu dokumentieren. Ziel des Therapiemoduls ist es, Jonas beizubringen, negative Gedanken aufzuschlüsseln und in positive Gedanken umzuformulieren. Im weiteren Verlauf der Therapie wendet Dipl.-Psych. Barbara Probst weitere Therapiemodule an um verschiedene Probleme, die zum einen zum Burnout führten und zum anderen aus dem Burnout resultieren, aufzuschlüsseln und Jonas den Umgang damit zu erleichtern.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/moduldef}
+\caption{Aufbau und Beziehungen des \emph{Therapiemoduls}}
+\label{moduldef}
+\end{figure}
+
+\subsubsection{Chatbot-Konversation}
+Im Rahmen dieses Projekts wird unter Chatbot-Konversation das Führen  eines Gesprächs mit dem Ziel zur Behandlung/Begleitung einer Störung mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Die Konversation ist Teil eines Therapiemoduls und kann von Bildern, Video-/Audiomaterial sowie Übungen begleitet werden. Im Kontext des TherapyBuilders wird die Konversation zwischen zwei Parteien geführt: dem Therapeuten oder dem Chatbot und dem Patienten.
+
+\paragraph{Definition}
+\begin{quote}
+Häufig konventionelles, oberflächliches und unverbindliches Geplauder; Gespräch, das in Gesellschaft nur um der Unterhaltung willen geführt wird. \cite{DudenKon2:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+Dipl.-Psych. Barbara Probst führt pro Therapiesitzung ein Gespräch/eine Konversation mi ihrem Patienten Jonas Vogt. In dieser Konversation ermittelt sie Jonas aktuellen Zustand, Dinge die in derzeit bewegen und beschäftigen und erklärt ihm den Ursprung seiner Gefühle. Außerdem führt sie mit Jonas Übungen durch, die ihm im Alltag helfen können bestimmte wiederkehrende Probleme zu meistern und sein Selbstwert zu stärken.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\caption{Beziehungen der Mengen}
+\label{therapiedef}
+\end{figure}
+
+
+\subsubsection{Chatbot-Nachricht}
+Im Rahmen dieses Projekts wird unter Chatbot-Nachricht ein Teil einer Therapie-Konversation verstanden. Im Kontext des TherapyBuilders wird zwischen Chatbot und Patient eine Konversation, bestehend aus Nachrichten, aufgebaut. Unterschieden wird innerhalb dieser Konversation zwischen Nachrichten des Patienten und Nachrichten des Chatbots unterschieden. Die Nachrichten des Chatbots können aus folgenden Elementen bestehen: Text, Link, Audio, Video, Bild, Externe Seiteninhalte (Statistiken - Iframe), Telefonnummern. Die Nachrichten des Nutzers können aus folgenden Elementen bestehen: Select One (Quick Reply), Freitext, Likert-Skala, Zahlen (GK, FKZ, Datum, Zeit), Visual-Analog-Skala (VAS).
+
+\paragraph{Definition}
+\begin{quote}
+Mitteilung, die jemandem in Bezug auf jemanden oder etwas [für ihn persönlich] Wichtiges die Kenntnis des neuesten Sachverhalts vermittelt. \cite{DudenNac9:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+Jonas Vogt erhielt im Erstgespräch mit seiner Psychologischen Psychotherapeutin Dipl.-Psych. Barbara Probst die Empfehlung die Anwendung „TherapyBuilder“ auf dessen Smartphone zu installieren. Jonas soll diesen zunächst bis zum ersten Behandlungstermin nutzen. Frau Dipl.-Psych. Barbara Probst legt für Jonas fest, welche Therapiemodule bis dahin für Jonas zur Verfügung stehen. Jonas kommuniziert täglich mit dem Chatbot des TherapyBuilders. Die Art der Nachrichten des Chatbots sowie des Anwenders Jonas wurden bereits als Therapiemodul konfiguriert und festgelegt. Der Chatbot kommuniziert mit Jonas via Text, Link, Audio, Video, Bild, Externe Seiteninhalte (Statistiken - Iframe), Telefonnummern. Jonas selbst nutzt Eingabeformate wie Select One (Quick Reply), Freitext, Likert-Skala, Zahlen (GK, FKZ, Datum, Zeit), Visual-Analog-Skala (VAS). Wann er welche als Nachricht an den Chatbot versendet, ist innerhalb des Therapiemoduls geregelt.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\caption{Beziehungen der Mengen}
+\label{therapiedef}
+\end{figure}
+
+\subsubsection{Werkzeugkasten}
+Im Rahmen dieses Projekts wird unter Werkzeugkasten ein Teil eines Therapie-Moduls verstanden welches Techniken (=Werkzeuge) sammelt, die jederzeit wiederholt ausgeführt werden können. Diese sollen den Nutzer unterstützen bestimmte (Denk- oder Verhaltens-) Muster zu erkennen und diese aufzulösen. Dies geschieht unter Zuhilfenahme bestimmter Techniken. In diesem Teil wird der Nutzer angeleitet eine bestimmte Vorgehensweise durchzuführen, um diese Techniken auf bestimmte Denk- oder Verhaltensmuster anzuwenden. Der Nutzer kann diese Techniken jederzeit im Werkzeugkasten als Werkzeug aufrufen wenn benötigt.
+
+\paragraph{Definition}
+\begin{quote}
+Kasten zur Aufbewahrung von Werkzeug. \cite{DudenWer23:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+Dipl.-Psych. Barbara Probst rät Jonas Vogt bis zum ersten Behandlungstermin die Therapiemodule durchzuführen, die sie in Jonas Therapieplan ablegt. Sie unterrichtet Jonas, dass diese Hilfreiche Werkzeuge für bestimmte Denk- und Verhaltensmuster enthalten. Diese müssen durch einen Fortschritt im Therapiemodul freigeschaltet und können ab diesem Zeitpunkt jederzeit von Jonas aufgerufen werden. Das erste Werkzeug welches Jonas aktiviert, ist das Werkzeug für das Auflösen negativer Gedanken. Sobald Jonas negative Gedanken hat, führt er dieses Werkzeug erneut aus um die negativen Gedanken aufzulösen.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\caption{Beziehungen der Mengen}
+\label{therapiedef}
+\end{figure}
 
 \subsection{Konzepte}
+
