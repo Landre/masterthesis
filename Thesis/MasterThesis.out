@@ -21,38 +21,47 @@
 \BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Fazit}{section.2.4}% 21
 \BOOKMARK [0][]{chapter.3}{3 Konzeption}{}% 22
 \BOOKMARK [1][-]{section.3.1}{3.1 Anforderungsanalyse}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{3.2 Ausarbeitung verschiedener Konzepte}{chapter.3}% 24
-\BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 25
-\BOOKMARK [1][-]{section.4.1}{4.1 Konzept}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{4.2 Umsetzung}{chapter.4}% 27
-\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 28
-\BOOKMARK [1][-]{section.5.1}{5.1 Studie}{chapter.5}% 29
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Zweck der Studie}{section.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Probandenakquise}{section.5.1}% 31
-\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Studiendesign}{section.5.1}% 32
-\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Studienablauf}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Hypothesen}{section.5.1}% 34
-\BOOKMARK [3][-]{subsubsection.5.1.5.1}{5.1.5.1 Konstruktionsprinzip und Konfigurationsprinzip}{subsection.5.1.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.1.5.2}{5.1.5.2 Spr\374nge und Sichtbarkeitsregeln}{subsection.5.1.5}% 36
-\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung des erhobenen Datensatzes}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Charakteristika der Probandenstichproben}{section.5.2}% 38
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Evaluationsergebnis des Konstruktionsprinzips}{section.5.2}% 39
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Zwischenfragebogen}{subsection.5.2.2}% 40
-\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Abschlussfragerunde}{subsection.5.2.2}% 41
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Evaluationsergebnis des Konfigurationsprinzips}{section.5.2}% 42
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{5.2.3.1 Zwischenfragebogen}{subsection.5.2.3}% 43
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{5.2.3.2 Abschlussfragerunde}{subsection.5.2.3}% 44
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Evaluationsergebnis der Spr\374nge}{section.5.2}% 45
-\BOOKMARK [3][-]{subsubsection.5.2.4.1}{5.2.4.1 Zwischenfragebogen}{subsection.5.2.4}% 46
-\BOOKMARK [3][-]{subsubsection.5.2.4.2}{5.2.4.2 Abschlussfragerunde}{subsection.5.2.4}% 47
-\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Evaluationsergebnis der Sichtbarkeitsregeln}{section.5.2}% 48
-\BOOKMARK [3][-]{subsubsection.5.2.5.1}{5.2.5.1 Zwischenfragebogen}{subsection.5.2.5}% 49
-\BOOKMARK [3][-]{subsubsection.5.2.5.2}{5.2.5.2 Abschlussfragerunde}{subsection.5.2.5}% 50
-\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 51
-\BOOKMARK [1][-]{section.6.1}{6.1 Ergebnisinterpretation}{chapter.6}% 52
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Konfigurationsprinzip und Konstruktionsprinzip}{section.6.1}% 53
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Spr\374nge und Sichtbarkeitsregeln}{section.6.1}% 54
-\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Zusammenfassung}{section.6.1}% 55
-\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 56
-\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 57
-\BOOKMARK [0][]{section*.70}{Bibliography}{}% 58
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Persona}{section.3.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{3.1.1.1 Forscher}{subsection.3.1.1}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{3.1.1.2 Therapeut}{subsection.3.1.1}% 26
+\BOOKMARK [3][-]{subsubsection.3.1.1.3}{3.1.1.3 Patient}{subsection.3.1.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Studienbetrachtung}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Defizite Stand der Technik}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Anforderungen}{section.3.1}% 30
+\BOOKMARK [1][-]{section.3.2}{3.2 Ausarbeitung verschiedener Konzepte}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Begriffsdefinitionen}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Konzepte}{section.3.2}% 33
+\BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 34
+\BOOKMARK [1][-]{section.4.1}{4.1 Konzept}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.2}{4.2 Umsetzung}{chapter.4}% 36
+\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 37
+\BOOKMARK [1][-]{section.5.1}{5.1 Studie}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Zweck der Studie}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Probandenakquise}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Studiendesign}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Studienablauf}{section.5.1}% 42
+\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Hypothesen}{section.5.1}% 43
+\BOOKMARK [3][-]{subsubsection.5.1.5.1}{5.1.5.1 Konstruktionsprinzip und Konfigurationsprinzip}{subsection.5.1.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.1.5.2}{5.1.5.2 Spr\374nge und Sichtbarkeitsregeln}{subsection.5.1.5}% 45
+\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung des erhobenen Datensatzes}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Charakteristika der Probandenstichproben}{section.5.2}% 47
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Evaluationsergebnis des Konstruktionsprinzips}{section.5.2}% 48
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Zwischenfragebogen}{subsection.5.2.2}% 49
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Abschlussfragerunde}{subsection.5.2.2}% 50
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Evaluationsergebnis des Konfigurationsprinzips}{section.5.2}% 51
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{5.2.3.1 Zwischenfragebogen}{subsection.5.2.3}% 52
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{5.2.3.2 Abschlussfragerunde}{subsection.5.2.3}% 53
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Evaluationsergebnis der Spr\374nge}{section.5.2}% 54
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{5.2.4.1 Zwischenfragebogen}{subsection.5.2.4}% 55
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{5.2.4.2 Abschlussfragerunde}{subsection.5.2.4}% 56
+\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Evaluationsergebnis der Sichtbarkeitsregeln}{section.5.2}% 57
+\BOOKMARK [3][-]{subsubsection.5.2.5.1}{5.2.5.1 Zwischenfragebogen}{subsection.5.2.5}% 58
+\BOOKMARK [3][-]{subsubsection.5.2.5.2}{5.2.5.2 Abschlussfragerunde}{subsection.5.2.5}% 59
+\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 60
+\BOOKMARK [1][-]{section.6.1}{6.1 Ergebnisinterpretation}{chapter.6}% 61
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Konfigurationsprinzip und Konstruktionsprinzip}{section.6.1}% 62
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Spr\374nge und Sichtbarkeitsregeln}{section.6.1}% 63
+\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Zusammenfassung}{section.6.1}% 64
+\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 65
+\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 66
+\BOOKMARK [0][]{section*.81}{Bibliography}{}% 67
