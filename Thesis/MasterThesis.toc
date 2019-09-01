@@ -5,130 +5,130 @@
 \contentsline {section}{\numberline {1.2}Umfeld}{3}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Methodisches Vorgehen}{3}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}Gliederung}{4}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}Grundlagen}{5}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}TherapyBuilder}{5}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Forscher-Plattform}{6}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Therapeuten-Plattform}{7}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Backend}{7}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}App}{7}{subsection.2.1.4}% 
-\contentsline {section}{\numberline {2.2}Rahmenbedingungen von Psychotherapien}{7}{section.2.2}% 
-\contentsline {section}{\numberline {2.3}Chatbots}{7}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Stand der Technik}{9}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Grafische Programmiersprachen}{9}{subsection.2.4.1}% 
-\contentsline {subsubsection}{\numberline {2.4.1.1}Chatbot-Plattformen}{9}{subsubsection.2.4.1.1}% 
-\contentsline {subsubsection}{\numberline {2.4.1.2}Allgemeine grafische Programmiersprachen}{10}{subsubsection.2.4.1.2}% 
-\contentsline {subsection}{\numberline {2.4.2}Auszeichnungssprachen}{11}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Experience Sampling}{11}{subsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.4.4}Fazit}{12}{subsection.2.4.4}% 
-\contentsline {chapter}{\numberline {3}Konzeption}{15}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Anforderungsanalyse}{15}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Persona}{15}{subsection.3.1.1}% 
-\contentsline {subsubsection}{\numberline {3.1.1.1}Forscher}{15}{subsubsection.3.1.1.1}% 
-\contentsline {paragraph}{Profil}{16}{section*.12}% 
-\contentsline {paragraph}{Ziele}{16}{section*.13}% 
-\contentsline {subsubsection}{\numberline {3.1.1.2}Therapeut}{16}{subsubsection.3.1.1.2}% 
-\contentsline {paragraph}{Profil}{17}{section*.15}% 
-\contentsline {paragraph}{Ziele}{17}{section*.16}% 
-\contentsline {subsubsection}{\numberline {3.1.1.3}Patient}{18}{subsubsection.3.1.1.3}% 
-\contentsline {paragraph}{Profil}{18}{section*.18}% 
-\contentsline {paragraph}{Ziele}{18}{section*.19}% 
-\contentsline {subsection}{\numberline {3.1.2}Studienbetrachtung}{19}{subsection.3.1.2}% 
-\contentsline {subsection}{\numberline {3.1.3}Defizite der betrachteten Technologien}{20}{subsection.3.1.3}% 
-\contentsline {subsubsection}{\numberline {3.1.3.1}Grafische Programmiersprachen}{20}{subsubsection.3.1.3.1}% 
-\contentsline {subsubsection}{\numberline {3.1.3.2}Auszeichnungssprachen}{21}{subsubsection.3.1.3.2}% 
-\contentsline {subsubsection}{\numberline {3.1.3.3}Experience Sampling}{21}{subsubsection.3.1.3.3}% 
-\contentsline {subsection}{\numberline {3.1.4}Anforderungen}{21}{subsection.3.1.4}% 
-\contentsline {section}{\numberline {3.2}Ausarbeitung verschiedener Konzepte}{21}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Begriffsdefinitionen}{21}{subsection.3.2.1}% 
-\contentsline {subsubsection}{\numberline {3.2.1.1}Therapie}{23}{subsubsection.3.2.1.1}% 
-\contentsline {paragraph}{Definition}{23}{section*.25}% 
-\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{23}{section*.26}% 
-\contentsline {subsubsection}{\numberline {3.2.1.2}Therapiemodul}{23}{subsubsection.3.2.1.2}% 
-\contentsline {paragraph}{Definition}{24}{section*.28}% 
-\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{24}{section*.29}% 
-\contentsline {subsubsection}{\numberline {3.2.1.3}Chatbot-Konversation}{24}{subsubsection.3.2.1.3}% 
-\contentsline {paragraph}{Definition}{24}{section*.31}% 
-\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{24}{section*.32}% 
-\contentsline {subsubsection}{\numberline {3.2.1.4}Chatbot-Nachricht}{25}{subsubsection.3.2.1.4}% 
-\contentsline {paragraph}{Definition}{25}{section*.34}% 
-\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{25}{section*.35}% 
-\contentsline {subsubsection}{\numberline {3.2.1.5}Werkzeugkasten}{25}{subsubsection.3.2.1.5}% 
-\contentsline {paragraph}{Definition}{26}{section*.37}% 
-\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{26}{section*.38}% 
-\contentsline {subsection}{\numberline {3.2.2}Konzepte}{26}{subsection.3.2.2}% 
-\contentsline {chapter}{\numberline {4}Entwicklung der Modellierungssprache}{27}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Konzept}{27}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Umsetzung}{27}{section.4.2}% 
-\contentsline {chapter}{\numberline {5}Evaluation}{29}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Studie}{29}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Zweck der Studie}{29}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Probandenakquise}{29}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}Studiendesign}{30}{subsection.5.1.3}% 
-\contentsline {subsection}{\numberline {5.1.4}Studienablauf}{32}{subsection.5.1.4}% 
-\contentsline {subsection}{\numberline {5.1.5}Hypothesen}{34}{subsection.5.1.5}% 
-\contentsline {subsubsection}{\numberline {5.1.5.1}Konstruktionsprinzip und Konfigurationsprinzip}{34}{subsubsection.5.1.5.1}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerdarstellung}{34}{section*.44}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggereinstellungen}{35}{section*.45}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Konversationen}{35}{section*.46}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der zeitlichen Darstellung der Konversationen}{35}{section*.47}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerkonfiguration}{35}{section*.48}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{35}{section*.49}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit von Abh\IeC {\"a}ngigkeiten zwischen Konversationen und Konversationsverzweigungen}{36}{section*.50}% 
-\contentsline {subsubsection}{\numberline {5.1.5.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{36}{subsubsection.5.1.5.2}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationsdarstellung}{36}{section*.51}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationseinstellungen}{36}{section*.52}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit des Konversationsverlaufs}{36}{section*.53}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Antwortoptionen innerhalb des Konversationsverlaufs}{37}{section*.54}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Verzweigungen innerhalb des Konversationsverlaufs}{37}{section*.55}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Werkzeugpalette zur Konversationserstellung}{37}{section*.56}% 
-\contentsline {section}{\numberline {5.2}Beschreibung des erhobenen Datensatzes}{37}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Charakteristika der Probandenstichproben}{37}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Evaluationsergebnis des Konstruktionsprinzips}{38}{subsection.5.2.2}% 
-\contentsline {subsubsection}{\numberline {5.2.2.1}Zwischenfragebogen}{39}{subsubsection.5.2.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2.2}Abschlussfragerunde}{40}{subsubsection.5.2.2.2}% 
-\contentsline {paragraph}{Hilfreich}{40}{section*.60}% 
-\contentsline {paragraph}{Nicht hilfreich}{40}{section*.61}% 
-\contentsline {paragraph}{Gut Gefallen}{41}{section*.62}% 
-\contentsline {paragraph}{Gefehlt}{42}{section*.63}% 
-\contentsline {subsection}{\numberline {5.2.3}Evaluationsergebnis des Konfigurationsprinzips}{42}{subsection.5.2.3}% 
-\contentsline {subsubsection}{\numberline {5.2.3.1}Zwischenfragebogen}{42}{subsubsection.5.2.3.1}% 
-\contentsline {subsubsection}{\numberline {5.2.3.2}Abschlussfragerunde}{43}{subsubsection.5.2.3.2}% 
-\contentsline {paragraph}{Hilfreich}{44}{section*.66}% 
-\contentsline {paragraph}{Nicht hilfreich}{45}{section*.67}% 
-\contentsline {paragraph}{Gut Gefallen}{45}{section*.68}% 
-\contentsline {paragraph}{Gefehlt}{45}{section*.69}% 
-\contentsline {subsection}{\numberline {5.2.4}Evaluationsergebnis der Spr\IeC {\"u}nge}{45}{subsection.5.2.4}% 
-\contentsline {subsubsection}{\numberline {5.2.4.1}Zwischenfragebogen}{46}{subsubsection.5.2.4.1}% 
-\contentsline {subsubsection}{\numberline {5.2.4.2}Abschlussfragerunde}{47}{subsubsection.5.2.4.2}% 
-\contentsline {paragraph}{Hilfreich}{47}{section*.72}% 
-\contentsline {paragraph}{Nicht hilfreich}{47}{section*.73}% 
-\contentsline {paragraph}{Gut Gefallen}{48}{section*.74}% 
-\contentsline {paragraph}{Gefehlt}{48}{section*.75}% 
-\contentsline {subsection}{\numberline {5.2.5}Evaluationsergebnis der Sichtbarkeitsregeln}{49}{subsection.5.2.5}% 
-\contentsline {subsubsection}{\numberline {5.2.5.1}Zwischenfragebogen}{49}{subsubsection.5.2.5.1}% 
-\contentsline {subsubsection}{\numberline {5.2.5.2}Abschlussfragerunde}{50}{subsubsection.5.2.5.2}% 
-\contentsline {paragraph}{Hilfreich}{50}{section*.78}% 
-\contentsline {paragraph}{Nicht hilfreich}{51}{section*.79}% 
-\contentsline {paragraph}{Gut Gefallen}{51}{section*.80}% 
-\contentsline {paragraph}{Gefehlt}{51}{section*.81}% 
-\contentsline {chapter}{\numberline {6}Ergebnisdiskussion}{53}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Ergebnisinterpretation}{53}{section.6.1}% 
-\contentsline {subsection}{\numberline {6.1.1}Konfigurationsprinzip und Konstruktionsprinzip}{53}{subsection.6.1.1}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggereinstellungen}{54}{section*.85}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerdarstellung}{55}{section*.86}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Konversationen}{56}{section*.87}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der zeitlichen Darstellung der Konversationen}{57}{section*.88}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerkonfiguration}{57}{section*.89}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit von Abh\IeC {\"a}ngigkeiten zwischen Konversationen und Konversationsverzweigungen}{57}{section*.90}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{58}{section*.91}% 
-\contentsline {subsection}{\numberline {6.1.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{58}{subsection.6.1.2}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationsdarstellung}{58}{section*.93}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationseinstellungen}{59}{section*.94}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit des Konversationsverlaufs}{60}{section*.95}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Antwortoptionen innerhalb des Konversationsverlaufs}{61}{section*.96}% 
-\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Verzweigungen innerhalb des Konversationsverlaufs}{61}{section*.97}% 
-\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Werkzeugpalette zur Konversationserstellung}{61}{section*.98}% 
-\contentsline {subsection}{\numberline {6.1.3}Zusammenfassung}{62}{subsection.6.1.3}% 
-\contentsline {section}{\numberline {6.2}Kritische Reflexion}{63}{section.6.2}% 
-\contentsline {chapter}{\numberline {7}Ausblick}{65}{chapter.7}% 
-\contentsline {chapter}{Bibliography}{67}{section*.99}% 
+\contentsline {chapter}{\numberline {2}Grundlagen}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}TherapyBuilder}{7}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Forscher-Plattform}{8}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Therapeuten-Plattform}{9}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Backend}{9}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}App}{9}{subsection.2.1.4}% 
+\contentsline {section}{\numberline {2.2}Rahmenbedingungen von Psychotherapien}{9}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Chatbots}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Stand der Technik}{11}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Grafische Programmiersprachen}{11}{subsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.1.1}Chatbot-Plattformen}{11}{subsubsection.2.4.1.1}% 
+\contentsline {subsubsection}{\numberline {2.4.1.2}Allgemeine grafische Programmiersprachen}{12}{subsubsection.2.4.1.2}% 
+\contentsline {subsection}{\numberline {2.4.2}Auszeichnungssprachen}{13}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Experience Sampling}{13}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Fazit}{14}{subsection.2.4.4}% 
+\contentsline {chapter}{\numberline {3}Konzeption}{17}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Anforderungsanalyse}{17}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Persona}{17}{subsection.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1.1}Forscher}{17}{subsubsection.3.1.1.1}% 
+\contentsline {paragraph}{Profil}{18}{section*.12}% 
+\contentsline {paragraph}{Ziele}{18}{section*.13}% 
+\contentsline {subsubsection}{\numberline {3.1.1.2}Therapeut}{18}{subsubsection.3.1.1.2}% 
+\contentsline {paragraph}{Profil}{19}{section*.15}% 
+\contentsline {paragraph}{Ziele}{19}{section*.16}% 
+\contentsline {subsubsection}{\numberline {3.1.1.3}Patient}{20}{subsubsection.3.1.1.3}% 
+\contentsline {paragraph}{Profil}{20}{section*.18}% 
+\contentsline {paragraph}{Ziele}{20}{section*.19}% 
+\contentsline {subsection}{\numberline {3.1.2}Studienbetrachtung}{21}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Defizite der betrachteten Technologien}{22}{subsection.3.1.3}% 
+\contentsline {subsubsection}{\numberline {3.1.3.1}Grafische Programmiersprachen}{22}{subsubsection.3.1.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.3.2}Auszeichnungssprachen}{23}{subsubsection.3.1.3.2}% 
+\contentsline {subsubsection}{\numberline {3.1.3.3}Experience Sampling}{23}{subsubsection.3.1.3.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Anforderungen}{23}{subsection.3.1.4}% 
+\contentsline {section}{\numberline {3.2}Ausarbeitung verschiedener Konzepte}{23}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Begriffsdefinitionen}{23}{subsection.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.1.1}Therapie}{24}{subsubsection.3.2.1.1}% 
+\contentsline {paragraph}{Definition}{25}{section*.25}% 
+\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{25}{section*.26}% 
+\contentsline {subsubsection}{\numberline {3.2.1.2}Therapiemodul}{25}{subsubsection.3.2.1.2}% 
+\contentsline {paragraph}{Definition}{25}{section*.28}% 
+\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{26}{section*.29}% 
+\contentsline {subsubsection}{\numberline {3.2.1.3}Chatbot-Konversation}{26}{subsubsection.3.2.1.3}% 
+\contentsline {paragraph}{Definition}{26}{section*.31}% 
+\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{26}{section*.32}% 
+\contentsline {subsubsection}{\numberline {3.2.1.4}Chatbot-Nachricht}{27}{subsubsection.3.2.1.4}% 
+\contentsline {paragraph}{Definition}{27}{section*.34}% 
+\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{27}{section*.35}% 
+\contentsline {subsubsection}{\numberline {3.2.1.5}Werkzeugkasten}{27}{subsubsection.3.2.1.5}% 
+\contentsline {paragraph}{Definition}{28}{section*.37}% 
+\contentsline {paragraph}{Beispiel anhand der aufgestellten Persona}{28}{section*.38}% 
+\contentsline {subsection}{\numberline {3.2.2}Konzepte}{28}{subsection.3.2.2}% 
+\contentsline {chapter}{\numberline {4}Entwicklung der Modellierungssprache}{29}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Konzept}{29}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Umsetzung}{29}{section.4.2}% 
+\contentsline {chapter}{\numberline {5}Evaluation}{31}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Studie}{31}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Zweck der Studie}{31}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Probandenakquise}{31}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Studiendesign}{32}{subsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.1.4}Studienablauf}{34}{subsection.5.1.4}% 
+\contentsline {subsection}{\numberline {5.1.5}Hypothesen}{36}{subsection.5.1.5}% 
+\contentsline {subsubsection}{\numberline {5.1.5.1}Konstruktionsprinzip und Konfigurationsprinzip}{36}{subsubsection.5.1.5.1}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerdarstellung}{36}{section*.44}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggereinstellungen}{37}{section*.45}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Konversationen}{37}{section*.46}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der zeitlichen Darstellung der Konversationen}{37}{section*.47}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerkonfiguration}{37}{section*.48}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{37}{section*.49}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit von Abh\IeC {\"a}ngigkeiten zwischen Konversationen und Konversationsverzweigungen}{38}{section*.50}% 
+\contentsline {subsubsection}{\numberline {5.1.5.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{38}{subsubsection.5.1.5.2}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationsdarstellung}{38}{section*.51}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationseinstellungen}{38}{section*.52}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit des Konversationsverlaufs}{38}{section*.53}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Antwortoptionen innerhalb des Konversationsverlaufs}{39}{section*.54}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Verzweigungen innerhalb des Konversationsverlaufs}{39}{section*.55}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Werkzeugpalette zur Konversationserstellung}{39}{section*.56}% 
+\contentsline {section}{\numberline {5.2}Beschreibung des erhobenen Datensatzes}{39}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Charakteristika der Probandenstichproben}{39}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Evaluationsergebnis des Konstruktionsprinzips}{40}{subsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.1}Zwischenfragebogen}{41}{subsubsection.5.2.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2.2}Abschlussfragerunde}{42}{subsubsection.5.2.2.2}% 
+\contentsline {paragraph}{Hilfreich}{42}{section*.60}% 
+\contentsline {paragraph}{Nicht hilfreich}{42}{section*.61}% 
+\contentsline {paragraph}{Gut Gefallen}{43}{section*.62}% 
+\contentsline {paragraph}{Gefehlt}{44}{section*.63}% 
+\contentsline {subsection}{\numberline {5.2.3}Evaluationsergebnis des Konfigurationsprinzips}{44}{subsection.5.2.3}% 
+\contentsline {subsubsection}{\numberline {5.2.3.1}Zwischenfragebogen}{44}{subsubsection.5.2.3.1}% 
+\contentsline {subsubsection}{\numberline {5.2.3.2}Abschlussfragerunde}{45}{subsubsection.5.2.3.2}% 
+\contentsline {paragraph}{Hilfreich}{46}{section*.66}% 
+\contentsline {paragraph}{Nicht hilfreich}{47}{section*.67}% 
+\contentsline {paragraph}{Gut Gefallen}{47}{section*.68}% 
+\contentsline {paragraph}{Gefehlt}{47}{section*.69}% 
+\contentsline {subsection}{\numberline {5.2.4}Evaluationsergebnis der Spr\IeC {\"u}nge}{47}{subsection.5.2.4}% 
+\contentsline {subsubsection}{\numberline {5.2.4.1}Zwischenfragebogen}{48}{subsubsection.5.2.4.1}% 
+\contentsline {subsubsection}{\numberline {5.2.4.2}Abschlussfragerunde}{49}{subsubsection.5.2.4.2}% 
+\contentsline {paragraph}{Hilfreich}{49}{section*.72}% 
+\contentsline {paragraph}{Nicht hilfreich}{49}{section*.73}% 
+\contentsline {paragraph}{Gut Gefallen}{50}{section*.74}% 
+\contentsline {paragraph}{Gefehlt}{50}{section*.75}% 
+\contentsline {subsection}{\numberline {5.2.5}Evaluationsergebnis der Sichtbarkeitsregeln}{51}{subsection.5.2.5}% 
+\contentsline {subsubsection}{\numberline {5.2.5.1}Zwischenfragebogen}{51}{subsubsection.5.2.5.1}% 
+\contentsline {subsubsection}{\numberline {5.2.5.2}Abschlussfragerunde}{52}{subsubsection.5.2.5.2}% 
+\contentsline {paragraph}{Hilfreich}{52}{section*.78}% 
+\contentsline {paragraph}{Nicht hilfreich}{53}{section*.79}% 
+\contentsline {paragraph}{Gut Gefallen}{53}{section*.80}% 
+\contentsline {paragraph}{Gefehlt}{53}{section*.81}% 
+\contentsline {chapter}{\numberline {6}Ergebnisdiskussion}{55}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Ergebnisinterpretation}{55}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Konfigurationsprinzip und Konstruktionsprinzip}{55}{subsection.6.1.1}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggereinstellungen}{56}{section*.85}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerdarstellung}{57}{section*.86}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Konversationen}{58}{section*.87}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der zeitlichen Darstellung der Konversationen}{59}{section*.88}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Triggerkonfiguration}{59}{section*.89}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit von Abh\IeC {\"a}ngigkeiten zwischen Konversationen und Konversationsverzweigungen}{59}{section*.90}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Therapie}{60}{section*.91}% 
+\contentsline {subsection}{\numberline {6.1.2}Spr\IeC {\"u}nge und Sichtbarkeitsregeln}{60}{subsection.6.1.2}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationsdarstellung}{60}{section*.93}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Konversationseinstellungen}{61}{section*.94}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit des Konversationsverlaufs}{62}{section*.95}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Antwortoptionen innerhalb des Konversationsverlaufs}{63}{section*.96}% 
+\contentsline {paragraph}{Verst\IeC {\"a}ndlichkeit der Verzweigungen innerhalb des Konversationsverlaufs}{63}{section*.97}% 
+\contentsline {paragraph}{\IeC {\"U}bersichtlichkeit der Werkzeugpalette zur Konversationserstellung}{63}{section*.98}% 
+\contentsline {subsection}{\numberline {6.1.3}Zusammenfassung}{64}{subsection.6.1.3}% 
+\contentsline {section}{\numberline {6.2}Kritische Reflexion}{65}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Ausblick}{67}{chapter.7}% 
+\contentsline {chapter}{Bibliography}{69}{section*.99}% 
