@@ -444,21 +444,45 @@ Das Konfigurationsprinzip basiert auf der Idee, dass der Nutzer ein Therapiemodu
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{pictures/modulübersicht}
-\caption{Die zeitliche Darstellung einzelner Chatbot-Konversationen}
-\label{therapiedef}
+\includegraphics[width=0.75\textwidth]{pictures/moduluebersicht}
+\caption{Skizze der zeitlichen Darstellung einzelner Chatbot-Konversationen. Die Darstellung erinnert an ein Gantt-Diagramm.}
+\label{moduluebersicht}
 \end{figure}
+
+Da hier zunächst noch keine Trigger-Einstellungen erkennbar sind, gibt es einige Überlegungen, diese sichtbar zu machen. Hierfür muss zunächst bedacht werden, welche Form der Trigger-Einstellungen benötigt werden. Diese werden bereits in der zuvor aufgeführten Anforderungsanalyse aufgelistet. Außerdem muss berücksichtigt werden, wie die Trigger vom Forscher eingestellt werden können. Da es sich hierbei um eine Konfiguration handeln soll, die zugleich viel Flexibilität fordert, gibt es die Überlegung, die Konfiguration aus dem Experience-Sampling Tool \emph{movisensXS} zu übersetzen. Das Konstruktionsprinzip des \emph{movisensXS} bietet die Möglichkeit, Trigger, Bedingungen und die anschließend auszuführenden Konversationen, anhand von Blöcken zu verschalten. So können beliebig viele Kombinationen erstellt werden. Dieser Ansatz ist bei steigender Komplexität allerdings unübersichtlich. Abbildung \ref{triggersetkons} skizziert beispielhaft das in \emph{movisensXS} verwendete Konstruktionsprinzip. Um eine Übersichtlichkeit zu behalten, wird die Schaltmöglichkeiten des Konstruktionsprinzip in eine Konfiguration übersetzt. Im \emph{movisensXS} wird unter anderem zwischen Trigger, Bedingungen und Konversationen unterschieden. Zusammengefasst werden diese unter dem Begriff \emph{Time}. Um die Komplexität zu reduzieren und die Einstellungen im Zeitstrahl abzubilden, werden die Trigger und Bedingungen des \emph{movisensXS} direkt auf eine Konversation bezogen, statt Trigger auf mehrere Konversationen anzuwenden. Die aufgelisteten Konversationen erhalten mehrere Einstellungs- und Bearbeitungsmöglichkeiten. Eine dieser Möglichkeiten führt zu den Inhalten der Chatbot-Konversation. Dort wird der Nachrichtenverlauf angelegt und bearbeitet. Eine weitere Möglichkeit ruft den Bearbeitungsdialog der Trigger-Einstellungen der entsprechenden Konversation auf. Auf diese Weise entfällt die Übersetzung der Konversation des \emph{movisensXS}. Das \emph{movisensXS} nutzt Regeln, die den Aufbau des Sampling-Baums bestimmen. Für die Übersetzung der Trigger und Bedingungen werden diese Regeln übertragen. Die Trigger im \emph{movisensXS} Sampling-Baum folgen in der Konfiguration immer als erstes. Diese geben vor, zu welchen Zeiten eine Konversation getriggert werden. Dies wird für das Konstruktionsprinzip übernommen. Zunächst folgen die Trigger-Einstellungen. Ein Trigger muss konfiguriert werden. Dieser gibt zum einen an, durch wen oder was und an welchen Tagen die die Konversation getriggert wird. Soll eine Konversation einem Patienten zwischen Start und Ende dauerhaft zur Verfügung stehen, so kann die Konversation als \emph{Toolbox}-Item markiert werden.  Innerhalb eines Triggers können mehrere Bedingungen angelegt werden. Hier kann beispielsweise nach Variablen-Werten abgefragt werden oder nach dem Zustand einer anderen Konversation. Hierdurch entstehen Abhängigkeiten zwischen Konversationen. Die Bedingungen können beliebig erweitert werden. Da eine Konversation durch mehrere Trigger gestartet werden kann, ist es möglich weitere Trigger anzulegen. Die Abbildung \ref{triggerset} verdeutlicht das Konzept. Tritt somit einer der hinzugefügten Trigger ein, wird die zugehörige Konversation gestartet.
+
+\begin{figure}
+   \begin{minipage}[b]{.65\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{pictures/triggersetkons}
+      \caption{Skizze des Konstruktionsprinzips aus \emph{movisensXS}. Die Anordnung der Trigger ist flexibel. Diese wurde in das Konstruktionsprinzip übersetzt.}
+      \label{triggersetkons}
+   \end{minipage}
+   \hspace{.01\linewidth}% Abstand zwischen Bilder
+   \begin{minipage}[b]{.325\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{pictures/triggerset}
+      \caption{Die Übersetzung der flexiblen Trigger-Konfiguration.}
+      \label{triggerset}
+   \end{minipage}
+\end{figure}
+
+Diese Vorgaben können nun im Zeitstrahl abgebildet werden. Abhängigkeiten, Toolbox-Items und einfache Konversationen, die keine Abhängigkeiten besitzen, werden farblich Kodiert. Konversationen, die durch den Therapeut, zeitliche Vorgabe des Patienten, oder durch eine andere Konversation gestartet werden, erhalten aussagekräftige Icons. Abhängigkeiten zwischen Konversationen werden im Zeitstrahl durch Linien dargestellt. Die Linien führen von der Konversation, die eine bestimmte Bedingung erfüllen muss, zur Konversation, die erst nach Erfüllung der Bedingung ausgeführt werden kann. 
+
+Die Einstellung der Trigger erfolgt in der Liste der Konversationen. Werden die Trigger-Einstellungen einer Konversation geöffnet, so wechselt die Listendarstellung in die Trigger-Ansicht der jeweiligen Konversation. Die Darstellung der Liste wird in Abbildung \ref{liste} skizziert. Die Liste der Konversationen befindet sich links neben dem Zeitstrahl. Jeder Listeneintrag repräsentiert eine Zeile im Zeitstrahl. Die Konversation und ihre entsprechenden Trigger-Einstellungen werden in ihrer entsprechenden Zeile abgebildet. So besteht ein direkter Zusammenhang zwischen visueller Abbildung im Zeitstrahl und der angelegten Konversation. Eine Konversation wird über ein rundes Schaltelement hinzugefügt. Das Schaltelement beinhaltet ein \emph{+} Symbol und ist bekannt aus dem Material-Design von Google (vgl. \cite{Buttonsf61:online}). Die Listendarstellung der Konversationen bietet außerdem eine Suche. Dies soll das Suchen einer Konversation vereinfachen sobald die Ansicht komplexer wird. 
+
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{pictures/toolboxdef}
-\caption{Beziehungen der Mengen}
-\label{therapiedef}
+\includegraphics[width=0.5\textwidth]{pictures/liste}
+\caption{Skizze einer Liste der Konversationen. Diese wird links neben dem Zeitstrahl platziert.}
+\label{liste}
 \end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{pictures/toolboxdef}
-\caption{Beziehungen der Mengen}
-\label{therapiedef}
-\end{figure}
+\subsubsection{Konfigurationsprinzip}
+
+%
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=0.5\textwidth]{pictures/toolboxdef}
+%\caption{Beziehungen der Mengen}
+%\label{therapiedef}
+%\end{figure}

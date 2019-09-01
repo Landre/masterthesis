@@ -198,6 +198,15 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Buttonsf61:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+  \field{howpublished}{\url{https://material.io/components/buttons-floating-action-button/}}
+    \field{note}{(Accessed on 09/02/2019)}
+    \field{title}{Buttons: floating action button - Material Design}
+  \endentry
+
   \entry{SWB-11524946X}{book}{}
     \name{author}{2}{}{%
       {{hash=CKM}{%
@@ -475,6 +484,15 @@
     \field{title}{Google Allo - A smart messaging app}
   \endentry
 
+  \entry{GoogleKa75:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{\url{https://calendar.google.com/calendar/r?tab=rc}}
+    \field{note}{(Accessed on 09/01/2019)}
+    \field{title}{Google Kalender - Woche vom 26. August 2019}
+  \endentry
+
   \entry{Gratch2014}{article}{}
     \name{author}{2}{}{%
       {{hash=GJ}{%
@@ -578,6 +596,15 @@
     \field{howpublished}{\url{http://www.gesetze-im-internet.de/mpg/}}
     \field{note}{(Accessed on 05/28/2019)}
     \field{title}{MPG - nichtamtliches Inhaltsverzeichnis}
+  \endentry
+
+  \entry{MailundK42:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+  \field{howpublished}{\url{https://www.microsoft.com/de-de/p/mail-und-kalender/9wzdncrfhvqm?activetab=pivot:overviewtab}}
+    \field{note}{(Accessed on 09/01/2019)}
+    \field{title}{Mail und Kalender beziehen – Microsoft Store de-DE}
   \endentry
 
   \entry{ManyChat78:online}{misc}{}
