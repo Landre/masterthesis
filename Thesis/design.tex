@@ -133,6 +133,7 @@ Insbesondere das \emph{movisensXS}-System liefert bereits viele Funktionen, die 
 
 
 \subsection{Anforderungen}
+Auf Basis der aufgestellten Persona, Betrachtung der Studien und der Defizite der betrachteten Technologien, wurden funktionale sowie nicht-funktionale Anforderungen aufgestellt, die der Therapiemodellierungsansatz erfüllen sollte. Es wurden mehrere Anforderungen in einem Excel-File beschrieben (vgl. \ref{anforderungen}) und entsprechend priorisiert. In diesem Kapitel werden die Anforderungen mit der höchsten Priorität dargestellt. Hierbei handelt es sich um Anforderungen, die den Therapiemodellierungsansatz grundlegend charakterisieren.
 
 \begin{figure}[h]
 \centering
@@ -140,6 +141,129 @@ Insbesondere das \emph{movisensXS}-System liefert bereits viele Funktionen, die 
 \caption{Ausschnitt der erstellten Anforderungsliste}
 \label{anforderungen}
 \end{figure}
+
+\subsection{Funktionale Anforderungen}
+Im Folgenden werden die Anforderungen beschrieben, die der Zweckbestimmung der Forscher-Plattform dienen.
+
+\subsubsection{Konversationen}
+Folgende Konversationsarten können mit den bereitgestellten Mitteln erstellt werden.
+
+\paragraph{Fragebogen/Datenerhebung} Es können Daten erhoben werden, z.B. via Fragebögen
+
+\paragraph{Just-In-Time Intervention} Es können Interventionen angelegt werden, die im Anschluss zu einem Fragebogen ausgeführt werden.
+
+\paragraph{Getriggerte Intervention} Interventionen werden anhand eines Triggers  ausgelöst.
+
+\paragraph{On-demand Intervention} Es können Interventionen angelegt werden, die vom Nutzer on-demand ausgeführt werden können.
+
+\paragraph{Self-Monitoring} Es können Konversationen angelegt werden, die dem Nutzer zum Self-monitoring dienen.
+
+\subsubsection{Fragebogen}
+Mit Hilfe der Eingabeformate ist es möglich, einen Fragebogen zu erstellen. Mit diesen Mitteln können in den Fragebögen verschiedene Frageformen umgesetzt werden.
+
+\paragraph{Offene Fragen} Es ist möglich offene Fragen zu stellen.
+
+\paragraph{Geschlossene Fragen} Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen:
+
+\begin{itemize}
+\item Dichtonome Fragen (Ja/Nein(/Weiß nicht))
+\item Eingruppierungsfragen (unter 18|18-29|30-45|…)
+\item Ratingskalen (Likert-Skala, Visual Analog Skala)
+\item Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten)
+\item Einfachauswahl
+\item Mehrfachauswahl
+\item Ergänzungsoption
+\end{itemize}
+
+\subsubsection{Eingabeformate} Eingabeformate der Nutzer	
+\paragraph{Freie Texteingabe}
+\paragraph{Likert-Skala}
+\paragraph{Visual Analogue Skala}
+\paragraph{Select One}
+\paragraph{Select Many}
+
+\subsubsection{Ausgabeformate} Ausgabeformate des Bots
+\paragraph{Text}
+\paragraph{Bilder}
+\paragraph{Video}
+\paragraph{Audio}
+\paragraph{Link}
+\paragraph{GIF}
+
+\subsubsection{Trigger}Folgende Methoden können zum Triggern einer Konversation eingesetzt werden
+
+\paragraph{Therapeut}Der Therapeut schaltet eine Konversation frei, diese erscheint sofort. 
+Der Therapeut schaltet eine Konversation frei, diese erscheint ab einem gewissen Zeitfenster.
+
+\paragraph{Zeit}Eine Konversation erscheint zu einem randomisierten Zeitpunkt innerhalb eines, vom Nutzer festgelegten, Zeitfensters [ta, te].
+Eine Konversation erscheint zu einem, vom Forscher festgelegten, Zeitpunkt.
+Eine Konversation erscheint zu einem randomisierten Zeitpunkt, innerhalb eines, vom Forscher festgelegten, Zeitfensters [ta, te]
+
+\paragraph{Liste}Konversation wird randomisiert aus einer Liste von Konversationen ausgewählt
+
+\paragraph{Ausführungsanzahl}Eine Konversation kann anhand einer Anzahl Ausführungen an einem Tag getriggert werden
+
+\paragraph{Nutzer}Ein Nutzer kann selbst eine Konversation starten 
+
+\paragraph{Konversation}Eine Konversation kann durch das Abschließen einer anderen Konversation getriggert werden
+
+\paragraph{Snooze}Eine Konversation wird erneut getriggert nach Zeitpunkt des Snoozes eines Nutzers +t (zB. 30 Minuten)
+
+\paragraph{Variable}Eine Konversation wird durch einen Wert einer Variable getriggert
+die Variable hat den aktuellen Wert x.
+die Variable hatte den Wert x zum Zeitpunkt t.
+die Variable wird ermittelt aus verschiedenen Variablen/Werten durch eine vorgegebene Funktion und erfüllt eine Bedingung.
+
+\subsubsection{Variablen}
+\paragraph{Speichern}Es können Werte unter Variablennamen abgespeichert werden
+\paragraph{Historie}Die Werte, die eine Variable im Verlauf eines Therapiemoduls angenommen hat, werden in einer Historie hinterlegt
+\paragraph{Typen} Eine Variable kann einen der folgenden Typen annehmen
+\begin{itemize}
+\item String
+\item Gleitkommazahl
+\item Ganze Zahl 
+\item Boolean (Wahr/Falsch)
+\item Image (DB-Blob)
+\item Video (DB-Blob)
+\item Audio (DB-Blob)
+\item Link
+\end{itemize}	
+
+\subsubsection{Flexible Gestaltung von Triggern}
+
+\subsubsection{Verzweigungen in Konversationen}
+
+\subsubsection{Abhängigkeiten zwischen Konversationen}
+
+
+\subsection{Nicht-Funktionale Anforderungen}
+Im Folgenden werden die Anforderungen beschrieben, die der Qualität der Forscher-Plattform dienen.
+
+\paragraph{Anmeldeseite} Nachdem der Nutzer den Link zur TherapyBuilder Forscher-\paragraph{Plattform} in einer Browser Adressleiste eingegeben hat, öffnet sich die Anmeldeseite.
+
+\paragraph{Startseite}Nach erfolgreicher Anmeldung des Nutzers, wird dieser auf die Startseite weitergeleitet
+\paragraph{Startseite-Inhalt}Die Startseite beinhaltet
+\begin{itemize}
+\item Logout: Es gibt ein Link zum Ausloggen
+\item Account-Einstellungen: Es gibt ein Link zum Aufrufen der Account-Einstellungen
+\item Übersicht bereits angelegter Therapie-Module: Es gibt eine Übersicht über alle bereits angelegte Therapie-Module
+\item Therapie-Modul hinzufügen: Es gibt eine Schaltfläche zum Hinzufügen eines Therapie-Moduls
+\item Therapie-Modul umbenennen:	Es gibt eine Schaltfläche zum Umbenennen eines Therapie-Moduls
+\item Therapie-Modul entfernen:	Es gibt eine Schaltfläche zum Entfernen eines Therapie-Moduls
+\item  Therapie-Modul kopieren:	Es gibt eine Schaltfläche zum Kopieren eines Therapie-Moduls
+\item Therapie-Modul Status: Jedes bereits angelegte Therapie-Modul erhält einen Status. Dieser Status wird auf der Übersichtsseite für jedes Therapie-Modul angezeigt.
+\end{itemize}
+	
+\paragraph{Bearbeiten} Therapiemodul bearbeiten	Durch Klick auf ein Therapie-Modul, gelangt man auf dessen Bearbeitungsseite
+		
+\paragraph{Hinzufügen}Durch Klick auf die "Hinzufügen" Schaltfläche wird ein neues Therapie-Modul angelegt.
+
+\paragraph{Umbenennen} Durch Klick auf die "Umbenennen" Schaltfläche kann der Nutzer das Modul umbennenen.
+
+\paragraph{Kopieren} Durch Klick auf die "Kopieren" Schaltfläche kann der Nutzer das Modul kopieren.
+
+\paragraph{Entfernen} Durch Klick auf die "Entfernen" Schaltfläche öffnet sich ein Dialog zur Eingabe des Wortes "DELETE" um das Entfernen des Therapie-Moduls zu bestätigen.
+
 
 \section{Ausarbeitung verschiedener Konzepte}
 
@@ -262,8 +386,6 @@ Kasten zur Aufbewahrung von Werkzeug. \cite{DudenWer23:online}
 \caption{Beziehungen der Mengen}
 \label{therapiedef}
 \end{figure}
-
-
 
 
 
