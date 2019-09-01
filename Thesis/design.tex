@@ -144,21 +144,23 @@ Insbesondere das \emph{movisensXS}-System liefert bereits viele Funktionen, die 
 \section{Ausarbeitung verschiedener Konzepte}
 
 \subsection{Begriffsdefinitionen}
-Im Rahmen der Konzeption werden verschiedene Begriffe eingeführt, die Klarheit über Struktur und Aufbau einer Therapie geben werden. Unterschieden wird zwischen den Begriffen \emph{Therapie}, \emph{Therapiemodul}, \emph{Chatbot-Konversation}, \emph{Chatbot-Nachricht}, \emph{Tagebuch}, \emph{Werkzeugkasten}. Für ein besseres Verständnis der Zusammenhänge werden Mengendefinitionen abgebildet. Für diese werden die Kürzel aus Abbildung \ref{mengen} verwendet.
+Im Rahmen der Konzeption werden verschiedene Begriffe eingeführt, die Klarheit über Struktur und Aufbau einer Therapie geben werden. Unterschieden wird zwischen den Begriffen \emph{Therapie}, \emph{Therapiemodul}, \emph{Chatbot-Konversation}, \emph{Chatbot-Nachricht}, \emph{Tagebuch}, \emph{Werkzeugkasten}. Für ein besseres Verständnis der Zusammenhänge werden Mengendefinitionen abgebildet. Für diese werden die Kürzel aus Abbildung \ref{begriffe} verwendet.
 
 
-\begin{figure}
-   \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
-      \includegraphics[width=0.5\textwidth]{pictures/mengen}
-	   \caption{Die in den Mengendefinitionen verwendeten Kürzel und ihre Bedeutung.}
-	  \label{mengen}
-   \end{minipage}
-   \hspace{.01\linewidth}% Abstand zwischen Bilder
-   \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
-      \includegraphics[width=1\textwidth]{pictures/begriffe}
-	  \caption{Die verwendeten Begriffe und ihre Synonyme.}
-	  \label{begriffe}
-   \end{minipage}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.75\textwidth]{pictures/begriffe}
+	\caption{Die verwendeten Begriffe und ihre Synonyme.}
+	\label{begriffe}
+\end{figure}
+
+Insgesamt bestehen zwischen den Begrifflichkeiten Beziehungen die den Aufbau einer Therapie beschreiben. Abbildung \ref{mengeninsg} verdeutlicht den gesamten Aufbau einer Therapie und die Zusammenhänge zwischen einzelnen Elementen. Eine Therapie besteht aus verschiedenen Therapie-Modulen. Diese bilden sich wiederum aus Chatbot-Konversationen. Chatbot-Konversationen können sich aus einfachen Nachrichten zusammenbauen. Es gibt auch Elemente, die in einem Werkzeugkasten als Konversation auftauchen können. Diese können wiederum ein Teil einer Konversation sein und setzen sich ebenfalls aus einfachen Nachrichten zusammen. Die Nachrichten entweder aus Chatbot-Nachrichten oder Patienten-Nachrichten. Die genauen Begrifflichkeiten werden in diesem Kapitel definiert, erklärt und mit Beispielszenarien anhand der entwickelten Persona beschrieben.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.75\textwidth]{pictures/mengeninsg}
+	\caption{Übersicht der Beziehungen aller beschriebenen Mengen}
+	\label{mengeninsg}
 \end{figure}
 
 \subsubsection{Therapie}
@@ -219,8 +221,8 @@ Dipl.-Psych. Barbara Probst führt pro Therapiesitzung ein Gespräch/eine Konver
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
-\caption{Beziehungen der Mengen}
+\includegraphics[width=0.5\textwidth]{pictures/konvesationdef}
+\caption{Beziehungen der Chatbot-Konversation}
 \label{therapiedef}
 \end{figure}
 
@@ -238,8 +240,8 @@ Jonas Vogt erhielt im Erstgespräch mit seiner Psychologischen Psychotherapeutin
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
-\caption{Beziehungen der Mengen}
+\includegraphics[width=0.5\textwidth]{pictures/nachrichtdef}
+\caption{Beziehungen der Chatbot-Nachrichten}
 \label{therapiedef}
 \end{figure}
 
@@ -256,10 +258,14 @@ Dipl.-Psych. Barbara Probst rät Jonas Vogt bis zum ersten Behandlungstermin die
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\includegraphics[width=0.5\textwidth]{pictures/toolboxdef}
 \caption{Beziehungen der Mengen}
 \label{therapiedef}
 \end{figure}
+
+
+
+
 
 \subsection{Konzepte}
 
