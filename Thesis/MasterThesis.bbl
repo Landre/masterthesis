@@ -24,15 +24,6 @@
     \field{note}{(Accessed on 08/31/2019)}
   \endentry
 
-  \entry{8e8f4fb047:online}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{8}
-    \field{sortinithash}{8}
-  \field{howpublished}{\url{https://pdfs.semanticscholar.org/103f/8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf}}
-    \field{note}{(Accessed on 08/27/2019)}
-    \field{title}{8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf}
-  \endentry
-
   \entry{AppStore21:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -149,15 +140,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{BlocklyG57:online}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{howpublished}{\url{https://developers.google.com/blockly/}}
-    \field{note}{(Accessed on 11/27/2018)}
-    \field{title}{Blockly | Google Developers}
-  \endentry
-
   \entry{BlocklyG18:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{B}
@@ -269,15 +251,6 @@
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{isbn}{978-0-674-28653-5; 0-674-28653-79780674729063; 0674729064}
-    \field{note}{Includes bibliographical references and index. - Print version
-  record; The aim of this book is to provide a compact and up-to-date business
-  and economic history of the computer industry. The reader we have in mind is
-  someone who wants to make a quick study of the computer industry... In our
-  quest for brevity, we have assumed that our readers are themselves
-  information-technology users and are familiar with the everyday vocabulary of
-  computing (such as operating systems, disk drives, and broadband), and that
-  they are aware of recent gadgetry such as tablet computers and
-  smartphones--Page 1}
     \field{series}{Critical issues in business history}
     \field{title}{From mainframes to smartphones : a history of the
   international computer industry}
@@ -589,6 +562,15 @@
     \verb  movisens/Paper/Noch zu lesen/a412685.pdf:pdf
     \endverb
     \field{year}{2003}
+  \endentry
+
+  \entry{8e8f4fb047:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+  \field{howpublished}{\url{https://pdfs.semanticscholar.org/103f/8e8f4fb05ecbd70fedd1e0eaf99ba7ada4c8.pdf}}
+    \field{note}{(Accessed on 08/27/2019)}
+    \field{title}{Jeeves - An Experience Sampling Study Creation Tool}
   \endentry
 
   \entry{KassenSc50:online}{misc}{}
