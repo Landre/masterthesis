@@ -27,7 +27,7 @@ Wurde ein Therapie-Modul angeklick, öffnet sich die zeitliche Darstellung der K
 \label{zeitstrahl}
 \end{figure}
 
-Der Proband hat die Möglichkeit die Trigger-Einstellungen jeder Konversation aufzurufen. Auch kann der Proband verschiedene Einstellungsmöglichkeiten erkunden. Allerdings kann er in dieser Ansicht keine Einstellungen vornehmen. Dies ist in einer anderen, vorbereiteten Ansicht möglich. Hat der Proband auf der Startseite das Therapie-Modul \emph{Emotional awareness} erzeugt und ruft dessen zeitliche Darstellung auf, so erhält er in dieser zunächst ein leeres Arbeitsblatt. Dort hat er die Möglichkeit eine Konversation zu erstellen und in dieser, eingeschränkt, Trigger-Einstellungen vorzunehmen. Einstellen kann er dabei nur die Werte, die in den Aufgaben der Studie vorgegeben werden. Klickt der Proband auf das Dialog-Icon einer Konversation, so öffnet sich die nächste Ansicht. In dieser wird die Chatbot-Konversation dargestellt. 
+Der Proband hat die Möglichkeit die Trigger-Einstellungen jeder Konversation aufzurufen. Auch kann der Proband verschiedene Einstellungsmöglichkeiten erkunden. Allerdings kann er in dieser Ansicht keine Einstellungen vornehmen. Dies ist in einer anderen, vorbereiteten Ansicht möglich. Hat der Proband auf der Startseite das Therapie-Modul \emph{Emotional Awareness} erzeugt und ruft dessen zeitliche Darstellung auf, so erhält er in dieser zunächst ein leeres Arbeitsblatt. Dort hat er die Möglichkeit eine Konversation zu erstellen und in dieser, eingeschränkt, Trigger-Einstellungen vorzunehmen. Einstellen kann er dabei nur die Werte, die in den Aufgaben der Studie vorgegeben werden. Klickt der Proband auf das Dialog-Icon einer Konversation, so öffnet sich die nächste Ansicht. In dieser wird die Chatbot-Konversation dargestellt. 
 
 \subsubsection{Sprünge}
 Wurde die Chatbot-Konversation des Therapie-Moduls \emph{Stress reduction} aufgerufen, wird eine bereits angelegte Darstellung geöffnet, die keine Einstellungsmöglichkeiten bietet und nur zum erkunden dient. Wurde die Chatbot-Konversation des Therapie-Moduls \emph{Emotional awareness} geöffnet, kann der Proband eingeschränkt eine Chatbot-Konversation anlegen. Die Chatbot-Konversation kann sehr bedingt eingestellt werden. Die Einstellungsmöglichkeiten werden auch hier von der Aufgabe der Studie vorgegeben. Die Ansicht der Chatbot-Konversation des Therapie-Moduls \emph{Stress Reduction} besteht aus einer Liste der Items, die zuvor im Kapitel \ref{ch:design} beschrieben wurde. Das Arbeitsblatt beinhaltet \emph{Lanes} und eine Anordnung verschiedener Nachrichten. Der Proband hat hier die Möglichkeit auf verschiedene Nachrichten innerhalb der \emph{Lanes} zu klicken und die exemplarische Ansicht der Einstellung eines Elements zu öffnen.
@@ -35,12 +35,42 @@ Wurde die Chatbot-Konversation des Therapie-Moduls \emph{Stress reduction} aufge
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/textset}
-\caption{Das Konfigurationsprinzip beinhaltet eine zeitliche Darstellung aller Chatbot-Konversationen.}
+\caption{Die Darstellung der Nachrichten. Der Proband hat die Möglichkeit verschiedene Nachrichten anzuklicken und die entsprechende exemplarische Einstellung zu öffnen. Die Ein Sprung im Konversationsverlauf wird durch ein Rundes Element dargestellt, welches auf verschiedene \emph{Lanes} verweist. Dieses Element kann im Therapie-Modul \emph{Emotional Awareness}exemplarisch konfiguriert werden.} 
 \label{textset}
 \end{figure}
 
 \subsection{movisensXS-Prototyp}
+Der \emph{movisensXS}-Prototyp besteht aus dem Hanndelsüblichen \emph{movisensXS}, welches lediglich eine angepasste Bibliothek verwendet, um die gelisteten Anforderungen aus Kapitel \ref{ch:design} umzusetzen. In diesem Prototyp hat der Proband somit die Möglichkeit alle Funktionen zu erkunden. Gestartet wird dieser Prototyp lokal auf einem Rechner. Auch hier gibt es bereits das Therapie-Modul \emph{Stress reduction}. Dieses beinhaltet die gleichen Konversationen und Trigger-Einstellungen wie sie im \emph{TherapyBuilder}-Prototyp zu finden sind. Das \emph{movisensXS} beginnt ebenfalls mit einer Eingangsseite, die eine Übersicht der angelegten Therapie-Module bietet. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/movstart}
+\caption{Die Eingangsseite des \emph{movisensXS}-Prototyps. Hier finden sich ebenfalls die Therapie-Module \emph{Emotional Awareness} und \emph{Stress Reduction}.}
+\label{start}
+\end{figure}
+
+Klickt der Proband auf ein Modul, so wird dieser zunächst auf ein Dashboard weitergeleitet. Ausgehend von diesem kann die Ansicht der Trigger-Einstellungen oder die Liste aller Konversationen angezeigt werden. Die Trigger-Einstellungen implementieren das Konstruktionsprinzip.
 
 \subsubsection{Konstruktionsprinzip}
+Werden die Trigger-Einstellungen des \emph{Stress Reduction} aufgerufen, wird der Triggerbaum dargestellt. Dieser setzt sich aus folgenden Baukästen zusammen: \emph{Trigger}, \emph{Conditions} und \emph{Conversations}. \emph{Trigger} und \emph{Conditions} steuern wann und anhand welcher Bedingungen eine Konversation gestartet wird.  \emph{Conversations} lassen den Nutzer die Einstellung vornehmen, welche Konversation gestartet wird. Diese werden im Reiter \emph{Conversations} aufgerufen. 
+
+Die Bausteine folgen dem Ampelprinzip. \emph{Trigger} werden mit der Farbe Rot, \emph{Conditions} mit der Farbe Gelb und \emph{Conversations} mit der Farbe Grün markiert. Diese farbliche Kodierung deutet an, zu welcher Zeit (\emph{Trigger}), zu welchen Bedingungen (\emph{Conditions}) die Konversation gestartet wird. Diese setzt auch die Reihenfolge der Verschaltung fest. Auf einen roten Baustein kann somit immer nur ein roter oder gelber Baustein folgen. Auf einen gelben Baustein kann immer nur ein grüner folgen. Dies wird zusätzlich durch die Form der Ecken der Bausteine verdeutlicht. Legt der Proband das \emph{Stress Reduction} Therapie-Modul an, kann dieser Trigger-Einstellungen für eine angelegte Konversation in Form eines Baumes anlegen.  
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/movtrig}
+\caption{Die Trigger-Einstellungen des Therapie-Moduls \emph{Stress Reduction}. Links befindet sich die Werkzeugpalette mit den entsprechenden Bausteinen. Diese können per Drag and Drop auf dem Arbeitsblatt platziert werden. Einzelne Elemente werden}
+\label{start}
+\end{figure}
+
+
 
 \subsubsection{Sichtbarkeitsregeln}
+Damit eine Konversation innerhalb des Trigger-Baumes ausgewählt werden kann, muss diese zunächst im Reiter \emph{Conversations} angelegt werden. Auch hier befinden sich im Therapie-Modul \emph{Stress Reduction} die gleichen Inhalte wie im \emph{TherapyBuilder}-Prototyp. Die Werkzeugpalette unterscheidet sich vom Funktionsumfang nicht von der Werkzeugpalette des \emph{TherapyBuilder}-Prototyps. Lediglich die Darstellung und die Verwendung von Sichtbarkeitsregeln, statt Sprüngen, unterscheiden sich von diesem. Abbildung \ref{movconv} verdeutlicht die Präsentation der Konversationen im \emph{movisensXS}-Prototyp. Der Verlauf ist sequentiell. Nachrichten und Antwortmöglichkeiten werden für Gruppen sichtbar oder unsichtbar gesetzt, indem diesen Sichtbarkeitsregeln hinterlegt werden. Diese werden direkt am Element eingestellt, indem auf das Auge geklickt und der Dialog geöffnet wird.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/movconv}
+\caption{Die Übersicht der Konversationen des Therapie-Moduls \emph{Stress Reduction}. Links befindet sich die Werkzeugpalette mit den entsprechenden Nachrichtenformaten. Diese können per Drag and Drop sequentiell angeordnet werden. Das Auge symbolisiert eine hinterlegte Sichtbarkeitsregel. Ein Klick auf das Auge offenbart die Regel. Diese ist hier rechts zu sehen.}
+\label{movconv}
+\end{figure}
