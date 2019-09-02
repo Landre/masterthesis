@@ -4,103 +4,490 @@
 %% ==============================
 \chapter{Konzeption}
 \label{ch:Design}
+In diesem Kapitel werden die Anforderungen an die Forscherplattform und den hierfür benötigten Therapiemodellierungsansatz beleuchtet. Für diese werden zunächst die Persona dargestellt. Diese beschreiben verschiedene Eigenschaften der Personengruppen, die später den \emph{TherapyBuilder} bedienen, der in Kapitel \ref{ch:Background}  beschriebenen wird. Anschließend werden verschiedene Studien betrachtet, die von Psychologen entwickelt wurden. Die Studien bestehen aus Therapien, die beispielsweise auf ihre Wirksamkeit geprüft werden. Aus den Defiziten der Technologien, die im Stand der Technik diskutiert werden, den dargestellten Persona und den Studieneingenschaften, werden die Anforderungen an den Therapiemodellierungsansatz entwickelt. Auf Basis der Anforderungsanalyse werden verschiedene Konzepte entwickelt. Hierfür werden zunächst wichtige Begriffe und Strukturen definiert, die für das Verständnis der Konzepte relevant sind.
+
 
 \section{Anforderungsanalyse}
+Nachfolgend werden die verschiedenen Aspekte beleuchtet, die für eine Anforderungsanalyse relevant sind. Basierend auf diesen Aspekten werden die Anforderungen formuliert.
 
-Nur Fokus auf Funktionale Anforderungen
+\subsection{Persona}
+Die in Kapitel \ref{ch:Background} beschriebene \emph{TherapyBuilder}-Plattform wird voraussichtlich von drei Personengruppen verwendet. Der Forscher bedient die Forscher-Plattform. Auf dieser werden die Chatbots und deren Steuerung entwickelt. Durch die Therapeuten-Plattform haben Forscher und Therapeuten die Möglichkeit die Patienten oder Studienteilnehmer zu verwalten und diesen verschiedene Therapien zuzuordnen. Die App hingegen wird hauptsächlich von Patienten benutzt. Diese können allerdings auch Studienteilnehmer sein. Die Rollen werden in diesem Kapitel genauer beschrieben.
+
+\subsubsection{Forscher}
+Der Forscher entwickelt neue Therapien. Diese werden in Studien auf ihre Wirksamkeit getestet. Betrachtet werden das Profil und die Ziele des fiktiven Forscher \emph{Prof. Dr. Richard Weimer}. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/forscher}
+\caption{Eckdaten des fiktiven Forschers \emph{Prof. Dr. Richard Weimer}}
+\label{forscher}
+\end{figure}
+
+\paragraph{Profil} 
+\emph{Prof. Dr. Richard Weimer} ist Psychologe. Er leitet die Abteilung für Persönlichkeitsforschung eines Psychologischen Instituts einer Universität. Er lebt in Heidelberg nahe der Universität. Sein Interesse gilt der Entwicklung und Verbesserung von Therapien für Angststörungen. Neben der Lehre erarbeitet er zusammen mit Studenten und wissenschaftlichen Mitarbeitern neue Therapie-Konzepte. Diese werden auf ihre Wirksamkeit überprüft. Die Ergebnisse werden in Form einer wissenschaftlichen Arbeit publiziert.
+
+Er nutzt seine Freizeit gerne um sich über neue Therapie-Methoden zu informieren und neue Technologien zu erschließen die Therapien verbessern können. Meist hält er Notizen und neue Therapiekonzepte auf Papier fest. Für Studien werden diese in Excel-Tabellen eingepflegt. Die Auswertungen macht er bislang teils manuell, teils automatisiert über Excel.
+
+Zusammen mit Studenten und wissenschaftlichen Mitarbeitern entwickelt er Anwendungen für Probanden die begleitend zur Therapie eingesetzt werden. Mit ihnen sucht er auch nach neuen Möglichkeiten Therapien mit wenig Papier übersichtlich zu gestalten und Daten schneller gesammelt und anonymisiert auszuwerten. Dabei sollen Studiendesign wie Ergebnisse nachvollziehbar für wissenschaftliche Arbeiten dokumentiert werden.
+
+
+\paragraph{Ziele}
 \begin{itemize}
-\item Konversationen: Arten (Fragebogen, JIT Intervention, getriggerte Intervention, On-demand Intervention, Self-Monitoring, Notfallkoffer)
-\item Fragebogen (Offene und geschlossene Fragen)
-\item Eingabeformate der Nutzer (Text, Likert-Skala,...)
+\item Übersichtliche Studien-Dokumentation
+\item Einfache und gesammelte Datenauswertung
+\item Übersichtliches Erstellen einer Therapie
+\item Nutzung neuer Technologien für Therapien
+\item Nutzung verschiedener Plattformen für Therapie 
 \end{itemize}
 
 
-Startseite-Inhalt		Die Startseite beinhaltet
-	Logout	Es gibt ein Link zum Ausloggen
-	Accounteinstellungen	Es gibt ein Link zum Aufrufen der Accounteinstellungen
-	Übersicht bereits angelegter Therapie-Module	Es gibt eine Übersicht über alle bereits angelegte Therapie-Module
-	Therapie-Modul hinzufügen	Es gibt eine Schaltfläche zum Hinzufügen eines Therapie-Moduls
-	Therapie-Modul umbenennen	Es gibt eine Schaltfläche zum Umbenennen eines Therapie-Moduls
-	Therapie-Modul entfernen	Es gibt eine Schaltfläche zum Entfernen eines Therapie-Moduls
-	Therapie-Modul kopieren	Es gibt eine Schaltfläche zum Kopieren eines Therapie-Moduls
-	Schaltfläche zum Exportieren eines Therapie-Moduls	Es gibt eine Schaltfläche zum Exportieren eines Therapie-Moduls
-	Therapie-Modul Status	Jedes bereits angelegte Therapie-Modul erhält einen Status. Dieser Status wird auf der Übersichtsseite für jedes Therapie-Modul angezeigt.
-Bearbeiten	Therapiemodul bearbeiten	Durch Klick auf ein Therapie-Modul, gelangt man auf dessen Bearbeitungsseite
-Hinzufügen		Durch Klick auf die "Hinzufügen" Schaltfläche wird ein neues Therapie-Modul angelegt.
-Umbenennen		Durch Klick auf die "Umbenennen" Schaltfläche kann der Nutzer das Modul umbennenen.
-Kopieren		Durch Klick auf die "Kopieren" Schaltfläche kann der Nutzer das Modul kopieren.
-Entfernen		Durch Klick auf die "Entfernen" Schaltfläche öffnet sich ein Dialog zur Eingabe des Wortes "DELETE" um das Entfernen des Therapie-Moduls zu bestätigen
-Konversationen	Folgende Konversationsarten können mit den bereitgestellten Mitteln erstellt werden	
-	Fragebogen/Datenerhebung	Es können Daten erhoben werden, z.B. via Fragebögen
-	Just-In-Time Intervention	Es können Interventionen angelegt werden, die Im Anschluss zu einem Fragebogen ausgeführt wird
-	Getriggerte Intervention	Diese Intervenionen werden anhand eines Triggers (Verw. Trigger) ausgelöst
-	On-demand Intervention	Es können Interventionen angelegt werden, die vom Nutzer on-demand ausgeführt werden können
-	Self-Monitoring	Es können Konversationen angelegt werden, die dem Nutzer zum Self-monitoring dienen
-	Notfallkoffer	Es gibt eine Art Notfallkoffer. Dieser erlaubt dem Nutzer hilfreiche Übungen/Konversationen darin abzulegen um diese jederzeit aufzurufen.
-Fragebogen	Fragebogen	Mit Hilfe der Eingabeformate ist es möglich, einen Fragebogen zu erstellen
-	Offene Fragen	Es ist möglich offene Fragen zu stellen
-	Geschlossene Fragen	Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen
-		Dichtonome Fragen (Ja/Nein(/Weiß nicht))
-		Eingruppierungsfragen (unter 18|18-29|30-45|…)
-		Ratingskalen (Likert-Skala, Visual Analog Skala)
-		Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten)
-		Einfachauswahl
-		Mehrfachauswahl
-		Ergänzungsoption
-Eingabeformate	Eingabeformate der Nutzer	Text
-		Likert-Skala
-		Visual Analogue Skala
-		Select One
-		Select Many
-Ausgabeformate	Ausgabeformate des Bots	Text
-		Bilder
-		Video
-		Audio
-		Link
-		GIF
-Plattform	Patienten	Der Patient nutzt sein Smartphone zur Teilnahme an einer Studie/einer Therapie
-		Die Kommunikationsschnitstelle der Patienten wird von folgenden Plattformen unterstützt
-		Android
-		iOS
-	Forscherplattform (Administrationsinterface)	Der Forscher nutzt einen PC zur Erstellung einer Studie/Therapie
-Trigger	Folgende Methoden können zum Triggern einer Konversation eingesetzt werden	
-	Therapeut	Der Therapeut schaltet eine Konversation frei, diese erscheint sofort
-		Der Therapeut schaltet eine Konversation frei, diese erscheint ab einem gewissen Zeitfenster
-	Zeit	Eine Konversation erscheint zu einem randomisierten Zeitpunkt innerhalb eines, vom Nutzer festgelegten, Zeitfensters [ta, te] 
-		Eine Konversation erscheint zu einem, vom Forscher festgelegten, Zeitpunkt
-		Eine Konversation erscheint zu einem randomisierten Zeitpunkt, innerhalb eines, vom Forscher festgelegten, Zeitfensters [ta, te]
-	Liste	Konversation wird randomisiert aus einer Liste von Konversationen ausgewählt
-	Ausführungsanzahl	Eine Konversation kann anhand einer Anzahl Ausführungen an einem Tag getriggert werden
-	Nutzer	Ein Nutzer kann selbst eine Konversation starten 
-	Konversation	Eine Konversation kann durch das Abschließen einer anderen Konversation getriggert werden
-	Snooze	Eine Konversation wird erneut getriggert nach Zeitpunkt des Snoozes eines Nutzers +t (zB. 30 Minuten)
-	Variable	Eine Konversation wird durch einen Wert einer Variable getriggert
-		die Variable hat den aktuellen Wert x
-		die Variable hatte den Wert x zum Zeitpunkt t
-		die Variable wird ermittelt aus verschiedenen Variablen/Werten durch eine vorgegebene Funktion und erfüllt eine Bedingung
-Nutzer	Gruppen	Ein Nuzer kann in verschiedene Gruppen eingeteilt werden (Interventionsgruppe, Kontrollgruppe)
-	Pseudonymer Nutzeraccount	Der Nutzer verwendet ein Pseudonym
-	Avatar	Der Nutzer kann einen Avatar wählen
-App	Kontakt	Die App bietet den Nutzern die Möglichkeit den Studienleiter/Therapeuten zu kontaktieren um Probleme zu melden
-	Zeitleiste	Die App bietet eine Übersicht der aktiven und kommenden Übungen in Form einer Zeitleiste
-	Statistik	Die App bietet dem Nutzer die Möglichkeit Daten des Self-Monitoring in Statistiken nachzuvollziehen
-	Push Notifications	Die App benachrichtigt den Nutzer sobald dieser eine Konversation zu bearbeiten hat
-	Einstellungen	Die App bietet dem Nutzer die Möglichkeit Einstellungen an seinem Account vorzunehmen
-Variablen	Speichern	Es können Werte unter Variablennamen abgespeichert werden
-	Historie	Die Werte, die eine Variable im Verlauf eines Therapiemoduls angenommen hat, werden in einer Historie hinterlegt
-	Typen	Eine Variable kann einen der folgenden Typen annehmen
-		String
-		Gleitkommazahl
-		Ganze Zahl 
-		Boolean (Wahr/Falsch)
-		Image (DB-Blob)
-		Video (DB-Blob)
-		Audio (DB-Blob)
-		Link
+\subsubsection{Therapeut}
+Der Therapeut wendet Therapien auf Patienten an. Basierend auf den Patientenprofilen ordnet er diesen verschiedene Therapien zu. Betrachtet werden das Profil und die Ziele der fiktiven Therapeutin \emph{Dipl.-Psych. Barbara Probst}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/therapeut}
+\caption{Eckdaten der fiktiven Therapeutin \emph{Dipl.-Psych. Barbara Probst}}
+\label{therapeut}
+\end{figure}
+
+\paragraph{Profil}
+\emph{Dipl.-Psych. Barbara Probst} ist staatlich geprüfte psychologische Psychotherapeutin. Sie führt eine eigene Praxis. In dieser behandelt sie Patienten mit verschiedenen Störungen mit Krankheitswert. Ihr Spezialgebiet ist die Angststörung.
+
+Sie wendet verschiedene Therapieansätze an. Diese werden individuell auf Persönlichkeit, Krankheitsverlauf und Symptomen des Patienten ausgewählt und zugeschnitten. Dabei nutzt sie altbewährte, wie auch neue Therapieansätze. Ihr Interesse gilt insbesondere neuartigen Therapiemethoden im Bereich der Angststörung. In ihrer Freizeit beschäftigt sie sich deshalb mit Fachjournalen. Sobald sie eine neue vielversprechende und geprüfte Therapiemethode entdeckt, notiert sie sich verschiedene Ansätze um diese auf geeignete Patienten zu übertragen. Dabei sind besonders Ansätze interessant, die neuartige Technologien verwenden.
+
+Da ihr Stundenplan voll belegt ist muss die Übertragung neuer Therapiemethoden leicht und schnell gehen. Falls neue Technologien notwendig sind, sollen diese so leicht zu bedienen sein, dass kein Mehraufwand in Dokumentation und Planung entsteht. Außerdem ist es wichtig, dass eingesetzte Technologien wenig Aufwand und Expertenwissen benötigen um diese entsprechend einzurichten und zu bedienen.
+
+\paragraph{Ziele}
+\begin{itemize}
+\item Austesten neuer Therapiemethoden
+\item Einsatz neuer Technologien in Verbindung mit Psychotherapie
+\item Neue Technologien sollten keinen Mehraufwand an Dokumentation darstellen
+\item Neue Technologien und Therapien sollten keinen Mehraufwand an Planung darstellen
+\item Einsatz neuer Therapiemethoden trotz wenig Zeit
+\item Leicht integrierbar in den Alltag und das System eines Psychotherapeuten
+\item Geringe Kosten in der Anwendung
+\end{itemize}
+
+\subsubsection{Patient}
+Der Patient nutzt auf seinem Smartphone die \emph{TherapyBuilder}-App. Diese führt die Therapien aus, die dem Patienten vom Therapeut zugeordnet wurde. Betrachtet werden das Profil und die Ziele der fiktiven Patienten \emph{Jonas Vogt}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/patient}
+\caption{Eckdaten des fiktiven Patienten \emph{Jonas Vogt}}
+\label{patient}
+\end{figure}
+
+\paragraph{Profil}
+\emph{Jonas} ist Industriemechaniker aus Freiburg. Er ist seit 3 Jahren Angestellter bei SILUS AG. Nach einem Jahr wurde er zum Schichtleiter befördert. Die Arbeit macht ihm sehr viel Freude. Er ist pflichtbewusst und nimmt seine Verantwortung als Schichtleitung ernst. Er beschäftigt sich in seiner Freizeit fast täglich mit neuen Strategien und Techniken für einen effizienten Schichtbetrieb. Aufgrund seines fachlichen Wissens und Engagements tauschen sich Arbeitskollegen wie Chefs gerne über neue Strategien mit ihm aus.
+
+Neben seinem Beruf interessiert er sich für neue Technik-Gadgets, Spielekonsolen und Multimedia. In seiner Freizeit trifft er sich gerne mit Freunden zum Feiern, gemeinsamen Kochen aber auch zu gemütlichen Film und Spieleabenden. Er verabredet sich häufig über diverse Messenger und teilt über diese gerne Artikel über neue Technik-Gadgets.
+
+\emph{Jonas} hat eine Angststörung die als Begleiterscheinung eines Burn-outs während der Ausbildung auftrat.  Derzeit wartet er auf seine erste Therapiesitzung bei \emph{Dipl.-Psych. Barbara Probst}. Während der Wartezeit nutzt er einen Chatbot. Diesen setzt er ein sobald er sich unwohl fühlt und die Angststörung auftritt. Seine Psychotherapeutin empfahl \emph{Jonas} diesen Chatbot während der Wartezeit zu nutzen.
+
+\paragraph{Ziele}
+\begin{itemize}
+\item Behandeln der Angststörung
+\item Hilfe im Alltag wenn Angststörung auftritt
+\item Einfache Anwendung der Hilfe
+\item Hilfe jederzeit erreichbar
+\item Hilfe leicht in Alltag integrierbar
+\end{itemize}
+
+
+\subsection{Studienbetrachtung}
+Für die Anforderungsanalyse werden mehrere Studien betrachtet. Diese liegen der Firma \emph{movisens GmbH} in unterschiedlichen Formaten vor. Ablauf und Inhalte der jeweiligen Studie wurden in PowerPoint-Folien, Excel und Bildern, wie beispielsweise in Abbildung \ref{studie}, beschrieben. Jede Studie besitzt Inhalte, die in Form eines Chats umgesetzt werden könnten. Die Studien beinhalten Therapien, die in dieser evaluiert werden. Die Therapien setzen sich aus verschiedenen Stilmitteln zusammen. So finden sich Dialoge die aus Input und Output-Formaten bestehen. Die Input-Formate repräsentieren Formate, die dem Patienten angeboten werden um Daten einzugeben. Die Output-Formate beinhalten Formate, die dem Patienten angezeigt werden. Die Therapien bestehen aus Übungen, Interventionen und Selbstüberwachung.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/studie}
+\caption{Eckdaten des fiktiven Forschers \emph{Prof. Dr. Richard Weimer}}
+\label{studie}
+\end{figure}
+
+Um eine Therapie umzusetzen, werden als Output-Formate Textausgaben, Video, Audio, und Bilder benötigt. Als Input-Formate für den Patienten werden Texteingabe, ganze Zahlen, rationale Zahlen, Likert-Skalen, visuelle Analogskalen, Einfach- wie Mehrfachauswahl, Zeiteingabe und eine Datumseingabe benötigt. 
+ 
+Da auch Daten erhoben werden, benötigt es Variablen. In diesen werden Antworten und berechnete Werte gespeichert. Die Werte der Variablen können dem Patienten im Text präsentiert werden aber auch den Verlauf der Therapie beeinflussen. So können dem Patienten beispielsweise verschiedene Texte, Übungen oder Interventionen präsentiert werden. Die entsprechenden Inhalte werden zu unterschiedlichen Zeiten und Bedingungen ausgelöst. Auslöser können ein erreichtes Datum, vorgegebene Zeit, Therapeut, Patient oder verschiedene Bedingungen sein. Um diese Übersicht zu erhalten, wurde der zeitliche Ablauf der betrachteten Studien in einem Zeitstrahl abgebildet. Diese zeitliche Skizzierung wird in Abbildung \ref{studien} dargestellt.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/studien}
+\caption{Die zeitliche Abbildung verschiedener Studien in Form eines Zeitstrahls}
+\label{studien}
+\end{figure}
+
+\subsection{Defizite der betrachteten Technologien}
+In Kapitel \ref{ch:Forschungsstand} werden verschiedene Technologien vorgestellt, die für eine Umsetzung eines \emph{TMA} in Frage kommen. Die dort erläuterten Defizite werden hier in Kurzform zusammengefasst.
+
+\subsubsection{Grafische Programmiersprachen}
+Betrachtet wurden Chatbot-Plattformen und allgemeine grafische Programmiersprachen. Chatbot-Plattformen fokussieren sich zumeist auf Marketing, Vertrieb und Support. Die Umsetzung von Studien, die für die Anforderungsanalyse betrachtet wurden, gestaltet sich in diesen Plattformen schwierig. Diese lassen entsprechende Elemente, wie Likert-Skalen, visuelle Analogskalen und eine Patientenverwaltung vermissen. Konversationen als Baum oder Diagramm darzustellen, ist zwar leicht verständlich, allerdings werden diese schnell unübersichtlich wenn mehrere bedingte Pfade eingesetzt werden und die Komplexität der Konversation steigt. Die Gesamtansicht der Konversationen wird demnach auch schwer lesbar. Entweder müssen Verläufe durch scrollen und durchhangeln nachvollzogen werden oder diese werden durch die eingebaute Zoom-Funktion schlechter erkennbar und auffindbar. Manche Plattformen bieten zusätzlich die Möglichkeit, fehlende Funktionen zu implementieren. Die benötigt allerdings Programmiererfahrung. Generell sind bei der Verwendung dieser Plattformen, für eine Umsetzung entsprechender Therapien, mit Einschränkungen oder größeren Einarbeitungszeiten zu rechnen.
+
+Die allgemeinen Programmiersprachen hingegen spezialisieren sich stark auf bestimmte Domänen. Das Baukastenprinzip gewährleistet zwar viel Flexibilität und ist leicht verständlich in der Bedienung, allerdings wird bei steigender Komplexität das entwickelte System leicht unübersichtlich und schwer nachvollziehbar.
+
+\subsubsection{Auszeichnungssprachen}
+Die Verwendung von Auszeichnungssprachen bieten visuell zwar eine Trennung aber keine klare Übersicht über den Verlauf einer Konversation. Es benötigt Konzepte um zeitliche Abfolgen einer Therapie, Verzweigungen und Bedingungen zu realisieren und klar darzustellen. Hinzu kommt, dass die Syntax erlernt werden muss. Außerdem benötigt es einen aufwändigen Syntaxcheck um die Fehlersuche in angelegten Chatbot-Konversationen zu erleichtern.   
+
+\subsubsection{Experience Sampling}
+Insbesondere das \emph{movisensXS}-System liefert bereits viele Funktionen, die zur Umsetzung der betrachteten Therapien benötigt werden. Allerdings wurde das System für die Fragebogenentwicklung erstellt und müsste entsprechend angepasst werden um dem Chatbot-Format zu entsprechen.  
+
+
+\subsection{Anforderungen}
+Auf Basis der aufgestellten Persona, Betrachtung der Studien und der Defizite der betrachteten Technologien, wurden funktionale sowie nicht-funktionale Anforderungen aufgestellt, die der Therapiemodellierungsansatz erfüllen sollte. Es wurden mehrere Anforderungen in einem Excel-File beschrieben (vgl. \ref{anforderungen}) und entsprechend priorisiert. In diesem Kapitel werden die Anforderungen mit der höchsten Priorität dargestellt. Hierbei handelt es sich um Anforderungen, die den Therapiemodellierungsansatz grundlegend charakterisieren.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/anforderungen}
+\caption{Ausschnitt der erstellten Anforderungsliste}
+\label{anforderungen}
+\end{figure}
+
+\subsubsection{Funktionale Anforderungen}
+Im Folgenden werden die Anforderungen beschrieben, die der Zweckbestimmung der Forscher-Plattform dienen.
+
+\paragraph{Konversationen}
+Folgende Konversationsarten können mit den bereitgestellten Mitteln erstellt werden.
+
+%\begin{itemize}
+%\item Fragebogen/Datenerhebung: Es können Daten erhoben werden, z.B. via Fragebögen
+%\item Just-In-Time Intervention: Es können Interventionen angelegt werden, die im Anschluss zu einem Fragebogen ausgeführt werden.
+%\item Getriggerte Intervention: Interventionen werden anhand eines Triggers  ausgelöst.
+%\item On-demand Intervention: Es können Interventionen angelegt werden, die vom Nutzer on-demand ausgeführt werden können.
+%\item Self-Monitoring: Es können Konversationen angelegt werden, die dem Nutzer zum Self-monitoring dienen.
+%\end{itemize}
+\subparagraph{Fragebogen/Datenerhebung} Es können Daten erhoben werden, z.B. via Fragebögen
+\subparagraph{Just-In-Time Intervention} Es können Interventionen angelegt werden, die im Anschluss zu einem Fragebogen ausgeführt werden.
+\subparagraph{Getriggerte Intervention} Interventionen werden anhand eines Triggers  ausgelöst.
+\subparagraph{On-demand Intervention} Es können Interventionen angelegt werden, die vom Nutzer on-demand ausgeführt werden können.
+\subparagraph{Self-Monitoring} Es können Konversationen angelegt werden, die dem Nutzer zum Self-monitoring dienen.
+
+\paragraph{Fragebogen}
+Mit Hilfe der Eingabeformate ist es möglich, einen Fragebogen zu erstellen. Mit diesen Mitteln können in den Fragebögen verschiedene Frageformen umgesetzt werden.
+
+%\begin{itemize}
+%\item Offene Fragen: Es ist möglich offene Fragen zu stellen.
+%\item Geschlossene Fragen: Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen: Dichtonome Fragen (Ja/Nein(/Weiß nicht)), Eingruppierungsfragen (unter 18|18-29|30-45|…), Ratingskalen (Likert-Skala, Visual Analog Skala), Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten), Einfachauswahl, Mehrfachauswahl, Ergänzungsoption
+%%\begin{itemize}
+%%\item Dichtonome Fragen (Ja/Nein(/Weiß nicht))
+%%\item Eingruppierungsfragen (unter 18|18-29|30-45|…)
+%%\item Ratingskalen (Likert-Skala, Visual Analog Skala)
+%%\item Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten)
+%%\item Einfachauswahl
+%%\item Mehrfachauswahl
+%%\item Ergänzungsoption
+%%\end{itemize}
+%\end{itemize}
+
+\subparagraph{Offene Fragen} Es ist möglich offene Fragen zu stellen.
+\subparagraph{Geschlossene Fragen} Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen: Es ist möglich Geschlossene Fragen der folgenden Formate zu stellen: Dichtonome Fragen (Ja/Nein(/Weiß nicht)), Eingruppierungsfragen (unter 18|18-29|30-45|…), Ratingskalen (Likert-Skala, Visual Analog Skala), Summenfragen (Verteilen Sie 100 Punkte auf folgende Antworten), Einfachauswahl, Mehrfachauswahl, Ergänzungsoption
+
+
+\paragraph{Eingabeformate} Die Eingabeformate der Nutzer	bestehen aus folgenden Elementen
+\begin{itemize}
+\item Freie Texteingabe
+\item Likert-Skala
+\item Visual Analogue Skala
+\item Select One
+\item Select Many
+\end{itemize}
+%\subparagraph{Freie Texteingabe}
+%\subparagraph{Likert-Skala}
+%\subparagraph{Visual Analogue Skala}
+%\subparagraph{Select One}
+%\subparagraph{Select Many}
+
+\paragraph{Ausgabeformate} Die Ausgabeformate des Bots bestehen aus folgenden Elementen
+\begin{itemize}
+\item Text
+\item Bilder
+\item Video
+\item Audio
+\item Link
+\item GIF
+\end{itemize}
+%\subparagraph{Text}
+%\subparagraph{Bilder}
+%\subparagraph{Video}
+%\subparagraph{Audio}
+%\subparagraph{Link}
+%\subparagraph{GIF}
+
+\paragraph{Trigger}Folgende Methoden können zum Triggern einer Konversation eingesetzt werden
+%\begin{itemize}
+%\item Therapeut: Der Therapeut schaltet eine Konversation frei, diese erscheint sofort. 
+%Der Therapeut schaltet eine Konversation frei, diese erscheint ab einem gewissen Zeitfenster.
+%\item Zeit: Eine Konversation erscheint zu einem randomisierten Zeitpunkt innerhalb eines, vom Nutzer festgelegten, Zeitfensters [ta, te], zu einem, vom Forscher festgelegten, Zeitpunkt oder innerhalb eines, vom Forscher festgelegten, Zeitfensters [ta, te]
+%\item Liste: Konversation wird randomisiert aus einer Liste von Konversationen ausgewählt
+%\item Ausführungsanzahl: Eine Konversation kann anhand einer Anzahl Ausführungen an einem Tag getriggert werden
+%\item Nutzer: Ein Nutzer kann selbst eine Konversation starten.
+%\item Konversation: Eine Konversation kann durch das Abschließen einer anderen Konversation getriggert werden
+%\item Snooze: Eine Konversation wird erneut getriggert nach Zeitpunkt des Snoozes eines Nutzers +t (zB. 30 Minuten)
+%\item Variable: Eine Konversation wird durch einen Wert einer Variable getriggert. Dabei gibt es folgende Möglichkeiten: die Variable hat den aktuellen Wert x; die Variable hatte den Wert x zum Zeitpunkt t; die Variable wird ermittelt aus verschiedenen Variablen/Werten durch eine vorgegebene Funktion und erfüllt eine Bedingung.
+%\end{itemize}
+
+\subparagraph{Therapeut}Der Therapeut schaltet eine Konversation frei, diese erscheint sofort. 
+Der Therapeut schaltet eine Konversation frei, diese erscheint ab einem gewissen Zeitfenster.
+
+\subparagraph{Zeit}Eine Konversation erscheint zu einem randomisierten Zeitpunkt innerhalb eines, vom Nutzer festgelegten, Zeitfensters [ta, te], zu einem, vom Forscher festgelegten, Zeitpunkt oder innerhalb eines, vom Forscher festgelegten, Zeitfensters [ta, te]
+\subparagraph{Liste}Konversation wird randomisiert aus einer Liste von Konversationen ausgewählt
+\subparagraph{Ausführungsanzahl}Eine Konversation kann anhand einer Anzahl Ausführungen an einem Tag getriggert werden
+\subparagraph{Nutzer}Ein Nutzer kann selbst eine Konversation starten 
+\subparagraph{Konversation}Eine Konversation kann durch das Abschließen einer anderen Konversation getriggert werden
+\subparagraph{Snooze}Eine Konversation wird erneut getriggert nach Zeitpunkt des Snoozes eines Nutzers +t (zB. 30 Minuten)
+\subparagraph{Variable}Eine Konversation wird durch einen Wert einer Variable getriggert. Hierbei gibt es folgende Möglichkeiten: die Variable hat den aktuellen Wert x, die Variable hatte den Wert x zum Zeitpunkt t, die Variable wird ermittelt aus verschiedenen Variablen/Werten durch eine vorgegebene Funktion und erfüllt eine Bedingung.
+
+\paragraph{Variablen} Folgende Funktionen und Eigenschaften werden für die Variablen benötigt
+\subparagraph{Speichern}Es können Werte unter Variablennamen abgespeichert werden
+\subparagraph{Historie}Die Werte, die eine Variable im Verlauf eines Therapiemoduls angenommen hat, werden in einer Historie hinterlegt
+\subparagraph{Typen}Eine Variable kann einen der folgenden Typen annehmen
+\begin{itemize}
+\item String
+\item Gleitkommazahl
+\item Ganze Zahl 
+\item Boolean (Wahr/Falsch)
+\item Image 
+\item Video
+\item Audio
+\item Link
+\end{itemize}	
+
+\paragraph{Flexible Gestaltung von Triggern}
+Da eine Konversation durch verschiedene Bedingungen getriggert werden kann, benötigt es eine flexible Gestaltung der Trigger einer Konversation. Die Anzahl der Trigger soll hierbei flexibel sein. Außerdem sollen verschiedene Bedingungen eingebaut werden können.
+
+\paragraph{Verzweigungen in Konversationen}
+Konversationen können Entscheidungen beinhalten, die einen Einfluss auf den weiteren Konversationsverlauf haben. Es ist möglich, Verzweigungen in Konversationen einzubauen und den Fluss, anhand verschiedener Bedingungen, zu steuern. 
+
+\paragraph{Abhängigkeiten zwischen Konversationen}
+Konversationen können von anderen Konversationen abhängig sein. Die Abhängigkeiten sind dabei wie folgt:
+\begin{itemize}
+\item Konversation b kann nur gestartet werden, wenn Konversation a noch nie durchgeführt wurde (b wenn a < 1)
+\item Konversation b kann erst gestartet werden, wenn Konversation a genau einmal ausgeführt wurde (b wenn a = 1)
+\item Konversation b kann erst gestartet werden, wenn Konversation a mindestens einmal ausgeführt wurde (b wenn a >= 1)  
+\end{itemize} 
+
+\subsubsection{Nicht-Funktionale Anforderungen}
+Im Folgenden werden die Anforderungen beschrieben, die der Qualität der Forscher-Plattform dienen.
+
+\subparagraph{Anmeldeseite} Nachdem der Nutzer den Link zur TherapyBuilder Forscher-\paragraph{Plattform} in einer Browser Adressleiste eingegeben hat, öffnet sich die Anmeldeseite.
+
+\subparagraph{Startseite}Nach erfolgreicher Anmeldung des Nutzers, wird dieser auf die Startseite weitergeleitet
+\subparagraph{Startseite-Inhalt}Die Startseite beinhaltet
+\begin{itemize}
+\item Logout: Es gibt ein Link zum Ausloggen
+\item Account-Einstellungen: Es gibt ein Link zum Aufrufen der Account-Einstellungen
+\item Übersicht bereits angelegter Therapie-Module: Es gibt eine Übersicht über alle bereits angelegte Therapie-Module
+\item Therapie-Modul hinzufügen: Es gibt eine Schaltfläche zum Hinzufügen eines Therapie-Moduls
+\item Therapie-Modul umbenennen: Es gibt eine Schaltfläche zum Umbenennen eines Therapie-Moduls
+\item Therapie-Modul entfernen: Es gibt eine Schaltfläche zum Entfernen eines Therapie-Moduls
+\item  Therapie-Modul kopieren: Es gibt eine Schaltfläche zum Kopieren eines Therapie-Moduls
+\item Therapie-Modul Status: Jedes bereits angelegte Therapie-Modul erhält einen Status. Dieser Status wird auf der Übersichtsseite für jedes Therapie-Modul angezeigt.
+\end{itemize}
+	
+\subparagraph{Bearbeiten} Therapiemodul bearbeiten	Durch Klick auf ein Therapie-Modul, gelangt man auf dessen Bearbeitungsseite
+		
+\subparagraph{Hinzufügen}Durch Klick auf die "Hinzufügen" Schaltfläche wird ein neues Therapie-Modul angelegt.
+
+\subparagraph{Umbenennen} Durch Klick auf die "Umbenennen" Schaltfläche kann der Nutzer das Modul umbennenen.
+
+\subparagraph{Kopieren} Durch Klick auf die "Kopieren" Schaltfläche kann der Nutzer das Modul kopieren.
+
+\subparagraph{Entfernen} Durch Klick auf die "Entfernen" Schaltfläche öffnet sich ein Dialog zur Eingabe des Wortes "DELETE" um das Entfernen des Therapie-Moduls zu bestätigen.
 
 
 \section{Ausarbeitung verschiedener Konzepte}
+In diesem Kapitel werden verschiedene Konzepte vorgestellt, die später Prototypisch umgesetzt und evaluiert werden. Für ein besseres Verständnis der Konzepte werden vorerst verschiedene Begriffe definiert. Anschließend werden, auf Basis der Begriffsdefinitionen und der Anforderungsanalyse, verschiedene Konzepte vorgestellt. 
+
+\subsection{Begriffsdefinitionen}
+
+Im Rahmen der Konzeption werden verschiedene Begriffe eingeführt, die Klarheit über Struktur und Aufbau einer Therapie geben werden. Unterschieden wird zwischen den Begriffen \emph{Therapie}, \emph{Therapiemodul}, \emph{Chatbot-Konversation}, \emph{Chatbot-Nachricht}, \emph{Werkzeugkasten}. Für ein besseres Verständnis der Zusammenhänge werden Mengendefinitionen abgebildet. Für diese werden die Kürzel aus Abbildung \ref{begriffe} verwendet.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.75\textwidth]{pictures/begriffe}
+	\caption{Die verwendeten Begriffe und ihre Synonyme.}
+	\label{begriffe}
+\end{figure}
+
+Insgesamt bestehen zwischen den Begrifflichkeiten Beziehungen die den Aufbau einer Therapie beschreiben. Abbildung \ref{mengeninsg} verdeutlicht den gesamten Aufbau einer Therapie und die Zusammenhänge zwischen einzelnen Elementen. Eine Therapie besteht aus verschiedenen Therapie-Modulen. Diese bilden sich wiederum aus Chatbot-Konversationen. Chatbot-Konversationen können sich aus einfachen Nachrichten zusammenbauen. Es gibt auch Elemente, die in einem Werkzeugkasten als Konversation auftauchen können. Diese können wiederum ein Teil einer Konversation sein und setzen sich ebenfalls aus einfachen Nachrichten zusammen. Die Nachrichten entweder aus Chatbot-Nachrichten oder Patienten-Nachrichten. Die genauen Begrifflichkeiten werden in diesem Kapitel definiert, erklärt und mit Beispielszenarien anhand der entwickelten Persona beschrieben.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.75\textwidth]{pictures/mengeninsg}
+	\caption{Übersicht der Beziehungen aller beschriebenen Mengen}
+	\label{mengeninsg}
+\end{figure}
+
+\subsubsection{Therapie}
+Im Rahmen dieser Arbeit wird unter \emph{Therapie} das Anwenden  einer oder mehrerer Methoden zur Behandlung einer oder mehrerer Störungen mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Bei diesen Methoden handelt es sich um wissenschaftlich anerkannte psychotherapeutische Verfahren. Den zu behandelnden Störungen mit Krankheitswert wird vorausgesetzt, dass diese als Psychotherapie indiziert sind.
+
+Eine Therapie wird auf genau  einen Patienten zugeordnet. Diese setzt sich aus mehreren Therapiemodulen zusammen. Für die Zusammensetzung der Therapie eines Patienten ist der Psychologische oder Ärztliche Psychotherapeut zuständig.
+
+\paragraph{Definition}
+\begin{quote}
+Verfahren, Methode zur Heilung einer Krankheit; Heilbehandlung. \cite{PsychThG4:online}
+\end{quote}
+
+\begin{quote}
+	Eine gezielte, erfolgreiche, medikamentöse Therapie. \cite{44:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+\emph{Jonas Vogt} ist 26 Jahre und leidet unter den Spätfolgen eines Burnouts. Im Erstgespräch mit seiner Psychologischen Psychotherapeutin \emph{Dipl.-Psych. Barbara Probst} legt diese, basierend auf seinen Erzählungen, eine Therapie fest. Die Therapie besteht aus  mehreren Therapiemodulen. Diese richten sich auf verschiedene Symptome aus. So sieht die Therapie vor \emph{Jonas} zunächst den Umgang mit Panikattacken, Stressbewältigung beizubringen und sein Selbstwertgefühl zu stärken. Dies geschieht durch eine Kombination aus Verhaltens- und tiefenpsychologisch fundierten Therapie.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/therapiedef}
+\caption{Aufbau und Beziehungen einer \emph{Therapie}}
+\label{therapiedef}
+\end{figure}
+
+
+\subsubsection{Therapiemodul}
+Im Rahmen dieses Projekts wird unter \emph{Therapiemodul} das Anwenden  einer Methode zur Behandlung einer Störung mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Bei diesen Methoden handelt es sich um wissenschaftlich anerkannte psychotherapeutische Verfahren. Den zu behandelnden Störungen mit Krankheitswert wird vorausgesetzt, dass diese als Psychotherapie indiziert sind.
+
+Ein Therapiemodul ist Teil einer Therapie. Das Therapiemodul behandelt ein Aspekt der Therapie.
+
+\paragraph{Definition}
+\begin{quote}
+Austauschbares, komplexes Element innerhalb eines Gesamtsystems, eines Gerätes o. Ä., das eine geschlossene [Funktions]einheit bildet. \cite{DudenMod70:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+ \emph{Jonas Vogt} ist 26 Jahre und leidet unter den Spätfolgen eines Burnouts. Seine Psychologische Psychotherapeutin \emph{Dipl.-Psych. Barbara Probst} wendet im Erstgespräch ein Therapiemodul an, welches \emph{Jonas} dabei helfen soll, negative Gedanken zu erkennen und diese für den weiteren Therapieverlauf zu dokumentieren. Ziel des Therapiemoduls ist es, \emph{Jonas} beizubringen, negative Gedanken aufzuschlüsseln und in positive Gedanken umzuformulieren. Im weiteren Verlauf der Therapie wendet \emph{Dipl.-Psych. Barbara Probst} weitere Therapiemodule an um verschiedene Probleme, die zum einen zum Burnout führten und zum anderen aus dem Burnout resultieren, aufzuschlüsseln und \emph{Jonas} den Umgang damit zu erleichtern.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/moduldef}
+\caption{Aufbau und Beziehungen des \emph{Therapiemoduls}}
+\label{moduldef}
+\end{figure}
+
+\subsubsection{Chatbot-Konversation}
+Im Rahmen dieses Projekts wird unter Chatbot-Konversation das Führen  eines Gesprächs mit dem Ziel zur Behandlung/Begleitung einer Störung mit Krankheitswert oder auch die Aufarbeitung und Überwindung sozialer Konflikte verstanden. Die Konversation ist Teil eines Therapiemoduls und kann von Bildern, Video-/Audiomaterial sowie Übungen begleitet werden. Im Kontext des TherapyBuilders wird die Konversation zwischen zwei Parteien geführt: dem Therapeuten oder dem Chatbot und dem Patienten.
+
+\paragraph{Definition}
+\begin{quote}
+Häufig konventionelles, oberflächliches und unverbindliches Geplauder; Gespräch, das in Gesellschaft nur um der Unterhaltung willen geführt wird. \cite{DudenKon2:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+\emph{Dipl.-Psych. Barbara Probst} führt pro Therapiesitzung ein Gespräch/eine Konversation mit ihrem Patienten \emph{Jonas Vogt}. In dieser Konversation ermittelt sie \emph{Jonas} aktuellen Zustand, Dinge die in derzeit bewegen und beschäftigen und erklärt ihm den Ursprung seiner Gefühle. Außerdem führt sie mit \emph{Jonas} Übungen durch, die ihm im Alltag helfen können bestimmte wiederkehrende Probleme zu meistern und sein Selbstwert zu stärken.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/konvesationdef}
+\caption{Beziehungen der Chatbot-Konversation}
+\label{therapiedef}
+\end{figure}
+
+
+\subsubsection{Chatbot-Nachricht}
+Im Rahmen dieses Projekts wird unter Chatbot-Nachricht ein Teil einer Therapie-Konversation verstanden. Im Kontext des TherapyBuilders wird zwischen Chatbot und Patient eine Konversation, bestehend aus Nachrichten, aufgebaut. Unterschieden wird innerhalb dieser Konversation zwischen Nachrichten des Patienten und Nachrichten des Chatbots unterschieden. Die Nachrichten des Chatbots können aus folgenden Elementen bestehen: Text, Link, Audio, Video, Bild, Externe Seiteninhalte (Statistiken - Iframe), Telefonnummern. Die Nachrichten des Nutzers können aus folgenden Elementen bestehen: Select One (Quick Reply), Freitext, Likert-Skala, Zahlen (GK, FKZ, Datum, Zeit), Visual-Analog-Skala (VAS).
+
+\paragraph{Definition}
+\begin{quote}
+Mitteilung, die jemandem in Bezug auf jemanden oder etwas [für ihn persönlich] Wichtiges die Kenntnis des neuesten Sachverhalts vermittelt. \cite{DudenNac9:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+\emph{Jonas Vogt} erhielt im Erstgespräch mit seiner Psychologischen Psychotherapeutin \emph{Dipl.-Psych. Barbara Probst} die Empfehlung die Anwendung „TherapyBuilder“ auf dessen Smartphone zu installieren. \emph{Jonas} soll diesen zunächst bis zum ersten Behandlungstermin nutzen. Frau \emph{Dipl.-Psych. Barbara Probst} legt für \emph{Jonas} fest, welche Therapiemodule bis dahin für \emph{Jonas} zur Verfügung stehen. \emph{Jonas} kommuniziert täglich mit dem Chatbot des TherapyBuilders. Die Art der Nachrichten des Chatbots sowie des Anwenders \emph{Jonas} wurden bereits als Therapiemodul konfiguriert und festgelegt. Der Chatbot kommuniziert mit \emph{Jonas} via Text, Link, Audio, Video, Bild, Externe Seiteninhalte (Statistiken - Iframe), Telefonnummern. \emph{Jonas} selbst nutzt Eingabeformate wie Select One (Quick Reply), Freitext, Likert-Skala, Zahlen (GK, FKZ, Datum, Zeit), Visual-Analog-Skala (VAS). Wann er welche als Nachricht an den Chatbot versendet, ist innerhalb des Therapiemoduls geregelt.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/nachrichtdef}
+\caption{Beziehungen der Chatbot-Nachrichten}
+\label{therapiedef}
+\end{figure}
+
+\subsubsection{Werkzeugkasten}
+Im Rahmen dieses Projekts wird unter Werkzeugkasten ein Teil eines Therapie-Moduls verstanden welches Techniken (=Werkzeuge) sammelt, die jederzeit wiederholt ausgeführt werden können. Diese sollen den Nutzer unterstützen bestimmte (Denk- oder Verhaltens-) Muster zu erkennen und diese aufzulösen. Dies geschieht unter Zuhilfenahme bestimmter Techniken. In diesem Teil wird der Nutzer angeleitet eine bestimmte Vorgehensweise durchzuführen, um diese Techniken auf bestimmte Denk- oder Verhaltensmuster anzuwenden. Der Nutzer kann diese Techniken jederzeit im Werkzeugkasten als Werkzeug aufrufen wenn benötigt.
+
+\paragraph{Definition}
+\begin{quote}
+Kasten zur Aufbewahrung von Werkzeug. \cite{DudenWer23:online}
+\end{quote}
+
+\paragraph{Beispiel anhand der aufgestellten Persona}
+\emph{Dipl.-Psych. Barbara Probst} rät \emph{Jonas Vogt} bis zum ersten Behandlungstermin die Therapiemodule durchzuführen, die sie in \emph{Jonas} Therapieplan ablegt. Sie unterrichtet \emph{Jonas}, dass diese Hilfreiche Werkzeuge für bestimmte Denk- und Verhaltensmuster enthalten. Diese müssen durch einen Fortschritt im Therapiemodul freigeschaltet und können ab diesem Zeitpunkt jederzeit von \emph{Jonas} aufgerufen werden. Das erste Werkzeug welches \emph{Jonas} aktiviert, ist das Werkzeug für das Auflösen negativer Gedanken. Sobald \emph{Jonas} negative Gedanken hat, führt er dieses Werkzeug erneut aus um die negativen Gedanken aufzulösen.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/toolboxdef}
+\caption{Beziehungen der Mengen}
+\label{therapiedef}
+\end{figure}
 
 
 
+\subsection{Konzepte}
+Im Verlauf der Konzept-Entwicklung wurden verschiedene Ansätze für die Anforderungen betrachtet. Eine der Überlegungen war, eine angepasste Auszeichnungssprache zu entwickeln, die es Forschern ermöglicht, Therapie-Module niederzuschreiben. Durch verschiedene Befehle sollten Chatbot-Nachrichten, Patienten-Nachrichten sowie verschiedene Bedingungen für den Konversationsfluss, beschrieben werden und sich zu einer Konversation zusammenfügen. Gleichzeitig sollte daraus eine Echtzeitvorschau des Konversationsflusses entstehen. Betrachtet man allerdings die Persona Beschreibung des Forschers, so fällt dieser Ansatz raus. Eine Auszeichnungssprache benötigt Einarbeitungszeit und leichte, wenn auch nicht viele, Programmierkenntnisse. Für Forscher mit wenig Technikverständnis könnte dies eine Hürde bilden das Programm zu nutzen. 
+
+Nach einer weiteren Betrachtung der Anforderungen wurde entschieden, eine grafische Programmiersprache zu entwickeln. Diese bietet die Vorteile, dass keine tiefgreifenden Programmierkenntnisse benötigt werden um eine Therapie zu modellieren. Eine erste Überlegung ist, die grafische Programmiersprache nach der Begriffsdefinition dieses Kapitels aufzubauen. Eine Therapie setzt sich aus verschiedenen Therapiemodulen zusammen. Ein Therapiemodul beinhaltet das Skript, welches verschiedene Storylines und die zeitlichen Abfolgen beschreibt. Nach dieser Betrachtung wurde ein Konzept ausgearbeitet, welches die Konfiguration der zeitlichen Abfolge ermöglicht. Die Skizzierung des Konzepts kann in Abbildung \ref{storylinekonz} betrachtet werden.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/storylinekonz}
+\caption{Skizze des Konzepts, welches nach den Begriffsdefinitionen ausgearbeitet wurde. }
+\label{storylinekonz}
+\end{figure}
+
+Die Überlegung des Konzepts ist, die Chatbot-Konversation als Storyline zu verbildlichen. Ein Therapiemodul darf dabei als Drehbuch angesehen werden. In einer Übersicht wird ein Strang dargestellt. Dieser Strang repräsentiert das Skript. Dem Skript können aufeinander folgend Storylines angehängt werden. Einzelne Storylines können als Toolbox-Items definiert werden. Toolbox-Items haben die Möglichkeit jederzeit vom Patienten aufgerufen zu werden. Jede Storyline erhält eigene Triggereinstellungen. Diese sind auf den ersten Blick nicht sichtbar, da diese Ansicht zunächst zur zeitlichen Anordnung und anschließenden Bearbeitung dient. Durch anklicken einer Storyline, öffnet sich die Bearbeitungsseite der Storyline. In dieser kann die Nachrichtenabfolge festgelegt werden. Diese besteht aus Anordnen von Chatbot-Nachrichten und Patienten-Nachrichten. In der zeitlichen Übersicht des Skripts, können ebenfalls die Triggereinstellungen einzelner Storylines aufgerufen werden. 
+
+Während der Weiterentwicklung des Konzepts, kam die Idee, die zeitliche Übersicht der Therapie beizubehalten. Diese zeitliche Anordnung konnte in einem Excel-File gefunden werden. Dort wurde, in einer Art Zeitstrahl, der Verlauf eines Therapiemoduls beschrieben. Die aufzurufenden Inhalte wurden in einer Liste dargestellt. Im Zeitstrahl kann man sehen, wann ein Inhalt, unter welchen Umständen aufgerufen wird. Da während der Entwicklung des Storyline-Konzepts auffiel, dass die Trigger-Einstellungen in dieser nicht sichtbar werden, wurde die Idee dahingehend entwickelt, dass die zeitliche Komponente übernommen und gleichzeitig die Trigger-Einstellungen auf einem Blick sichtbar gemacht werden sollen. Auf diese Weise hat der Forscher eine direkte Übersicht des Workloads des entwickelten Therapiemoduls. 
+
+Von diesem Konzept ausgehend und der genauen Betrachtung und Übersetzung des Excel-Files, wurde ein weiteres Konzept entwickelt. Dieses orientiert sich an einer Kalender-Darstellung. In diesem Konzept soll der Ablauf konfiguriert werden. Der Nutzer hat so die Möglichkeit eine Chatbot-Konversation anzulegen. Die angelegte Konversation erscheint mit Voreinstellungen in einem Zeitstrahl. Die Idee für diese Vorgehensweise ist an gängigen Kalender-Apps und Gantt-Diagrammen angelehnt (vgl. \cite{GoogleKa75:online}, \cite{MailundK42:online}). Darüber hinaus stellte sich heraus, dass der Einsatz eines Gantt-Charts zur Betrachtung des zeitlichen Ablaufs hilfreich ist um einen allgemeinen Überblick über die Therapie zu erhalten. Aus diesem Grund wurde der Ansatz des Konfigurationsprinzips entwickelt. 
+
+\subsubsection{Konfigurationsprinzip}
+Das Konfigurationsprinzip basiert auf der Idee, dass der Nutzer ein Therapiemodul erstellt. Dieses Therapiemodul beinhaltet eine zeitliche Darstellung seiner Chatbot-Konversationen. Öffnet der Forscher ein Therapiemodul, so befindet er sich in einer zeitlichen Darstellung, ähnlich wie in einer gängigen Kalender-App. Hier hat der Forscher die Möglichkeit eine Chatbot-Konversation anzulegen, die bereits Voreinstellungen besitzt, die lediglich vom Nutzer angepasst werden müssen. Die angelegte Konversation erscheint dabei in einer Liste. Neben der Liste ist ein Zeitstrahl. In diesem Zeitstrahl erscheint, ohne Zutun des Nutzers, die angelegte Konversation.  
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{pictures/moduluebersicht}
+\caption{Skizze der zeitlichen Darstellung einzelner Chatbot-Konversationen. Die Darstellung erinnert an ein Gantt-Diagramm.}
+\label{moduluebersicht}
+\end{figure}
+
+Da hier zunächst noch keine Trigger-Einstellungen erkennbar sind, gibt es einige Überlegungen, diese sichtbar zu machen. Hierfür muss zunächst bedacht werden, welche Form der Trigger-Einstellungen benötigt werden. Diese werden bereits in der zuvor aufgeführten Anforderungsanalyse aufgelistet. Außerdem muss berücksichtigt werden, wie die Trigger vom Forscher eingestellt werden können. Da es sich hierbei um eine Konfiguration handelt, die zugleich viel Flexibilität fordert, gibt es die Überlegung, die Konfiguration aus dem Experience-Sampling Tool \emph{movisensXS} zu übersetzen. Das Konstruktionsprinzip des \emph{movisensXS} bietet die Möglichkeit, Trigger, Bedingungen und die anschließend auszuführenden Konversationen, anhand von Blöcken zu verschalten. So können beliebig viele Kombinationen erstellt werden. Dieser Ansatz ist bei steigender Komplexität allerdings unübersichtlich. Abbildung \ref{triggersetkons} skizziert beispielhaft das in \emph{movisensXS} verwendete Konstruktionsprinzip. Um eine Übersichtlichkeit zu behalten, wird die Schaltmöglichkeiten des Konstruktionsprinzip in eine Konfiguration übersetzt. Im \emph{movisensXS} wird unter anderem zwischen Trigger, Bedingungen und Konversationen unterschieden. Zusammengefasst werden diese unter dem Begriff \emph{Time}. Um die Komplexität zu reduzieren und die Einstellungen im Zeitstrahl abzubilden, werden die Trigger und Bedingungen des \emph{movisensXS} direkt auf eine Konversation bezogen, statt Trigger auf mehrere Konversationen anzuwenden. Die aufgelisteten Konversationen erhalten mehrere Einstellungs- und Bearbeitungsmöglichkeiten. Eine dieser Möglichkeiten führt zu den Inhalten der Chatbot-Konversation. Dort wird der Nachrichtenverlauf angelegt und bearbeitet. Eine weitere Möglichkeit ruft den Bearbeitungsdialog der Trigger-Einstellungen der entsprechenden Konversation auf. Auf diese Weise entfällt die Übersetzung der Konversation des \emph{movisensXS}. Das \emph{movisensXS} nutzt Regeln, die den Aufbau des Sampling-Baums bestimmen. Für die Übersetzung der Trigger und Bedingungen werden diese Regeln übertragen. Die Trigger im \emph{movisensXS} Sampling-Baum folgen in der Konfiguration immer als erstes. Diese geben vor, zu welchen Zeiten eine Konversation getriggert werden. Dies wird für das Konstruktionsprinzip übernommen. Zunächst folgen die Trigger-Einstellungen. Ein Trigger muss konfiguriert werden. Dieser gibt zum einen an, durch wen oder was und an welchen Tagen die die Konversation getriggert wird. Soll eine Konversation einem Patienten zwischen Start und Ende dauerhaft zur Verfügung stehen, so kann die Konversation als \emph{Toolbox}-Item markiert werden.  Innerhalb eines Triggers können mehrere Bedingungen angelegt werden. Hier kann beispielsweise nach Variablen-Werten abgefragt werden oder nach dem Zustand einer anderen Konversation. Hierdurch entstehen Abhängigkeiten zwischen Konversationen. Die Bedingungen können beliebig erweitert werden. Da eine Konversation durch mehrere Trigger gestartet werden kann, ist es möglich weitere Trigger anzulegen. Die Abbildung \ref{triggerset} verdeutlicht das Konzept. Tritt somit einer der hinzugefügten Trigger ein, wird die zugehörige Konversation gestartet.
+
+\begin{figure}
+   \begin{minipage}[b]{.65\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{pictures/triggersetkons}
+      \caption{Skizze des Konstruktionsprinzips aus \emph{movisensXS}. Die Anordnung der Trigger ist flexibel. Diese wurde in das Konstruktionsprinzip übersetzt.}
+      \label{triggersetkons}
+   \end{minipage}
+   \hspace{.01\linewidth}% Abstand zwischen Bilder
+   \begin{minipage}[b]{.325\linewidth} % [b] => Ausrichtung an \caption
+      \includegraphics[width=\linewidth]{pictures/triggerset}
+      \caption{Die Übersetzung der flexiblen Trigger-Konfiguration.}
+      \label{triggerset}
+   \end{minipage}
+\end{figure}
+
+Diese Vorgaben können nun im Zeitstrahl abgebildet werden. Abhängigkeiten, Toolbox-Items und einfache Konversationen, die keine Abhängigkeiten besitzen, werden farblich Kodiert. Konversationen, die durch den Therapeut, zeitliche Vorgabe des Patienten, oder durch eine andere Konversation gestartet werden, erhalten aussagekräftige Icons. Abhängigkeiten zwischen Konversationen werden im Zeitstrahl durch Linien dargestellt. Die Linien führen von der Konversation, die eine bestimmte Bedingung erfüllen muss, zur Konversation, die erst nach Erfüllung der Bedingung ausgeführt werden kann. 
+
+Die Einstellung der Trigger erfolgt in der Liste der Konversationen. Werden die Trigger-Einstellungen einer Konversation geöffnet, so wechselt die Listendarstellung in die Trigger-Ansicht der jeweiligen Konversation. Die Darstellung der Liste wird in Abbildung \ref{liste} skizziert. Die Liste der Konversationen befindet sich links neben dem Zeitstrahl. Jeder Listeneintrag repräsentiert eine Zeile im Zeitstrahl. Die Konversation und ihre entsprechenden Trigger-Einstellungen werden in ihrer entsprechenden Zeile abgebildet. So besteht ein direkter Zusammenhang zwischen visueller Abbildung im Zeitstrahl und der angelegten Konversation. Eine Konversation wird über ein rundes Schaltelement hinzugefügt. Das Schaltelement beinhaltet ein \emph{+} Symbol und ist bekannt aus dem Material-Design von Google (vgl. \cite{Buttonsf61:online}). Die Listendarstellung der Konversationen bietet außerdem eine Suche. Dies soll das Suchen einer Konversation vereinfachen sobald die Ansicht komplexer wird. 
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{pictures/liste}
+\caption{Skizze einer Liste der Konversationen. Diese wird links neben dem Zeitstrahl platziert.}
+\label{liste}
+\end{figure}
+
+\subsubsection{Sprünge}
+Ruft der Forscher die Chatbot-Nachrichten einer Konversation auf, so baut sich eine neue Seite auf. Diese Seite besteht aus einem Konfigurations-Bereich und einer Art Arbeitsblatt. Der Konfigurations-Bereich befindet sich im linken Bereich. Das Arbeitsblatt nimmt den größten Teil des Bildschirms ein und teilt sich in mehrere sogenannte \emph{Lanes} auf. Diese \emph{Lanes} unterstützen den Forscher bei der Erstellung des Konversationsflusses. Die erste \emph{Lane} beinhaltet den Hauptstrang. In diesem werden zunächst alle Nachrichten angeordnet bis eine Verzweigung stattfinden soll. Eine Verzweigung entsteht durch verschiedene Bedingungen. Zum besseren Verständnis dieser Verzweigungen werden diese in Form von \emph{Sprüngen} dargestellt. Werden dem Patienten zum eigentlichen Hauptstrang, basierend auf verschiedenen Bedingungen, alternative Konversationsverläufe angeboten, so springt die Konversation in die entsprechende \emph{Lane} sofern die entsprechende Bedingung erfüllt ist. Diese Form der Darstellung soll eine direkte Übersicht über den Konversationsverlauf ermöglichen. Die einzelnen Nachrichten werden gängigen Chattechnologien angelehnt um eine direkte Nachvollziehbarkeit zu gewährleisten. Nachrichten des Chatbots werden am linken Rand ausgerichtet. Nachrichten des Patienten werden nach rechts versetzt dargestellt. Auch farblich werden die Nachrichten getrennt. Die Nachrichten des Chatbots erhalten eine graue Sprechblase. Die Patienten-Nachrichten werden in einer blauen Sprechblase angezeigt. Auf diese Weise erhält der Forscher bereits einen Überblick darüber, wie der Patient die Nachrichten auf seinem Gerät zu sehen bekommt. Die Patientennachrichten beinhalten alle Antwortmöglichkeiten, die diesem im späteren Chat angeboten werden. Dies kann von einer Freitext-Eingabe bis hin zu verschiedenen Buttons mit vorgegebenen Antworten reichen.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{pictures/spruengeskz}
+\caption{Die Bearbeitungsseite der Chatbot-Nachrichten einer Konversation. Links befindet sich die Konfiguration. Der Hauptteil besteht aus dem Arbeitsblatt. Das Arbeitsblatt ist in \emph{Lanes} unterteilt.}
+\label{spruengeskz}
+\end{figure}
+
+Um den Nachrichtenverlauf zu erstellen, wird im Konfigurationsbereich zunächst eine Liste angeboten. Diese beinhaltet drei Kategorien: \emph{Patient-Input}, \emph{Chatbot-Output} und \emph{Control Logic}. Diese Liste orientiert sich am \emph{movisensXS} System. Jede Kategorie beinhaltet die Nachrichten, die in der Anforderungsanalyse für die jeweilige Rolle benötigt werden. Die \emph{Control Logic} beinhaltet nur das Element, welches einen Sprung implementiert. Diese\emph{Control Logic} bietet außerdem die Einstellungsmöglichkeit des Sprungs. So kann der Forscher in diesem Element konfigurieren welche Bedingungen geprüft werden und in welche \emph{Lane} gesprungen wird wenn diese nicht zutrifft oder zutrifft. 
+
+Die Kategorien sind zunächst eingeklappt. Auf diese Weise kann sich der Forscher vorerst über die Kategorien bewusst werden und anschließend mit dem Bauen der Konversation beginnen. Klickt der Forscher auf eine Kategorie, so werden andere geöffneten Kategorien geschlossen und die angeklickte geöffnet. So erhält der Forscher den Überblick über die Elemente die er benötigt und nutzen kann. Die einzelnen Elemente kann er anhand von Drag and Drop in eine der \emph{Lanes} setzen. Anfangs befindet sich nur eine \emph{Lane} auf dem Arbeitsblatt. Legt der Forscher einen Sprung mit der\emph{Control Logic} an, so erweitert sich das Arbeitsblatt um eine weitere \emph{Lane} . Dies soll dem Forscher genug Flexibilität bieten, um die Konversation frei aufzubauen aber auch genug Einschränkungen geben, damit die Übersicht der Konversation weiterhin gegeben ist. Die Elemente, die sich auf dem Arbeitsblatt befinden, werden durch einfaches anklicken konfiguriert. Dort, wo sich zunächst die Werkzeugpalette mit der Auflistung aller Kategorien und zugeordneten Elemente befindet, öffnet sich nun die Konfigurationsansicht des entsprechenden Elements, welches bearbeitet werden soll. Auf diese Weise soll auf den aktuellen Bearbeitungsschritt fokussiert und die Ansicht nicht überladen werden. 
 

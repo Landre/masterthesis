@@ -17,6 +17,13 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{44:online}{misc}{}
+    \field{sortinit}{0}
+    \field{sortinithash}{0}
+    \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Therapie}}
+    \field{note}{(Accessed on 08/31/2019)}
+  \endentry
+
   \entry{8e8f4fb047:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{8}
@@ -191,6 +198,15 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Buttonsf61:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+  \field{howpublished}{\url{https://material.io/components/buttons-floating-action-button/}}
+    \field{note}{(Accessed on 09/02/2019)}
+    \field{title}{Buttons: floating action button - Material Design}
+  \endentry
+
   \entry{SWB-11524946X}{book}{}
     \name{author}{2}{}{%
       {{hash=CKM}{%
@@ -320,6 +336,46 @@
     \field{title}{Dialogflow}
   \endentry
 
+  \entry{DudenKon2:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Konversation}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Konversation | Rechtschreibung, Bedeutung,
+  Definition, Herkunft}
+  \endentry
+
+  \entry{DudenMod70:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Modul_Element_Lehreinheit}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Modul | Rechtschreibung, Bedeutung, Definition,
+  Herkunft}
+  \endentry
+
+  \entry{DudenNac9:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Nachricht}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Nachricht | Rechtschreibung, Bedeutung, Definition,
+  Herkunft}
+  \endentry
+
+  \entry{DudenWer23:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+  \field{howpublished}{\url{https://www.duden.de/rechtschreibung/Werkzeugkasten}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{Duden | Werkzeugkasten | Rechtschreibung, Bedeutung,
+  Definition, Herkunft}
+  \endentry
+
   \entry{Fitzpatrick2017}{article}{}
     \name{author}{3}{}{%
       {{hash=FKK}{%
@@ -428,6 +484,15 @@
     \field{title}{Google Allo - A smart messaging app}
   \endentry
 
+  \entry{GoogleKa75:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{howpublished}{\url{https://calendar.google.com/calendar/r?tab=rc}}
+    \field{note}{(Accessed on 09/01/2019)}
+    \field{title}{Google Kalender - Woche vom 26. August 2019}
+  \endentry
+
   \entry{Gratch2014}{article}{}
     \name{author}{2}{}{%
       {{hash=GJ}{%
@@ -533,6 +598,15 @@
     \field{title}{MPG - nichtamtliches Inhaltsverzeichnis}
   \endentry
 
+  \entry{MailundK42:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+  \field{howpublished}{\url{https://www.microsoft.com/de-de/p/mail-und-kalender/9wzdncrfhvqm?activetab=pivot:overviewtab}}
+    \field{note}{(Accessed on 09/01/2019)}
+    \field{title}{Mail und Kalender beziehen – Microsoft Store de-DE}
+  \endentry
+
   \entry{ManyChat78:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
@@ -568,6 +642,16 @@
     \field{note}{(Accessed on 11/28/2018)}
     \field{title}{OSF | Sabrina Thai - ExperienceSampler SPSP San Antonio 2017
   Draft 1 FINAL To Post.pdf}
+  \endentry
+
+  \entry{PsychThG4:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+  \field{howpublished}{\url{https://www.gesetze-im-internet.de/psychthg/BJNR131110998.html}}
+    \field{note}{(Accessed on 08/31/2019)}
+    \field{title}{PsychThG - Gesetz über die Berufe des Psychologischen
+  Psychotherapeuten und des Kinder- und Jugendlichenpsychotherapeuten}
   \endentry
 
   \entry{PureData15:online}{misc}{}
