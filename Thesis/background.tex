@@ -20,7 +20,7 @@ Das Projekt setzt sich aus den vier Komponentent \emph{Forscher-Plattform}, \emp
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{pictures/TherapyBuilder}
-\caption{Architektur des \emph{TherapyBuilders}}
+\caption{Architektur des \emph{TherapyBuilders} (vgl. \citep{benjaminhoff})}
 \label{therapyBuilder}
 \end{figure}
 
@@ -33,43 +33,25 @@ Die Forscher-Plattform erlaubt Forschern eine digitale Therapie anzulegen. Diese
 
 Das Therapiemodul folgt einer Art Skript (\emph{engl. Script}). In diesem Skript wird festgelegt wann und auf welche Weise ein Dialog zwischen Anwender und Chatbot gestartet wird. Innerhalb des Skripts gibt es verschiedene Handlungsstränge (\emph{engl. Storylines}). Ein Handlungsstrang beschreibt einen Dialog zwischen Nutzer und Chatbot und dessen Verlauf. Der Handlungsstrang kann neben einem normalen Dialog auch aus verschiedenen Aktionen (\emph{engl. Actions}) bestehen, die dem Nutzer bereitgestellt werden um beispielsweise Tagebuch über verschiedene Verhaltensweisen zu führen. Auch kann ein Handlungsstrang Übungen beinhalten, die der Nutzer durchführt. Diese Übungen können dem Nutzer als Werkzeug in einer Art Werkzeugkasten (\emph{engl. Toolbox}) bereitgestellt werden. Somit kann der Nutzer jederzeit auf diese Übungen zugreifen.
 
+Die erstellten Therapiemodule werden an das \emph{Module-Calendar-Assignement} übertragen. Zur Erfassung und Bewertung von Nutzerdaten, werden diese im Backend erfasst und als Nutzerstatus an die Auswertungskomponente \emph{Evaluation} weitergeleitet. Somit kann der Forscher den aktuellen Zustand des Moduls verfolgen. (Vgl. \cite[51\psq]{ben})
+
 Der in dieser Arbeit entwickelte \emph{TMA} wird später in dieser Plattform umgesetzt.  
 
 
 \subsection{Therapeuten-Plattform}
-Die Verwaltung der Patienten findet auf der Therapeuten-Plattform statt. Auf dieser können Patienten hinzugefügt, entfernt sowie verschiedene Therapiemodule ihren Profilen zugeteilt werden. Jedes Probandenprofil enthält eine Darstellung der aktuell zugeteilten und aktiven Therapiemodulen in Form eines Kalenders. Der Therapeut kann anhand dessen nachvollziehen, wie der entsprechende Therapieplan des Patienten aufgebaut ist. Außerdem kann hier auch das Einsehen des Therapiestands des Patienten ermöglicht werden. Die entsprechenden Profildaten werden in einer zugehörigen Datenbank gespeichert.
+Die Verwaltung der Patienten findet auf der Therapeuten-Plattform statt. Auf dieser können Patienten hinzugefügt, entfernt sowie verschiedene Therapiemodule ihren Profilen zugeteilt werden. Jedes Probandenprofil enthält eine Darstellung der aktuell zugeteilten und aktiven Therapiemodulen in Form eines Kalenders. Der Therapeut kann anhand dessen nachvollziehen, wie der entsprechende Therapieplan des Patienten aufgebaut ist. Außerdem kann hier auch das Einsehen des Therapiestands des Patienten ermöglicht werden. Die entsprechenden Profildaten werden in einer zugehörigen Datenbank gespeichert. (Vgl. \cite[51\psq]{ben})
 
 
 \subsection{Backend}
-
-
+Die Ausführung der Therapiemodule wird durch den \emph{Chat-Executor} gesteuert. Hier werden die Nachrichten der Therapiemodule an die App der entsprechenden Patienten verteilt, sowie die Antworten der Probanden entgegengenommen, gespeichert und verarbeitet. Die erhobenen Daten können in der Therapeuten-Plattform nachvollzogen werden. (Vgl. \cite[51\psq]{ben})
 
 \subsection{App}
-
-
-
-\section{Rahmenbedingungen von Psychotherapien}
-
-\begin{itemize}
-\item Intervention
-\item Just in Time
-\item Psychologischer Psychotherapeut
-\item Experience Sampling
-\end{itemize}
+Die App wird auf dem Gerät des Patienten installiert. Diese nimmt die Nachrichten entgegen und übersetzt die Darstellung in eine, für Chattechnologien typische, Ansicht. Auch verwaltet sie die Notifications über erhaltene Nachrichten, die den Beginn einer Unterhaltung eines Therapie-Moduls einleiten. Auch leitet die App die Antworten des Nutzers an das Backend weiter.(Vgl. \cite[51\psq]{ben})
 
 \section{Chatbots}
 
-%https://wirtschaftslexikon.gabler.de/definition/chatbot-54248
-\begin{itemize}
-\item Gabler: Chatbots oder Chatterbots sind Dialogsysteme mit natürlichsprachlichen Fähigkeiten textueller oder auditiver Art. Sie werden, oft in Kombination mit statischen oder animierten Avataren, auf Websites oder in Instant-Messaging-Systemen verwendet, wo sie die Produkte und Dienstleistungen ihrer Betreiber erklären und bewerben respektive sich um Anliegen der Interessenten und Kunden kümmern.
+Im Rahmen dieser Arbeit wird unter Chatbots folgende Begriffsdefinition des Oxford Lexikons verstanden.
 
-1. Begriff: Chatbots oder Chatterbots sind Dialogsysteme mit natürlichsprachlichen Fähigkeiten textueller oder auditiver Art. Sie werden, oft in Kombination mit statischen oder animierten Avataren, auf Websites oder in Instant-Messaging-Systemen verwendet, wo sie die Produkte und Services ihrer Betreiber erklären und bewerben respektive sich um Anliegen der Interessenten und Kunden kümmern – oder einfach dem Amüsement dienen. In sozialen Medien treten Social Bots auf, die wiederum als Chatbots fungieren können.
+\quote{A computer program designed to simulate conversation with human users, especially over the Internet.}(Vgl. \cite{chatbotD24:online})
 
-2. Ziele und Merkmale: Ein Chatbot untersucht die Eingaben der Benutzer und gibt Antworten und (Rück-)Fragen aus, unter Anwendung von Routinen und Regeln. In Verbindung mit Suchmaschinen, Thesauri und Ontologien sowie mithilfe der Künstlichen Intelligenz (KI) wird er zu einem breit abgestützten und einsetzbaren System. Ebenfalls unter seinen Begriff fallen Programme, die im Chat neue Gäste begrüßen, die Unterhaltung in Gang bringen sowie für die Einhaltung der Chatiquette (einer speziellen Netiquette) sorgen und beispielsweise unerwünschte Benutzer kicken.
-
-3. Kritik und Ausblick: Chatbots waren um die Jahrtausendwende ein Hype und wurden 15 Jahre später wieder zu einem, allerdings unter neuen Voraussetzungen, wenn man an die Entwicklungen in der KI und die Überlegungen in der Ethik denkt. In der Maschinenethik werden Chatbots entwickelt, die moralisch adäquat agieren und reagieren, etwa Probleme des Gesprächspartners erkennen, eine Notfallnummer herausgeben oder ausdrücklich die Wahrheit sagen. Sie kann ebenso Lügenmaschinen als Artefakte hervorbringen, die sie dann untersucht, um wiederum Erkenntnisse in Bezug auf verlässliche und vertrauenswürdige Maschinen zu gewinnen. Die Informationsethik diskutiert die Auswirkungen des Einsatzes von Chatbots, u.a. mit Blick auf die persönliche und informationelle Autonomie. Die Wirtschaftsethik ist relevant hinsichtlich der Unterstützung und Ersetzung von Arbeitskräften
-
-\item Verweis auf Quelle von Jürgen
-
-\end{itemize}
-
+Dies bedeutet, dass ein Chatbot als solchen angesehen wird, sobald Gespräche simuliert werden. Zwischen dem Gesprächspartner und dem Chatbot werden Nachrichten vermittelt die einen Gesprächsverlauf entstehen lassen. Dieser Verlauf kann derart geformt sein, dass dem Nutzer Antwortmöglichkeiten vorgegeben werden und der Chatbot die Möglichkeit hat, entsprechend darauf zu reagieren. Die Eingaben des Nutzers werden im Rahmen dieser Arbeit nicht mit Hilfe von Sprachverarbeitung analysiert und verarbeitet. Viel mehr werden Gesprächsverläufe, ähnlich eines Spielbuchs, vorgegeben und beschrieben. Basierend auf der gewählten Antwort und Entscheidung des Nutzers kann der Gesprächsverlauf beeinflusst werden.

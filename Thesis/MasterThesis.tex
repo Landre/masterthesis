@@ -1,4 +1,4 @@
-  \documentclass{wissdoc}
+\documentclass{wissdoc}
 
 % Autor: Roland Bless 1996-2009, bless <at> kit.edu
 % ----------------------------------------------------------------
@@ -27,6 +27,7 @@
 \usepackage{rotating}
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
+\usepackage{pdfpages}
 \usepackage{url}
 \usepackage{boxhandler}
 \usepackage{tabu}
@@ -91,17 +92,12 @@
 \newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
   #1\ignorespaces
 }
-
 \newif\ifcomment
 %\commenttrue %# Show comments
-
-
 \newcommand{\blankpage}{% Leerseite ohne Seitennummer, nächste Seite rechts
  \clearpage{\pagestyle{empty}\cleardoublepage}
 }
-
 %% Einstellungen für das gesamte Dokument
-
 % Trennhilfen
 % Wichtig! 
 % Im german-paket sind zusätzlich folgende Trennhinweise enthalten:
@@ -110,7 +106,6 @@
 % "~ = Bindestrich an dem keine Trennung erlaubt ist (bsp: bergauf und "~ab)
 % "= = Bindestrich bei dem Worte vor und dahinter getrennt werden dürfen
 % "" = Trennstelle ohne Erzeugung eines Trennstrichs (bsp: und/""oder)
-
 % Trennhinweise fuer Woerter hier beschreiben
 \hyphenation{
 % Pro-to-koll-in-stan-zen
@@ -126,7 +121,6 @@
 		basicstyle=\scriptsize,
     %postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
 }
-
 % Index-Datei öffnen
 \ifnotdraft{\makeindex}
 %%%%%%%%%%%%%% includeonly %%%%%%%%%%%%%%%%%%%
@@ -148,10 +142,8 @@ summary  % Zusammenfassung der Ergebnisse
 \usepgfplotslibrary{groupplots}
 \usetikzlibrary{pgfplots.groupplots}
 %\addbibresource{diplarb.bib}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
 \frontmatter
 \pagenumbering{roman}
 \ifnotdraft{
@@ -190,12 +182,10 @@ summary  % Zusammenfassung der Ergebnisse
 }
 \cleardoublepage
 \blankpage
-
 %% ++++++++++++++++++++++++++++++++++++++++++
 %% Hauptteil
 %% ++++++++++++++++++++++++++++++++++++++++++
 \graphicspath{{images/}}
-
 \mainmatter
 \null
 \newpage
@@ -208,15 +198,13 @@ summary  % Zusammenfassung der Ergebnisse
 \include{evaluation}        % Evaluierung
 \include{summary} %Ergebnisse
 \include{futurework}  % Ausblick
-
+\chapter{Anhang Studienablauf}
 %% ++++++++++++++++++++++++++++++++++++++++++
 %% Anhang
 %% ++++++++++++++++++++++++++++++++++++++++++
-
 \appendix
-%\include{anhang_a}
-%\include{anhang_b}
-
+\includepdf[pages=-]{Anhang} 
+%\include[pages=-]{anhang_b}
 %% ++++++++++++++++++++++++++++++++++++++++++
 %% Literatur
 %% ++++++++++++++++++++++++++++++++++++++++++
@@ -243,4 +231,3 @@ summary  % Zusammenfassung der Ergebnisse
 }
 \end{document}
 %% end of file
-

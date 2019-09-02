@@ -10,75 +10,75 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Therapeuten-Plattform}{section.2.1}% 10
 \BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Backend}{section.2.1}% 11
 \BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 App}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{2.2 Rahmenbedingungen von Psychotherapien}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.3}{2.3 Chatbots}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.4}{2.4 Stand der Technik}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Grafische Programmiersprachen}{section.2.4}% 16
-\BOOKMARK [3][-]{subsubsection.2.4.1.1}{2.4.1.1 Chatbot-Plattformen}{subsection.2.4.1}% 17
-\BOOKMARK [3][-]{subsubsection.2.4.1.2}{2.4.1.2 Allgemeine grafische Programmiersprachen}{subsection.2.4.1}% 18
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Auszeichnungssprachen}{section.2.4}% 19
-\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Experience Sampling}{section.2.4}% 20
-\BOOKMARK [2][-]{subsection.2.4.4}{2.4.4 Fazit}{section.2.4}% 21
-\BOOKMARK [0][]{chapter.3}{3 Konzeption}{}% 22
-\BOOKMARK [1][-]{section.3.1}{3.1 Anforderungsanalyse}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Persona}{section.3.1}% 24
-\BOOKMARK [3][-]{subsubsection.3.1.1.1}{3.1.1.1 Forscher}{subsection.3.1.1}% 25
-\BOOKMARK [3][-]{subsubsection.3.1.1.2}{3.1.1.2 Therapeut}{subsection.3.1.1}% 26
-\BOOKMARK [3][-]{subsubsection.3.1.1.3}{3.1.1.3 Patient}{subsection.3.1.1}% 27
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Studienbetrachtung}{section.3.1}% 28
-\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Defizite der betrachteten Technologien}{section.3.1}% 29
-\BOOKMARK [3][-]{subsubsection.3.1.3.1}{3.1.3.1 Grafische Programmiersprachen}{subsection.3.1.3}% 30
-\BOOKMARK [3][-]{subsubsection.3.1.3.2}{3.1.3.2 Auszeichnungssprachen}{subsection.3.1.3}% 31
-\BOOKMARK [3][-]{subsubsection.3.1.3.3}{3.1.3.3 Experience Sampling}{subsection.3.1.3}% 32
-\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Anforderungen}{section.3.1}% 33
-\BOOKMARK [3][-]{subsubsection.3.1.4.1}{3.1.4.1 Funktionale Anforderungen}{subsection.3.1.4}% 34
-\BOOKMARK [3][-]{subsubsection.3.1.4.2}{3.1.4.2 Nicht-Funktionale Anforderungen}{subsection.3.1.4}% 35
-\BOOKMARK [1][-]{section.3.2}{3.2 Ausarbeitung verschiedener Konzepte}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Begriffsdefinitionen}{section.3.2}% 37
-\BOOKMARK [3][-]{subsubsection.3.2.1.1}{3.2.1.1 Therapie}{subsection.3.2.1}% 38
-\BOOKMARK [3][-]{subsubsection.3.2.1.2}{3.2.1.2 Therapiemodul}{subsection.3.2.1}% 39
-\BOOKMARK [3][-]{subsubsection.3.2.1.3}{3.2.1.3 Chatbot-Konversation}{subsection.3.2.1}% 40
-\BOOKMARK [3][-]{subsubsection.3.2.1.4}{3.2.1.4 Chatbot-Nachricht}{subsection.3.2.1}% 41
-\BOOKMARK [3][-]{subsubsection.3.2.1.5}{3.2.1.5 Werkzeugkasten}{subsection.3.2.1}% 42
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Konzepte}{section.3.2}% 43
-\BOOKMARK [3][-]{subsubsection.3.2.2.1}{3.2.2.1 Konfigurationsprinzip}{subsection.3.2.2}% 44
-\BOOKMARK [3][-]{subsubsection.3.2.2.2}{3.2.2.2 Spr\374nge}{subsection.3.2.2}% 45
-\BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 46
-\BOOKMARK [1][-]{section.4.1}{4.1 Umsetzung}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 TherapyBuilder-Prototyp}{section.4.1}% 48
-\BOOKMARK [3][-]{subsubsection.4.1.1.1}{4.1.1.1 Konfigurationsprinzip}{subsection.4.1.1}% 49
-\BOOKMARK [3][-]{subsubsection.4.1.1.2}{4.1.1.2 Spr\374nge}{subsection.4.1.1}% 50
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 movisensXS-Prototyp}{section.4.1}% 51
-\BOOKMARK [3][-]{subsubsection.4.1.2.1}{4.1.2.1 Konstruktionsprinzip}{subsection.4.1.2}% 52
-\BOOKMARK [3][-]{subsubsection.4.1.2.2}{4.1.2.2 Sichtbarkeitsregeln}{subsection.4.1.2}% 53
-\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 54
-\BOOKMARK [1][-]{section.5.1}{5.1 Studie}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Zweck der Studie}{section.5.1}% 56
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Probandenakquise}{section.5.1}% 57
-\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Studiendesign}{section.5.1}% 58
-\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Studienablauf}{section.5.1}% 59
-\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Hypothesen}{section.5.1}% 60
-\BOOKMARK [3][-]{subsubsection.5.1.5.1}{5.1.5.1 Konstruktionsprinzip und Konfigurationsprinzip}{subsection.5.1.5}% 61
-\BOOKMARK [3][-]{subsubsection.5.1.5.2}{5.1.5.2 Spr\374nge und Sichtbarkeitsregeln}{subsection.5.1.5}% 62
-\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung des erhobenen Datensatzes}{chapter.5}% 63
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Charakteristika der Probandenstichproben}{section.5.2}% 64
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Evaluationsergebnis des Konstruktionsprinzips}{section.5.2}% 65
-\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Zwischenfragebogen}{subsection.5.2.2}% 66
-\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Abschlussfragerunde}{subsection.5.2.2}% 67
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Evaluationsergebnis des Konfigurationsprinzips}{section.5.2}% 68
-\BOOKMARK [3][-]{subsubsection.5.2.3.1}{5.2.3.1 Zwischenfragebogen}{subsection.5.2.3}% 69
-\BOOKMARK [3][-]{subsubsection.5.2.3.2}{5.2.3.2 Abschlussfragerunde}{subsection.5.2.3}% 70
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Evaluationsergebnis der Spr\374nge}{section.5.2}% 71
-\BOOKMARK [3][-]{subsubsection.5.2.4.1}{5.2.4.1 Zwischenfragebogen}{subsection.5.2.4}% 72
-\BOOKMARK [3][-]{subsubsection.5.2.4.2}{5.2.4.2 Abschlussfragerunde}{subsection.5.2.4}% 73
-\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Evaluationsergebnis der Sichtbarkeitsregeln}{section.5.2}% 74
-\BOOKMARK [3][-]{subsubsection.5.2.5.1}{5.2.5.1 Zwischenfragebogen}{subsection.5.2.5}% 75
-\BOOKMARK [3][-]{subsubsection.5.2.5.2}{5.2.5.2 Abschlussfragerunde}{subsection.5.2.5}% 76
-\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 77
-\BOOKMARK [1][-]{section.6.1}{6.1 Ergebnisinterpretation}{chapter.6}% 78
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Konfigurationsprinzip und Konstruktionsprinzip}{section.6.1}% 79
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Spr\374nge und Sichtbarkeitsregeln}{section.6.1}% 80
-\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Zusammenfassung}{section.6.1}% 81
-\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 82
-\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 83
-\BOOKMARK [0][]{section*.146}{Bibliography}{}% 84
+\BOOKMARK [1][-]{section.2.2}{2.2 Chatbots}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{2.3 Stand der Technik}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Grafische Programmiersprachen}{section.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.1.1}{2.3.1.1 Chatbot-Plattformen}{subsection.2.3.1}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.1.2}{2.3.1.2 Allgemeine grafische Programmiersprachen}{subsection.2.3.1}% 17
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Auszeichnungssprachen}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Experience Sampling}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Fazit}{section.2.3}% 20
+\BOOKMARK [0][]{chapter.3}{3 Konzeption}{}% 21
+\BOOKMARK [1][-]{section.3.1}{3.1 Anforderungsanalyse}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Persona}{section.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{3.1.1.1 Forscher}{subsection.3.1.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{3.1.1.2 Therapeut}{subsection.3.1.1}% 25
+\BOOKMARK [3][-]{subsubsection.3.1.1.3}{3.1.1.3 Patient}{subsection.3.1.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Studienbetrachtung}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Defizite der betrachteten Technologien}{section.3.1}% 28
+\BOOKMARK [3][-]{subsubsection.3.1.3.1}{3.1.3.1 Grafische Programmiersprachen}{subsection.3.1.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.1.3.2}{3.1.3.2 Auszeichnungssprachen}{subsection.3.1.3}% 30
+\BOOKMARK [3][-]{subsubsection.3.1.3.3}{3.1.3.3 Experience Sampling}{subsection.3.1.3}% 31
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Anforderungen}{section.3.1}% 32
+\BOOKMARK [3][-]{subsubsection.3.1.4.1}{3.1.4.1 Funktionale Anforderungen}{subsection.3.1.4}% 33
+\BOOKMARK [3][-]{subsubsection.3.1.4.2}{3.1.4.2 Nicht-Funktionale Anforderungen}{subsection.3.1.4}% 34
+\BOOKMARK [1][-]{section.3.2}{3.2 Ausarbeitung verschiedener Konzepte}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Begriffsdefinitionen}{section.3.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{3.2.1.1 Therapie}{subsection.3.2.1}% 37
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{3.2.1.2 Therapiemodul}{subsection.3.2.1}% 38
+\BOOKMARK [3][-]{subsubsection.3.2.1.3}{3.2.1.3 Chatbot-Konversation}{subsection.3.2.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.2.1.4}{3.2.1.4 Chatbot-Nachricht}{subsection.3.2.1}% 40
+\BOOKMARK [3][-]{subsubsection.3.2.1.5}{3.2.1.5 Werkzeugkasten}{subsection.3.2.1}% 41
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Konzepte}{section.3.2}% 42
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{3.2.2.1 Konfigurationsprinzip}{subsection.3.2.2}% 43
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{3.2.2.2 Spr\374nge}{subsection.3.2.2}% 44
+\BOOKMARK [0][]{chapter.4}{4 Entwicklung der Modellierungssprache}{}% 45
+\BOOKMARK [1][-]{section.4.1}{4.1 Umsetzung}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 TherapyBuilder-Prototyp}{section.4.1}% 47
+\BOOKMARK [3][-]{subsubsection.4.1.1.1}{4.1.1.1 Konfigurationsprinzip}{subsection.4.1.1}% 48
+\BOOKMARK [3][-]{subsubsection.4.1.1.2}{4.1.1.2 Spr\374nge}{subsection.4.1.1}% 49
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 movisensXS-Prototyp}{section.4.1}% 50
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{4.1.2.1 Konstruktionsprinzip}{subsection.4.1.2}% 51
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{4.1.2.2 Sichtbarkeitsregeln}{subsection.4.1.2}% 52
+\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 53
+\BOOKMARK [1][-]{section.5.1}{5.1 Studie}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Zweck der Studie}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Probandenakquise}{section.5.1}% 56
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Studiendesign}{section.5.1}% 57
+\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Studienablauf}{section.5.1}% 58
+\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Hypothesen}{section.5.1}% 59
+\BOOKMARK [3][-]{subsubsection.5.1.5.1}{5.1.5.1 Konstruktionsprinzip und Konfigurationsprinzip}{subsection.5.1.5}% 60
+\BOOKMARK [3][-]{subsubsection.5.1.5.2}{5.1.5.2 Spr\374nge und Sichtbarkeitsregeln}{subsection.5.1.5}% 61
+\BOOKMARK [1][-]{section.5.2}{5.2 Beschreibung des erhobenen Datensatzes}{chapter.5}% 62
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Charakteristika der Probandenstichproben}{section.5.2}% 63
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Evaluationsergebnis des Konstruktionsprinzips}{section.5.2}% 64
+\BOOKMARK [3][-]{subsubsection.5.2.2.1}{5.2.2.1 Zwischenfragebogen}{subsection.5.2.2}% 65
+\BOOKMARK [3][-]{subsubsection.5.2.2.2}{5.2.2.2 Abschlussfragerunde}{subsection.5.2.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Evaluationsergebnis des Konfigurationsprinzips}{section.5.2}% 67
+\BOOKMARK [3][-]{subsubsection.5.2.3.1}{5.2.3.1 Zwischenfragebogen}{subsection.5.2.3}% 68
+\BOOKMARK [3][-]{subsubsection.5.2.3.2}{5.2.3.2 Abschlussfragerunde}{subsection.5.2.3}% 69
+\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4 Evaluationsergebnis der Spr\374nge}{section.5.2}% 70
+\BOOKMARK [3][-]{subsubsection.5.2.4.1}{5.2.4.1 Zwischenfragebogen}{subsection.5.2.4}% 71
+\BOOKMARK [3][-]{subsubsection.5.2.4.2}{5.2.4.2 Abschlussfragerunde}{subsection.5.2.4}% 72
+\BOOKMARK [2][-]{subsection.5.2.5}{5.2.5 Evaluationsergebnis der Sichtbarkeitsregeln}{section.5.2}% 73
+\BOOKMARK [3][-]{subsubsection.5.2.5.1}{5.2.5.1 Zwischenfragebogen}{subsection.5.2.5}% 74
+\BOOKMARK [3][-]{subsubsection.5.2.5.2}{5.2.5.2 Abschlussfragerunde}{subsection.5.2.5}% 75
+\BOOKMARK [0][]{chapter.6}{6 Ergebnisdiskussion}{}% 76
+\BOOKMARK [1][-]{section.6.1}{6.1 Ergebnisinterpretation}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Konfigurationsprinzip und Konstruktionsprinzip}{section.6.1}% 78
+\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Spr\374nge und Sichtbarkeitsregeln}{section.6.1}% 79
+\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Zusammenfassung}{section.6.1}% 80
+\BOOKMARK [1][-]{section.6.2}{6.2 Kritische Reflexion}{chapter.6}% 81
+\BOOKMARK [0][]{chapter.7}{7 Ausblick}{}% 82
+\BOOKMARK [0][]{chapter.8}{8 Anhang Studienablauf}{}% 83
+\BOOKMARK [0][]{section*.142}{Bibliography}{}% 84
