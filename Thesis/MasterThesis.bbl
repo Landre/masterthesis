@@ -675,6 +675,15 @@
     \field{title}{Pure Data — Pd Community Site}
   \endentry
 
+  \entry{REDCap47:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{howpublished}{\url{https://www.project-redcap.org/}}
+    \field{note}{(Accessed on 09/02/2019)}
+    \field{title}{REDCap}
+  \endentry
+
   \entry{Rough2017}{article}{}
     \name{author}{2}{}{%
       {{hash=RD}{%
