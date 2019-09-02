@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  2 SEP 2019 01:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  2 SEP 2019 02:56
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -2383,16 +2383,23 @@ File: pictures/liste.jpg Graphic file (type jpg)
 <use pictures/liste.jpg>
 Package pdftex.def Info: pictures/liste.jpg  used on input line 475.
 (pdftex.def)             Requested size: 213.39568pt x 229.0777pt.
-) [37 <./pictures/liste.jpg>]
+ [37 <./pictures/liste.jpg>]
+<pictures/spruengeskz.jpg, id=911, 949.8687pt x 447.3513pt>
+File: pictures/spruengeskz.jpg Graphic file (type jpg)
+<use pictures/spruengeskz.jpg>
+Package pdftex.def Info: pictures/spruengeskz.jpg  used on input line 485.
+(pdftex.def)             Requested size: 320.0935pt x 150.7527pt.
+) [38 <./pictures/spruengeskz.jpg>]
 \openout2 = `implementation.aux'.
 
- (implementation.tex [38
+
+(implementation.tex
+Chapter 4.
+) [39
 
 
 
 ]
-Chapter 4.
-) [39]
 \openout2 = `evaluation.aux'.
 
  (evaluation.tex [40
@@ -2420,7 +2427,7 @@ Overfull \hbox (7.66595pt too wide) in paragraph at lines 29--30
  []
 
 [42]
-<pictures/diagramme/counterbalancing-measure-design.png, id=935, 638.385pt x 12
+<pictures/diagramme/counterbalancing-measure-design.png, id=937, 638.385pt x 12
 7.97812pt>
 File: pictures/diagramme/counterbalancing-measure-design.png Graphic file (type
  png)
@@ -2434,7 +2441,7 @@ Overfull \hbox (3.36572pt too wide) in paragraph at lines 47--48
 m ruhi-gen Raum, mit Internet-
  []
 
-<pictures/setting.jpg, id=944, 1284.8pt x 963.6pt>
+<pictures/setting.jpg, id=946, 1284.8pt x 963.6pt>
 File: pictures/setting.jpg Graphic file (type jpg)
 <use pictures/setting.jpg>
 Package pdftex.def Info: pictures/setting.jpg  used on input line 51.
@@ -2443,7 +2450,7 @@ Package pdftex.def Info: pictures/setting.jpg  used on input line 51.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [44]
-<pictures/diagramme/studienablauf-diagramm.png, id=952, 542.77782pt x 410.2828p
+<pictures/diagramme/studienablauf-diagramm.png, id=954, 542.77782pt x 410.2828p
 t>
 File: pictures/diagramme/studienablauf-diagramm.png Graphic file (type png)
 <use pictures/diagramme/studienablauf-diagramm.png>
@@ -2488,12 +2495,12 @@ Overfull \hbox (0.47845pt too wide) in paragraph at lines 143--144
  []
 
 [49]
-<pictures/diagramme/movi.png, id=988, 263.0628pt x 126.9543pt>
+<pictures/diagramme/movi.png, id=990, 263.0628pt x 126.9543pt>
 File: pictures/diagramme/movi.png Graphic file (type png)
 <use pictures/diagramme/movi.png>
 Package pdftex.def Info: pictures/diagramme/movi.png  used on input line 173.
 (pdftex.def)             Requested size: 426.79135pt x 205.9922pt.
-<pictures/konstruktion.png, id=990, 462.528pt x 248.127pt>
+<pictures/konstruktion.png, id=992, 462.528pt x 248.127pt>
 File: pictures/konstruktion.png Graphic file (type png)
 <use pictures/konstruktion.png>
 Package pdftex.def Info: pictures/konstruktion.png  used on input line 186.
@@ -2520,7 +2527,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 211--212
 te genannt wer-den. Diese
  []
 
-<pictures/diagramme/aussagenkonstr.png, id=1002, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenkonstr.png, id=1004, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonstr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
@@ -2530,7 +2537,7 @@ ine 215.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [52] [53 <./pictures/diagramme/aussagenkonstr.png>]
-<pictures/konfiguration.png, id=1017, 462.528pt x 248.127pt>
+<pictures/konfiguration.png, id=1019, 462.528pt x 248.127pt>
 File: pictures/konfiguration.png Graphic file (type png)
 <use pictures/konfiguration.png>
 Package pdftex.def Info: pictures/konfiguration.png  used on input line 237.
@@ -2548,14 +2555,14 @@ um Kon-fig-u-ra-tionsprinzip.
  []
 
 [55]
-<pictures/diagramme/aussagenkonfig.png, id=1029, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenkonfig.png, id=1031, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonfig.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
 ine 266.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
  [56 <./pictures/diagramme/aussagenkonfig.png>]
-<pictures/spruenge.png, id=1038, 462.528pt x 248.127pt>
+<pictures/spruenge.png, id=1040, 462.528pt x 248.127pt>
 File: pictures/spruenge.png Graphic file (type png)
 <use pictures/spruenge.png>
 Package pdftex.def Info: pictures/spruenge.png  used on input line 286.
@@ -2582,7 +2589,7 @@ Overfull \hbox (9.1059pt too wide) in paragraph at lines 302--303
 -ge-meinen als Über-sichtlich
  []
 
-<pictures/diagramme/aussagenspr.png, id=1051, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenspr.png, id=1053, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenspr.png Graphic file (type png)
 <use pictures/diagramme/aussagenspr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
@@ -2609,7 +2616,7 @@ Overfull \hbox (20.04541pt too wide) in paragraph at lines 328--329
 ld der Nutzer den Mauszeiger
  []
 
-<pictures/sichtbarkeit.png, id=1067, 462.528pt x 248.127pt>
+<pictures/sichtbarkeit.png, id=1069, 462.528pt x 248.127pt>
 File: pictures/sichtbarkeit.png Graphic file (type png)
 <use pictures/sichtbarkeit.png>
 Package pdftex.def Info: pictures/sichtbarkeit.png  used on input line 332.
@@ -2632,7 +2639,7 @@ Overfull \hbox (1.29404pt too wide) in paragraph at lines 348--349
 s Kon-ver-sa-tionsver-lauf wur-
  []
 
-<pictures/diagramme/aussagensichtb.png, id=1074, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagensichtb.png, id=1076, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
 <use pictures/diagramme/aussagensichtb.png>
 Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
@@ -2646,7 +2653,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (summary.tex
 Chapter 6.
-<pictures/diagramme/antwortendurchsch1.png, id=1095, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch1.png, id=1097, 1138.2525pt x 627.34375pt>
 
 File: pictures/diagramme/antwortendurchsch1.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch1.png>
@@ -2656,7 +2663,7 @@ ut line 14.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/antwortendurchsch2.png, id=1096, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch2.png, id=1098, 1138.2525pt x 627.34375pt>
 
 File: pictures/diagramme/antwortendurchsch2.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch2.png>
@@ -2833,7 +2840,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6A1AD9903A97CC7631F5912FE2D5B491;6352.
+(rerunfilecheck)             Checksum: ACBF39B63891E972A12C34099761F0F1;6341.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2847,13 +2854,13 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 53307 strings out of 492895
- 1192259 string characters out of 3123735
+ 53313 strings out of 492895
+ 1192409 string characters out of 3123735
  1677660 words of memory out of 3000000
- 56050 multiletter control sequences out of 15000+200000
+ 56055 multiletter control sequences out of 15000+200000
  573872 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,136p,3343b,2855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,3338b,2855s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\leise\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/font
@@ -2867,9 +2874,9 @@ cmss12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (94 pages, 9016972 bytes).
+Output written on MasterThesis.pdf (94 pages, 10006631 bytes).
 PDF statistics:
- 1392 PDF objects out of 1440 (max. 8388607)
- 363 named destinations out of 1000 (max. 500000)
- 941 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1394 PDF objects out of 1440 (max. 8388607)
+ 364 named destinations out of 1000 (max. 500000)
+ 946 words of extra memory for PDF output out of 10000 (max. 10000000)
 
