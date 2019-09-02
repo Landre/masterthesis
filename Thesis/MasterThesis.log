@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  2 SEP 2019 02:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.23)  2 SEP 2019 05:24
 entering extended mode
 **./MasterThesis.tex
 (MasterThesis.tex
@@ -1943,12 +1943,12 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 8.
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
 \Zweitgutachter=\box87
-<logos/KIT_Deckblatt.pdf, id=346, 597.23125pt x 845.1575pt>
+<logos/KIT_Deckblatt.pdf, id=366, 597.23125pt x 845.1575pt>
 File: logos/KIT_Deckblatt.pdf Graphic file (type pdf)
 <use logos/KIT_Deckblatt.pdf>
 Package pdftex.def Info: logos/KIT_Deckblatt.pdf  used on input line 16.
 (pdftex.def)             Requested size: 597.50787pt x 845.6068pt.
-<logos/TECO_KIT.pdf, id=347, 537.00626pt x 139.52126pt>
+<logos/TECO_KIT.pdf, id=367, 537.00626pt x 139.52126pt>
 File: logos/TECO_KIT.pdf Graphic file (type pdf)
 <use logos/TECO_KIT.pdf>
 Package pdftex.def Info: logos/TECO_KIT.pdf  used on input line 19.
@@ -2007,7 +2007,7 @@ Overfull \hbox (14.36304pt too wide) in paragraph at lines 23--23
 
 
 
-])
+] [10])
 \tf@toc=\write7
 \openout7 = `MasterThesis.toc'.
 
@@ -2053,7 +2053,7 @@ ions-möglichkeiten der Domäne
  []
 
 [3]
-<pictures/ablauf.png, id=535, 451.6875pt x 100.6962pt>
+<pictures/ablauf.png, id=564, 451.6875pt x 100.6962pt>
 File: pictures/ablauf.png Graphic file (type png)
 <use pictures/ablauf.png>
 Package pdftex.def Info: pictures/ablauf.png  used on input line 96.
@@ -2074,7 +2074,7 @@ Overfull \hbox (23.48897pt too wide) in paragraph at lines 16--17
  []
 
 [7]
-<pictures/TherapyBuilder.png, id=565, 1083.29718pt x 462.97969pt>
+<pictures/TherapyBuilder.png, id=594, 1083.29718pt x 462.97969pt>
 File: pictures/TherapyBuilder.png Graphic file (type png)
 <use pictures/TherapyBuilder.png>
 Package pdftex.def Info: pictures/TherapyBuilder.png  used on input line 22.
@@ -2098,7 +2098,7 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 \openout2 = `analysis.aux'.
 
  (analysis.tex
-<pictures/watson.png, id=589, 864.98157pt x 405.01312pt>
+<pictures/watson.png, id=618, 864.98157pt x 405.01312pt>
 File: pictures/watson.png Graphic file (type png)
 <use pictures/watson.png>
 Package pdftex.def Info: pictures/watson.png  used on input line 20.
@@ -2107,19 +2107,19 @@ Package pdftex.def Info: pictures/watson.png  used on input line 20.
 
 
  <./pictures/watson.png>]
-<pictures/blockly.png, id=626, 816.80156pt x 274.77657pt>
+<pictures/blockly.png, id=655, 816.80156pt x 274.77657pt>
 File: pictures/blockly.png Graphic file (type png)
 <use pictures/blockly.png>
 Package pdftex.def Info: pictures/blockly.png  used on input line 39.
 (pdftex.def)             Requested size: 426.79135pt x 143.57643pt.
  [12 <./pictures/blockly.png>]
-<pictures/markdown.png, id=646, 941.76843pt x 593.96906pt>
+<pictures/markdown.png, id=676, 941.76843pt x 593.96906pt>
 File: pictures/markdown.png Graphic file (type png)
 <use pictures/markdown.png>
 Package pdftex.def Info: pictures/markdown.png  used on input line 53.
 (pdftex.def)             Requested size: 426.79135pt x 269.17781pt.
  [13 <./pictures/markdown.png>]
-<pictures/jeeves.png, id=664, 499.8675pt x 233.37187pt>
+<pictures/jeeves.png, id=693, 499.8675pt x 233.37187pt>
 File: pictures/jeeves.png Graphic file (type png)
 <use pictures/jeeves.png>
 Package pdftex.def Info: pictures/jeeves.png  used on input line 69.
@@ -2140,7 +2140,7 @@ Overfull \hbox (1.39781pt too wide) in paragraph at lines 11--12
 ie für eine An-forderungs-
  []
 
-<pictures/forscher.png, id=695, 462.528pt x 179.4705pt>
+<pictures/forscher.png, id=724, 462.528pt x 179.4705pt>
 File: pictures/forscher.png Graphic file (type png)
 <use pictures/forscher.png>
 Package pdftex.def Info: pictures/forscher.png  used on input line 21.
@@ -2149,7 +2149,7 @@ Package pdftex.def Info: pictures/forscher.png  used on input line 21.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17]
-<pictures/therapeut.png, id=700, 462.528pt x 179.4705pt>
+<pictures/therapeut.png, id=729, 462.528pt x 179.4705pt>
 File: pictures/therapeut.png Graphic file (type png)
 <use pictures/therapeut.png>
 Package pdftex.def Info: pictures/therapeut.png  used on input line 49.
@@ -2170,13 +2170,13 @@ Overfull \hbox (5.14137pt too wide) in paragraph at lines 57--58
 gewählt und zugeschnit-
  []
 
-<pictures/patient.png, id=709, 462.528pt x 179.4705pt>
+<pictures/patient.png, id=739, 462.528pt x 179.4705pt>
 File: pictures/patient.png Graphic file (type png)
 <use pictures/patient.png>
 Package pdftex.def Info: pictures/patient.png  used on input line 77.
 (pdftex.def)             Requested size: 426.79135pt x 165.61325pt.
 [19 <./pictures/therapeut.png>] [20 <./pictures/patient.png>]
-<pictures/studie.jpg, id=728, 289.3209pt x 203.5605pt>
+<pictures/studie.jpg, id=757, 289.3209pt x 203.5605pt>
 File: pictures/studie.jpg Graphic file (type jpg)
 <use pictures/studie.jpg>
 Package pdftex.def Info: pictures/studie.jpg  used on input line 104.
@@ -2187,7 +2187,7 @@ Overfull \hbox (12.69347pt too wide) in paragraph at lines 109--110
 elle Analogskalen, Einfach-
  []
 
-<pictures/studien.png, id=730, 307.1475pt x 169.5936pt>
+<pictures/studien.png, id=759, 307.1475pt x 169.5936pt>
 File: pictures/studien.png Graphic file (type png)
 <use pictures/studien.png>
 Package pdftex.def Info: pictures/studien.png  used on input line 115.
@@ -2199,7 +2199,7 @@ Overfull \hbox (21.39336pt too wide) in paragraph at lines 124--125
  []
 
 [22 <./pictures/studien.png>]
-<pictures/anforderungen.png, id=743, 1006.76125pt x 695.59875pt>
+<pictures/anforderungen.png, id=772, 1006.76125pt x 695.59875pt>
 File: pictures/anforderungen.png Graphic file (type png)
 <use pictures/anforderungen.png>
 Package pdftex.def Info: pictures/anforderungen.png  used on input line 140.
@@ -2259,12 +2259,12 @@ Overfull \hbox (15.09142pt too wide) in paragraph at lines 302--303
 ation\T1/aer/m/n/12 , \T1/aer/m/it/12 Chatbot-Nachricht\T1/aer/m/n/12 ,
  []
 
-<pictures/begriffe.png, id=804, 1167.36125pt x 564.1075pt>
+<pictures/begriffe.png, id=833, 1167.36125pt x 564.1075pt>
 File: pictures/begriffe.png Graphic file (type png)
 <use pictures/begriffe.png>
 Package pdftex.def Info: pictures/begriffe.png  used on input line 307.
 (pdftex.def)             Requested size: 320.0935pt x 154.67813pt.
-<pictures/mengeninsg.png, id=806, 1050.92625pt x 808.01875pt>
+<pictures/mengeninsg.png, id=835, 1050.92625pt x 808.01875pt>
 File: pictures/mengeninsg.png Graphic file (type png)
 <use pictures/mengeninsg.png>
 Package pdftex.def Info: pictures/mengeninsg.png  used on input line 316.
@@ -2273,7 +2273,7 @@ Package pdftex.def Info: pictures/mengeninsg.png  used on input line 316.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28 <./pictures/begriffe.png>]
-<pictures/therapiedef.png, id=818, 1050.92625pt x 549.05125pt>
+<pictures/therapiedef.png, id=847, 1050.92625pt x 549.05125pt>
 File: pictures/therapiedef.png Graphic file (type png)
 <use pictures/therapiedef.png>
 Package pdftex.def Info: pictures/therapiedef.png  used on input line 340.
@@ -2288,7 +2288,7 @@ Overfull \hbox (5.35008pt too wide) in paragraph at lines 353--354
 sys-tems, eines
  []
 
-<pictures/moduldef.png, id=829, 1050.92625pt x 549.05125pt>
+<pictures/moduldef.png, id=858, 1050.92625pt x 549.05125pt>
 File: pictures/moduldef.png Graphic file (type png)
 <use pictures/moduldef.png>
 Package pdftex.def Info: pictures/moduldef.png  used on input line 361.
@@ -2306,18 +2306,18 @@ dern, Video-/Audiomaterial
  []
 
 [30 <./pictures/therapiedef.png> <./pictures/moduldef.png>]
-<pictures/konvesationdef.png, id=842, 1050.92625pt x 479.7925pt>
+<pictures/konvesationdef.png, id=872, 1050.92625pt x 479.7925pt>
 File: pictures/konvesationdef.png Graphic file (type png)
 <use pictures/konvesationdef.png>
 Package pdftex.def Info: pictures/konvesationdef.png  used on input line 379.
 (pdftex.def)             Requested size: 213.39568pt x 97.42099pt.
  [31 <./pictures/konvesationdef.png>]
-<pictures/nachrichtdef.png, id=856, 1050.92625pt x 639.38875pt>
+<pictures/nachrichtdef.png, id=885, 1050.92625pt x 639.38875pt>
 File: pictures/nachrichtdef.png Graphic file (type png)
 <use pictures/nachrichtdef.png>
 Package pdftex.def Info: pictures/nachrichtdef.png  used on input line 398.
 (pdftex.def)             Requested size: 213.39568pt x 129.82674pt.
-<pictures/toolboxdef.png, id=858, 1050.92625pt x 597.23125pt>
+<pictures/toolboxdef.png, id=887, 1050.92625pt x 597.23125pt>
 File: pictures/toolboxdef.png Graphic file (type png)
 <use pictures/toolboxdef.png>
 Package pdftex.def Info: pictures/toolboxdef.png  used on input line 416.
@@ -2345,7 +2345,7 @@ da-raus eine Echtzeitvorschau
  []
 
 [32 <./pictures/nachrichtdef.png>]
-<pictures/storylinekonz.jpg, id=870, 2314.6475pt x 2973.1075pt>
+<pictures/storylinekonz.jpg, id=899, 2314.6475pt x 2973.1075pt>
 File: pictures/storylinekonz.jpg Graphic file (type jpg)
 <use pictures/storylinekonz.jpg>
 Package pdftex.def Info: pictures/storylinekonz.jpg  used on input line 430.
@@ -2361,30 +2361,30 @@ ie Trigger-Einstellungen
  []
 
 [33 <./pictures/toolboxdef.png>] [34 <./pictures/storylinekonz.jpg>]
-<pictures/moduluebersicht.jpg, id=886, 2993.1825pt x 2219.29124pt>
+<pictures/moduluebersicht.jpg, id=915, 2993.1825pt x 2219.29124pt>
 File: pictures/moduluebersicht.jpg Graphic file (type jpg)
 <use pictures/moduluebersicht.jpg>
 Package pdftex.def Info: pictures/moduluebersicht.jpg  used on input line 447.
 (pdftex.def)             Requested size: 320.0935pt x 237.31621pt.
  [35 <./pictures/moduluebersicht.jpg>]
-<pictures/triggersetkons.jpg, id=895, 1827.82875pt x 1517.67pt>
+<pictures/triggersetkons.jpg, id=924, 1827.82875pt x 1517.67pt>
 File: pictures/triggersetkons.jpg Graphic file (type jpg)
 <use pictures/triggersetkons.jpg>
 Package pdftex.def Info: pictures/triggersetkons.jpg  used on input line 456.
 (pdftex.def)             Requested size: 277.41176pt x 230.32698pt.
-<pictures/triggerset.jpg, id=896, 1422.31375pt x 2352.79pt>
+<pictures/triggerset.jpg, id=925, 1422.31375pt x 2352.79pt>
 File: pictures/triggerset.jpg Graphic file (type jpg)
 <use pictures/triggerset.jpg>
 Package pdftex.def Info: pictures/triggerset.jpg  used on input line 462.
 (pdftex.def)             Requested size: 138.70587pt x 229.44098pt.
  [36 <./pictures/triggersetkons.jpg> <./pictures/triggerset.jpg>]
-<pictures/liste.jpg, id=903, 2902.845pt x 3116.64375pt>
+<pictures/liste.jpg, id=933, 2902.845pt x 3116.64375pt>
 File: pictures/liste.jpg Graphic file (type jpg)
 <use pictures/liste.jpg>
 Package pdftex.def Info: pictures/liste.jpg  used on input line 475.
 (pdftex.def)             Requested size: 213.39568pt x 229.0777pt.
  [37 <./pictures/liste.jpg>]
-<pictures/spruengeskz.jpg, id=911, 949.8687pt x 447.3513pt>
+<pictures/spruengeskz.jpg, id=940, 949.8687pt x 447.3513pt>
 File: pictures/spruengeskz.jpg Graphic file (type jpg)
 <use pictures/spruengeskz.jpg>
 Package pdftex.def Info: pictures/spruengeskz.jpg  used on input line 485.
@@ -2395,20 +2395,70 @@ Package pdftex.def Info: pictures/spruengeskz.jpg  used on input line 485.
 
 (implementation.tex
 Chapter 4.
-) [39
+
+Overfull \hbox (11.59016pt too wide) in paragraph at lines 6--7
+[]\T1/aer/m/n/12 Die aus-gear-beit-eten Konzepte wer-den für die Studie als \T1
+/aer/m/it/12 Ther-a-py-Builder \T1/aer/m/n/12 Klick-Prototyp
+ []
+
+
+Overfull \hbox (20.38881pt too wide) in paragraph at lines 6--7
+\T1/aer/m/n/12 entsprechende El-e-mente der An-forderungsliste, die im Han-del-
+süblichen fehlen, hinzufügt,
+ []
+
+
+Overfull \hbox (17.21835pt too wide) in paragraph at lines 9--10
+[]\T1/aer/m/n/12 Wie zu-vor beschrieben wer-den die Aus-gear-beit-eten Konzepte
+ des Kon-fig-u-ra-tionsprinzips
+ []
+
+<pictures/start.png, id=948, 3050.39626pt x 1147.28625pt>
+File: pictures/start.png Graphic file (type png)
+<use pictures/start.png>
+Package pdftex.def Info: pictures/start.png  used on input line 13.
+(pdftex.def)             Requested size: 426.79135pt x 160.51393pt.
+[39
 
 
 
 ]
+
+LaTeX Warning: Reference `ch:design' on page 40 undefined on input line 18.
+
+<pictures/zeitstrahl.png, id=954, 3050.39626pt x 1147.28625pt>
+File: pictures/zeitstrahl.png Graphic file (type png)
+<use pictures/zeitstrahl.png>
+Package pdftex.def Info: pictures/zeitstrahl.png  used on input line 25.
+(pdftex.def)             Requested size: 426.79135pt x 160.51393pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `ch:design' on page 40 undefined on input line 33.
+
+
+Overfull \hbox (4.61327pt too wide) in paragraph at lines 33--34
+\T1/aer/m/n/12 Moduls \T1/aer/m/it/12 Emo-tional aware-ness \T1/aer/m/n/12 geöf
+fnet, kann der Proband eingeschränkt eine Chatbot-
+ []
+
+[40 <./pictures/start.png>]
+<pictures/textset.png, id=961, 3050.39626pt x 1147.28625pt>
+File: pictures/textset.png Graphic file (type png)
+<use pictures/textset.png>
+Package pdftex.def Info: pictures/textset.png  used on input line 37.
+(pdftex.def)             Requested size: 426.79135pt x 160.51393pt.
+) [41 <./pictures/zeitstrahl.png> <./pictures/textset.png>]
 \openout2 = `evaluation.aux'.
 
- (evaluation.tex [40
+ (evaluation.tex [42
 
 
 
 ]
 Chapter 5.
-[41]
+[43]
 Overfull \hbox (13.1498pt too wide) in paragraph at lines 24--26
 \T1/aer/m/n/12 twick-elt. Beobachtet wird der Um-gang eines Proban-den mit zwei
  Pro-to-typen. Durchge-
@@ -2426,8 +2476,8 @@ Overfull \hbox (7.66595pt too wide) in paragraph at lines 29--30
  wirken. So soll sichergestellt
  []
 
-[42]
-<pictures/diagramme/counterbalancing-measure-design.png, id=937, 638.385pt x 12
+[44]
+<pictures/diagramme/counterbalancing-measure-design.png, id=987, 638.385pt x 12
 7.97812pt>
 File: pictures/diagramme/counterbalancing-measure-design.png Graphic file (type
  png)
@@ -2435,13 +2485,13 @@ File: pictures/diagramme/counterbalancing-measure-design.png Graphic file (type
 Package pdftex.def Info: pictures/diagramme/counterbalancing-measure-design.png
   used on input line 33.
 (pdftex.def)             Requested size: 426.79135pt x 85.55937pt.
- [43 <./pictures/diagramme/counterbalancing-measure-design.png>]
+ [45 <./pictures/diagramme/counterbalancing-measure-design.png>]
 Overfull \hbox (3.36572pt too wide) in paragraph at lines 47--48
 []\T1/aer/m/n/12 Zunächst bere-it-ete der Stu-di-en-leiter das Set-ting in eine
 m ruhi-gen Raum, mit Internet-
  []
 
-<pictures/setting.jpg, id=946, 1284.8pt x 963.6pt>
+<pictures/setting.jpg, id=995, 1284.8pt x 963.6pt>
 File: pictures/setting.jpg Graphic file (type jpg)
 <use pictures/setting.jpg>
 Package pdftex.def Info: pictures/setting.jpg  used on input line 51.
@@ -2449,9 +2499,9 @@ Package pdftex.def Info: pictures/setting.jpg  used on input line 51.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44]
-<pictures/diagramme/studienablauf-diagramm.png, id=954, 542.77782pt x 410.2828p
-t>
+[46]
+<pictures/diagramme/studienablauf-diagramm.png, id=1003, 542.77782pt x 410.2828
+pt>
 File: pictures/diagramme/studienablauf-diagramm.png Graphic file (type png)
 <use pictures/diagramme/studienablauf-diagramm.png>
 Package pdftex.def Info: pictures/diagramme/studienablauf-diagramm.png  used on
@@ -2470,7 +2520,7 @@ nes Ther-a-piemod-el-lierungsansatzes,
 
 Underfull \vbox (badness 7869) has occurred while \output is active []
 
- [45 <./pictures/setting.jpg>]
+ [47 <./pictures/setting.jpg>]
 Overfull \hbox (23.61435pt too wide) in paragraph at lines 75--76
 []\T1/aer/m/n/12 Das Kon-fig-u-ra-tionsprinzip wird hin-sichtlich dessen Ver-st
 ändlichkeit und Über-sichtlichkeit
@@ -2482,25 +2532,25 @@ Overfull \hbox (13.33731pt too wide) in paragraph at lines 80--81
 Trig-ger-darstel-lung als zeitliche
  []
 
-[46 <./pictures/diagramme/studienablauf-diagramm.png>]
+[48 <./pictures/diagramme/studienablauf-diagramm.png>]
 Overfull \hbox (13.6666pt too wide) in paragraph at lines 99--100
 []\T1/aer/m/n/12 Die Art der Un-ter-schei-dung zwis-chen Trig-ger und Con-di-ti
 on tra-gen zur Ver-ständlichkeit
  []
 
-[47] [48]
+[49] [50]
 Overfull \hbox (0.47845pt too wide) in paragraph at lines 143--144
 []\T1/aer/m/n/12 Diesem De-sign steht die Vi-su-al-isierung von Verzwei-gun-gen
  in-ner-halb eines Di-alogver-
  []
 
-[49]
-<pictures/diagramme/movi.png, id=990, 263.0628pt x 126.9543pt>
+[51]
+<pictures/diagramme/movi.png, id=1039, 263.0628pt x 126.9543pt>
 File: pictures/diagramme/movi.png Graphic file (type png)
 <use pictures/diagramme/movi.png>
 Package pdftex.def Info: pictures/diagramme/movi.png  used on input line 173.
 (pdftex.def)             Requested size: 426.79135pt x 205.9922pt.
-<pictures/konstruktion.png, id=992, 462.528pt x 248.127pt>
+<pictures/konstruktion.png, id=1041, 462.528pt x 248.127pt>
 File: pictures/konstruktion.png Graphic file (type png)
 <use pictures/konstruktion.png>
 Package pdftex.def Info: pictures/konstruktion.png  used on input line 186.
@@ -2515,19 +2565,19 @@ Overfull \hbox (8.50644pt too wide) in paragraph at lines 194--195
 der far-blichen Kodierung
  []
 
-[50 <./pictures/diagramme/movi.png>]
+[52 <./pictures/diagramme/movi.png>]
 Overfull \hbox (7.45027pt too wide) in paragraph at lines 196--197
 []\T1/aer/m/n/12 Die Ver-ständlichkeit der Ein-stel-lungsmöglichkeiten der Trig
 -ger wurde von den Proban-
  []
 
-[51 <./pictures/konstruktion.png>]
+[53 <./pictures/konstruktion.png>]
 Overfull \hbox (4.00165pt too wide) in paragraph at lines 211--212
 \T1/aer/m/n/12 hin-der-lich emp-fun-den wur-den, kon-nten fün-fund-dreiÿig Punk
 te genannt wer-den. Diese
  []
 
-<pictures/diagramme/aussagenkonstr.png, id=1004, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenkonstr.png, id=1053, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonstr.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonstr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonstr.png  used on input l
@@ -2536,13 +2586,13 @@ ine 215.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52] [53 <./pictures/diagramme/aussagenkonstr.png>]
-<pictures/konfiguration.png, id=1019, 462.528pt x 248.127pt>
+[54] [55 <./pictures/diagramme/aussagenkonstr.png>]
+<pictures/konfiguration.png, id=1069, 462.528pt x 248.127pt>
 File: pictures/konfiguration.png Graphic file (type png)
 <use pictures/konfiguration.png>
 Package pdftex.def Info: pictures/konfiguration.png  used on input line 237.
 (pdftex.def)             Requested size: 426.79135pt x 228.96866pt.
- [54 <./pictures/konfiguration.png>]
+ [56 <./pictures/konfiguration.png>]
 Overfull \hbox (0.5145pt too wide) in paragraph at lines 253--254
 []\T1/aer/m/n/12 Die zeitliche Darstel-lung der Kon-ver-sa-tio-nen wurde von de
 n Proban-den mehrheitlich,
@@ -2554,15 +2604,15 @@ Overfull \hbox (13.17427pt too wide) in paragraph at lines 262--263
 um Kon-fig-u-ra-tionsprinzip.
  []
 
-[55]
-<pictures/diagramme/aussagenkonfig.png, id=1031, 181.1568pt x 108.8868pt>
+[57]
+<pictures/diagramme/aussagenkonfig.png, id=1080, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenkonfig.png Graphic file (type png)
 <use pictures/diagramme/aussagenkonfig.png>
 Package pdftex.def Info: pictures/diagramme/aussagenkonfig.png  used on input l
 ine 266.
 (pdftex.def)             Requested size: 426.79135pt x 256.5286pt.
- [56 <./pictures/diagramme/aussagenkonfig.png>]
-<pictures/spruenge.png, id=1040, 462.528pt x 248.127pt>
+ [58 <./pictures/diagramme/aussagenkonfig.png>]
+<pictures/spruenge.png, id=1089, 462.528pt x 248.127pt>
 File: pictures/spruenge.png Graphic file (type png)
 <use pictures/spruenge.png>
 Package pdftex.def Info: pictures/spruenge.png  used on input line 286.
@@ -2577,19 +2627,19 @@ Overfull \hbox (10.709pt too wide) in paragraph at lines 291--292
 hlussfragerunde dargestellt. 
  []
 
-[57]
+[59]
 Overfull \hbox (9.83824pt too wide) in paragraph at lines 300--301
 []\T1/aer/m/n/12 Bezüglich des Kon-ver-sa-tionsver-laufs und dessen Über-sichtl
 ichkeit äuÿerten die Proban-
  []
 
-[58 <./pictures/spruenge.png>]
+[60 <./pictures/spruenge.png>]
 Overfull \hbox (9.1059pt too wide) in paragraph at lines 302--303
 []\T1/aer/m/n/12 Antwortoptionen eines Kon-ver-sa-tionsver-laufs wur-den im All
 -ge-meinen als Über-sichtlich
  []
 
-<pictures/diagramme/aussagenspr.png, id=1053, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagenspr.png, id=1103, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagenspr.png Graphic file (type png)
 <use pictures/diagramme/aussagenspr.png>
 Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
@@ -2598,7 +2648,7 @@ Package pdftex.def Info: pictures/diagramme/aussagenspr.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59] [60 <./pictures/diagramme/aussagenspr.png>]
+[61] [62 <./pictures/diagramme/aussagenspr.png>]
 Overfull \hbox (0.92271pt too wide) in paragraph at lines 328--329
 []\T1/aer/m/n/12 Die Sicht-barkeit-sregeln un-ter-schei-den sich maÿge-blich vo
 n dem Konzept der Sprünge,
@@ -2616,7 +2666,7 @@ Overfull \hbox (20.04541pt too wide) in paragraph at lines 328--329
 ld der Nutzer den Mauszeiger
  []
 
-<pictures/sichtbarkeit.png, id=1069, 462.528pt x 248.127pt>
+<pictures/sichtbarkeit.png, id=1119, 462.528pt x 248.127pt>
 File: pictures/sichtbarkeit.png Graphic file (type png)
 <use pictures/sichtbarkeit.png>
 Package pdftex.def Info: pictures/sichtbarkeit.png  used on input line 332.
@@ -2627,7 +2677,7 @@ Overfull \hbox (10.709pt too wide) in paragraph at lines 337--338
 hlussfragerunde dargestellt. 
  []
 
-[61 <./pictures/sichtbarkeit.png>]
+[63 <./pictures/sichtbarkeit.png>]
 Overfull \hbox (18.06058pt too wide) in paragraph at lines 344--345
 \T1/aer/m/n/12 falls als zumeist ver-ständlich, mit le-ichter Ten-denz zu zum T
 eil ver-ständlich, wahrgenom-
@@ -2639,7 +2689,7 @@ Overfull \hbox (1.29404pt too wide) in paragraph at lines 348--349
 s Kon-ver-sa-tionsver-lauf wur-
  []
 
-<pictures/diagramme/aussagensichtb.png, id=1076, 181.1568pt x 108.8868pt>
+<pictures/diagramme/aussagensichtb.png, id=1125, 181.1568pt x 108.8868pt>
 File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
 <use pictures/diagramme/aussagensichtb.png>
 Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
@@ -2648,12 +2698,12 @@ ine 360.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62] [63 <./pictures/diagramme/aussagensichtb.png>]) [64]
+[64] [65 <./pictures/diagramme/aussagensichtb.png>]) [66]
 \openout2 = `summary.aux'.
 
  (summary.tex
 Chapter 6.
-<pictures/diagramme/antwortendurchsch1.png, id=1097, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch1.png, id=1147, 1138.2525pt x 627.34375pt>
 
 File: pictures/diagramme/antwortendurchsch1.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch1.png>
@@ -2663,7 +2713,7 @@ ut line 14.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pictures/diagramme/antwortendurchsch2.png, id=1098, 1138.2525pt x 627.34375pt>
+<pictures/diagramme/antwortendurchsch2.png, id=1148, 1138.2525pt x 627.34375pt>
 
 File: pictures/diagramme/antwortendurchsch2.png Graphic file (type png)
 <use pictures/diagramme/antwortendurchsch2.png>
@@ -2673,7 +2723,7 @@ ut line 21.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65
+[67
 
 
 
@@ -2713,7 +2763,7 @@ Underfull \hbox (badness 2126) in paragraph at lines 42--42
 \T1/aer/m/n/12 am umge-set-zten Kon-fig-u-ra-tionsprinzip
  []
 
-[66 <./pictures/diagramme/antwortendurchsch1.png>] [67 <./pictures/diagramme/an
+[68 <./pictures/diagramme/antwortendurchsch1.png>] [69 <./pictures/diagramme/an
 twortendurchsch2.png>]
 Overfull \hbox (6.22108pt too wide) in paragraph at lines 62--63
 \T1/aer/m/n/12 dargestell-ten El-e-menten, kön-nen sich pos-i-tiv auf das Kon-f
@@ -2732,13 +2782,13 @@ Overfull \hbox (6.09459pt too wide) in paragraph at lines 71--72
 w-er-tung bei-der Sys-teme hin-sichtlich
  []
 
-[68]
+[70]
 Overfull \hbox (5.06203pt too wide) in paragraph at lines 77--78
 \T1/aer/m/n/12 ständlicher ist. Die Be-tra-ch-tung der Freitext-Aussagen sowie 
 der Ab-schlussfragerunde
  []
 
-[69]
+[71]
 Overfull \hbox (1.43396pt too wide) in paragraph at lines 94--95
 \T1/aer/m/n/12 Auch die An-zahl der Antworten der Ab-schlussfragerunde, und der
 en Kat-e-gorisierung,
@@ -2754,34 +2804,34 @@ File: pictures/diagramme/aussagensichtb.png Graphic file (type png)
 Package pdftex.def Info: pictures/diagramme/aussagensichtb.png  used on input l
 ine 104.
 (pdftex.def)             Requested size: 209.1301pt x 125.69897pt.
-[70]
+[72]
 Overfull \hbox (1.6069pt too wide) in paragraph at lines 112--113
 \T1/aer/m/n/12 nte dahinge-hend durch eine räum-liche und far-bliche Tren-nung 
 der Chatbot-Ausgaben
  []
 
-[71] [72]
+[73] [74]
 Overfull \hbox (10.27048pt too wide) in paragraph at lines 133--134
 []\T1/aer/m/n/12 Die Sicht-barkeit-sregel kön-nte verbessert wer-den in-dem das
  entsprechende Icon beispiel-
  []
 
-[73]
+[75]
 Overfull \hbox (2.7226pt too wide) in paragraph at lines 144--145
 []\T1/aer/m/n/12 Die Über-sichtlichkeit und Ver-ständlichkeit der Sprünge ist e
 ben-falls ten-den-ziell besser
  []
 
-[74]) [75]
+[76]) [77]
 \openout2 = `futurework.aux'.
 
- (futurework.tex [76
+ (futurework.tex [78
 
 
 
 ]
 Chapter 7.
-) [77] [78
+) [79] [80
 
 
 ]
@@ -2790,7 +2840,7 @@ Overfull \hbox (22.65623pt too wide) in paragraph at lines 239--239
 r/m/n/12 . [][]$https : / / material . io / components /
  []
 
-[79
+[81
 
 ]
 Overfull \hbox (53.22603pt too wide) in paragraph at lines 239--239
@@ -2815,11 +2865,16 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 235.
 ("C:\Users\leise\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-[80]
+[82]
 Overfull \hbox (4.9426pt too wide) in paragraph at lines 239--239
 \T1/aer/m/n/12 com / de -[] de / p / mail -[] und -[] kalender / 9wzdncrfhvqm ?
  activetab = pivot : overviewtab$[][].
  []
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/it' undefined
+(Font)              using `TS1/aer/m/n' instead
+(Font)              for symbol `textperiodcentered' on input line 235.
 
 
 Overfull \hbox (26.01839pt too wide) in paragraph at lines 239--239
@@ -2827,7 +2882,7 @@ Overfull \hbox (26.01839pt too wide) in paragraph at lines 239--239
 martphone -[] Markt -[] Konjunktur -[]
  []
 
-[81] [82] (MasterThesis.ind)
+[83] [84] (MasterThesis.ind)
 
 Package caption Warning: Unused \captionsetup[sub] on input line 39.
 See the caption package documentation for explanation.
@@ -2840,10 +2895,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: ACBF39B63891E972A12C34099761F0F1;6341.
+(rerunfilecheck)             Checksum: 2BAB15D2C2C6F0EE5EE56499F7B47A6F;6808.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2854,13 +2912,13 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 53313 strings out of 492895
- 1192409 string characters out of 3123735
+ 53351 strings out of 492895
+ 1193226 string characters out of 3123735
  1677660 words of memory out of 3000000
- 56055 multiletter control sequences out of 15000+200000
+ 56081 multiletter control sequences out of 15000+200000
  573872 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,136p,3338b,2855s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,12n,136p,3338b,3493s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\leise\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/font
@@ -2874,9 +2932,9 @@ cmss12.pfb><C:/Users/leise/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/leise/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/leise/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on MasterThesis.pdf (94 pages, 10006631 bytes).
+Output written on MasterThesis.pdf (97 pages, 10596748 bytes).
 PDF statistics:
- 1394 PDF objects out of 1440 (max. 8388607)
- 364 named destinations out of 1000 (max. 500000)
- 946 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1449 PDF objects out of 1728 (max. 8388607)
+ 376 named destinations out of 1000 (max. 500000)
+ 1001 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -644,6 +644,15 @@
   Draft 1 FINAL To Post.pdf}
   \endentry
 
+  \entry{OnlineMo52:online}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{\url{https://moqups.com/}}
+    \field{note}{(Accessed on 09/02/2019)}
+    \field{title}{Online Mockup, Wireframe \& UI Prototyping Tool · Moqups}
+  \endentry
+
   \entry{PsychThG4:online}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{P}

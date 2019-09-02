@@ -1,6 +1,46 @@
 \chapter{Entwicklung der Modellierungssprache}
 \label{ch:Implementation}
-
-\section{Konzept}
+Bevor die ausgearbeiteten Konzepte in das \emph{TherapyBuilder}-Projekt eingearbeitet werden, werden diese zunächst in einem Prototypen umgesetzt. Da bereits das Experience Sampling Tool \emph{movisensXS} existiert, welches Studien, die Chatbot-ähnliche Dialoge beinhalten, umsetzen kann, wird dieses an die ausgearbeiteten Anforderungen angepasst. Auf diese Weise soll später eine Studie durchgeführt werden, die das Konstruktionsprinzip und die Sprünge mit den Ansätzen des dort verwendeten Konfigurationsprinzips und Sichtbarkeitsregeln vergleicht. Das Konfigurationsprinzip geht mit Einschränkungen in der Flexibilität einher die das Konstruktionsprinzip, dank des Baukastenprinzips, anbietet. Auch ist nicht klar, ob spätere Nutzer die Metapher der Sprünge nachvollziehen können. Verglichen werden diese mit den Sichtbarkeitsregeln des \emph{movisensXS}-Systems. Diese Regeln agieren als eine Art Filter, die regulieren, wann ein Element für eine Nutzergruppe sichtbar wird. 
 
 \section{Umsetzung}
+Die ausgearbeiteten Konzepte werden für die Studie als \emph{TherapyBuilder} Klick-Prototyp umgesetzt. Für den direkten Vergleich mit dem \emph{movisensXS}-System, wird dieses an die Anforderungen angepasst. Hierfür wird eine Bibliothek geschrieben, die entsprechende Elemente der Anforderungsliste, die im Handelsüblichen fehlen, hinzufügt, anpasst und andere Elemente entfernt. Im Folgenden wird die Umsetzung der Prototypen beschrieben.
+
+\subsection{TherapyBuilder-Prototyp}
+Wie zuvor beschrieben werden die Ausgearbeiteten Konzepte des Konfigurationsprinzips und Sprünge für die spätere Evaluation in einem Klick-Prototyp umgesetzt. Die Web App \emph{moqups}(vgl. \cite{OnlineMo52:online}) besitzt die Möglichkeit aufwändige Klick-Protoptypen umzusetzen. Dieses Tool wurde für den Bau des Prototyps verwendet. Dem Studienteilnehmer soll später den Eindruck eines funktionierenden Programms vermittelt werden. Hierfür werden im Klick-Prototyp alle möglichen Funktionen abgebildet. Dies beginnt bereits mit einer Eingangsseite, die eine Übersicht aller bisher angelegten Therapie-Module bietet. Zunächst wird auf dieser exemplarisch ein Therapie-Modul angeboten. Abbildung \ref{start} zeigt die Ansicht der Eingangsseite, die dem Probanden präsentiert wird. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/start}
+\caption{Die Eingangsseite des \emph{TherapyBuilder}-Prototyps. Diese vermittelt dem Studienteilnehmer den Eindruck ein funktionsfähiges Programm zu betrachten.}
+\label{start}
+\end{figure}
+
+Der Proband hat die Möglichkeit einzelne Elemente anzuklicken um spätere mögliche Funktionen zu entdecken. Diese beinhalten die Möglichkeit ein neues Therapie-Modul anzulegen. Ein Klick auf den entsprechenden Button öffnet einen Overlay zur Namensvergabe und speichern des Moduls. Auch Einstellungsmöglichkeiten können, durch Klick des Zahnrades, angezeigt werden. Klickt der Proband auf das bereits angelegte Modul \emph{Stress Reduction}, so gelangt dieser auf die zeitliche Darstellung des Therapie-Moduls. Dieses setzt das, in Kapitel \ref{ch:design} beschriebene Konfigurationsprinzip um. Dieses wird nachfolgend dargestellt. Abschließend wird die Umsetzung der Sprünge präsentiert.
+
+\subsubsection{Konfigurationsprinzip}
+Wurde ein Therapie-Modul angeklick, öffnet sich die zeitliche Darstellung der Konfigurationen. Damit die Probanden einen Eindruck erhalten, wie ein Therapie-Modul in dieser Darstellungsform aussehen wird, wurde eine Vielzahl von Konversationen angelegt, deren Trigger bereits eingestellt wurden. Die Konversationen unterscheiden sich in Farbe, Dauer, Icons und Frequenz. 
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/zeitstrahl}
+\caption{Das Konfigurationsprinzip beinhaltet eine zeitliche Darstellung aller Chatbot-Konversationen.}
+\label{zeitstrahl}
+\end{figure}
+
+Der Proband hat die Möglichkeit die Trigger-Einstellungen jeder Konversation aufzurufen. Auch kann der Proband verschiedene Einstellungsmöglichkeiten erkunden. Allerdings kann er in dieser Ansicht keine Einstellungen vornehmen. Dies ist in einer anderen, vorbereiteten Ansicht möglich. Hat der Proband auf der Startseite das Therapie-Modul \emph{Emotional awareness} erzeugt und ruft dessen zeitliche Darstellung auf, so erhält er in dieser zunächst ein leeres Arbeitsblatt. Dort hat er die Möglichkeit eine Konversation zu erstellen und in dieser, eingeschränkt, Trigger-Einstellungen vorzunehmen. Einstellen kann er dabei nur die Werte, die in den Aufgaben der Studie vorgegeben werden. Klickt der Proband auf das Dialog-Icon einer Konversation, so öffnet sich die nächste Ansicht. In dieser wird die Chatbot-Konversation dargestellt. 
+
+\subsubsection{Sprünge}
+Wurde die Chatbot-Konversation des Therapie-Moduls \emph{Stress reduction} aufgerufen, wird eine bereits angelegte Darstellung geöffnet, die keine Einstellungsmöglichkeiten bietet und nur zum erkunden dient. Wurde die Chatbot-Konversation des Therapie-Moduls \emph{Emotional awareness} geöffnet, kann der Proband eingeschränkt eine Chatbot-Konversation anlegen. Die Chatbot-Konversation kann sehr bedingt eingestellt werden. Die Einstellungsmöglichkeiten werden auch hier von der Aufgabe der Studie vorgegeben. Die Ansicht der Chatbot-Konversation des Therapie-Moduls \emph{Stress Reduction} besteht aus einer Liste der Items, die zuvor im Kapitel \ref{ch:design} beschrieben wurde. Das Arbeitsblatt beinhaltet \emph{Lanes} und eine Anordnung verschiedener Nachrichten. Der Proband hat hier die Möglichkeit auf verschiedene Nachrichten innerhalb der \emph{Lanes} zu klicken und die exemplarische Ansicht der Einstellung eines Elements zu öffnen.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{pictures/textset}
+\caption{Das Konfigurationsprinzip beinhaltet eine zeitliche Darstellung aller Chatbot-Konversationen.}
+\label{textset}
+\end{figure}
+
+\subsection{movisensXS-Prototyp}
+
+\subsubsection{Konstruktionsprinzip}
+
+\subsubsection{Sichtbarkeitsregeln}
